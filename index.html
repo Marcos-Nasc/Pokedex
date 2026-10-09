@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pokédex — Sistema de Registro</title>
+
+<link rel="stylesheet" href="css/pokedex.css">
+
+
+</head>
+
+<body>
+
+<main class="pokedex" id="pokedex">
+
+
+<!-- =====================================================
+     HEADER
+====================================================== -->
+
+<header class="pokedex-header">
+
+    <div class="header-lights">
+
+        <span class="light light-main"></span>
+        <span class="light light-red"></span>
+        <span class="light light-yellow"></span>
+        <span class="light light-green"></span>
+
+    </div>
+
+    <div class="header-title">
+
+        <span>POKÉDEX</span>
+
+    </div>
+
+    <div class="header-number">
+
+        <span>REGISTRO</span>
+
+        <strong id="pokemon-count">
+            001
+        </strong>
+
+    </div>
+
+</header>
+
+
+<!-- =====================================================
+     TÍTULO
+====================================================== -->
+
+<section class="pokemon-identification">
+
+    <div class="pokemon-name">
+
+        <h1>
+            POKÉMON
+        </h1>
+
+        <span>
+            BANCO DE REGISTROS
+        </span>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     BUSCA E FILTROS
+====================================================== -->
+<section class="pokedex-filters">
+
+    <!-- BUSCA -->
+    <div class="filter-search">
+        <input
+            type="text"
+            id="pokemon-search"
+            placeholder="Pesquisar Pokémon..."
+            autocomplete="off"
+        >
+    </div>
+
+    <!-- CABEÇALHO RECOLHÍVEL DOS FILTROS -->
+    <button
+        type="button"
+        class="filters-toggle"
+        id="filters-toggle"
+        aria-expanded="false"
+        aria-controls="filters-content"
+    >
+        <span>FILTROS DE REGISTRO</span>
+        <span class="filters-arrow">▼</span>
+    </button>
+
+    <!-- CONTEÚDO DOS FILTROS -->
+    <div class="filters-content" id="filters-content" hidden>
+
+        <div class="filter-grid">
+
+            <!-- TIPO -->
+            <div class="filter-group">
+                <label for="type-filter">TIPO</label>
+
+                <select id="type-filter">
+                    <option value="all">TODOS OS TIPOS</option>
+                    <option value="normal">NORMAL</option>
+                    <option value="fire">FOGO</option>
+                    <option value="water">ÁGUA</option>
+                    <option value="electric">ELÉTRICO</option>
+                    <option value="grass">GRAMA</option>
+                    <option value="ice">GELO</option>
+                    <option value="fighting">LUTADOR</option>
+                    <option value="poison">VENENO</option>
+                    <option value="ground">TERRA</option>
+                    <option value="flying">VOADOR</option>
+                    <option value="psychic">PSÍQUICO</option>
+                    <option value="bug">INSETO</option>
+                    <option value="rock">PEDRA</option>
+                    <option value="ghost">FANTASMA</option>
+                    <option value="dragon">DRAGÃO</option>
+                    <option value="dark">SOMBRIO</option>
+                    <option value="steel">AÇO</option>
+                    <option value="fairy">FADA</option>
+                </select>
+            </div>
+
+            <!-- CATEGORIA -->
+            <div class="filter-group">
+                <label for="category-filter">CATEGORIA</label>
+
+                <select id="category-filter">
+                    <option value="all">TODOS</option>
+                    <option value="legendary">LENDÁRIO</option>
+                    <option value="pseudo">PSEUDO-LENDÁRIO</option>
+                    <option value="normal">COMUM</option>
+                </select>
+            </div>
+
+            <!-- FORMAS ESPECIAIS -->
+            <div class="filter-group">
+                <label for="special-filter">FORMAS ESPECIAIS</label>
+
+                <select id="special-filter">
+                    <option value="all">TODAS</option>
+                    <option value="mega">MEGA EVOLUÇÃO</option>
+                    <option value="gigantamax">GIGANTAMAX</option>
+                    <option value="tera">TERASTALIZAÇÃO</option>
+                    <option value="paradox">PARADOX</option>
+                    <option value="regional">FORMA REGIONAL</option>
+                </select>
+            </div>
+
+            <!-- STATUS DO REGISTRO -->
+            <div class="filter-group">
+                <label for="status-filter">REGISTRO</label>
+
+                <select id="status-filter">
+                    <option value="all">TODOS</option>
+                    <option value="registered">REGISTRADOS</option>
+                </select>
+            </div>
+
+        </div>
+
+        <!-- LIMPAR FILTROS -->
+        <button
+            type="button"
+            class="filter-reset"
+            id="reset-filters"
+        >
+            LIMPAR FILTROS
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     LISTA DE POKÉMON
+====================================================== -->
+
+<section class="pokemon-list-section">
+
+    <div class="section-title">
+
+        <span>
+            REGISTROS POKÉDEX
+        </span>
+
+    </div>
+
+
+    <!-- STATUS DO AJAX -->
+
+    <div
+        class="dex-loading"
+        id="dex-loading"
+    >
+
+        <span class="status-dot"></span>
+
+        CARREGANDO REGISTROS...
+
+    </div>
+
+
+    <!-- ERRO -->
+
+    <div
+        class="dex-error"
+        id="dex-error"
+        hidden
+    >
+
+        <strong>
+            ERRO DE COMUNICAÇÃO
+        </strong>
+
+        <p>
+            Não foi possível carregar os registros da Pokédex.
+        </p>
+
+    </div>
+
+
+    <!-- RESULTADO -->
+
+    <div
+        class="pokemon-grid"
+        id="pokemon-grid"
+    >
+
+        <!--
+            Os Pokémon serão inseridos aqui
+            automaticamente pelo JavaScript.
+        -->
+
+    </div>
+
+
+    <!-- SEM RESULTADOS -->
+
+    <div
+        class="dex-empty"
+        id="dex-empty"
+        hidden
+    >
+
+        NENHUM POKÉMON ENCONTRADO.
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     FOOTER
+====================================================== -->
+
+<footer class="pokedex-footer">
+
+    <div>
+        POKÉDEX SYSTEM — REGISTRO GERAL
+    </div>
+
+</footer>
+
+
+</main>
+
+<!-- =====================================================
+     JAVASCRIPT
+====================================================== -->
+
+<script src="js/pokedex.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pokédex — Registro individual</title>
+
+    <link rel="stylesheet" href="css/pokemon-details.css">
+</head>
+
+<body>
+
+<main class="pokedex" id="pokedex">
+
+    <!-- HEADER -->
+    <header class="pokedex-header">
+
+        <div class="header-lights">
+            <span class="light light-main"></span>
+            <span class="light light-red"></span>
+            <span class="light light-yellow"></span>
+            <span class="light light-green"></span>
+        </div>
+
+
+        <div class="header-title">
+            <a href="index.html" aria-label="Voltar para a página inicial">
+                <span>POKÉDEX</span>
+            </a>
+        </div>
+
+
+
+        <div class="header-number">
+            <span>Nº</span>
+            <strong id="dex-number">---</strong>
+        </div>
+
+    </header>
+
+    
+
+    <!-- IDENTIFICAÇÃO -->
+    <section class="pokemon-identification">
+
+        <div class="dex-id">
+            <span id="form-number">#---</span>
+        </div>
+
+        <div class="pokemon-name">
+            <h1 id="pokemon-name">Carregando...</h1>
+            <span id="pokemon-category">Consultando registro</span>
+        </div>
+
+    </section>
+
+    <!-- DISPLAY PRINCIPAL -->
+    <section class="pokemon-display" id="pokemon-display">
+
+        <div class="scanner-grid"></div>
+        <div class="scanner-line"></div>
+
+        <div class="pokemon-image-container">
+            <img
+                id="pokemon-image"
+                class="pokemon-image"
+                src=""
+                alt=""
+            >
+        </div>
+
+        <div class="scan-status">
+            <span class="status-dot"></span>
+            <span id="scan-status-text">SISTEMA ONLINE</span>
+        </div>
+
+        <div class="form-label" id="form-label">Pokémon</div>
+
+    </section>
+
+    <!-- INFORMAÇÕES BÁSICAS -->
+    <section class="pokemon-information">
+
+        <div class="section-title">
+            <span>INFORMAÇÕES</span>
+        </div>
+
+        <div class="type-section">
+            <h3>TIPO</h3>
+            <div class="types" id="pokemon-types"></div>
+        </div>
+
+        <div class="info-grid">
+
+            <div class="info-card">
+                <span>ALTURA</span>
+                <strong id="pokemon-height">—</strong>
+            </div>
+
+            <div class="info-card">
+                <span>PESO</span>
+                <strong id="pokemon-weight">—</strong>
+            </div>
+
+            <div class="info-card">
+                <span>HABITAT</span>
+                <strong id="pokemon-habitat">—</strong>
+            </div>
+
+            <div class="info-card">
+                <span>RARIDADE</span>
+                <strong id="pokemon-rarity">—</strong>
+            </div>
+
+        </div>
+
+        <!-- HABILIDADE -->
+        <div class="ability-card">
+
+            <div class="ability-icon">✦</div>
+
+            <div>
+                <span>HABILIDADE</span>
+                <strong id="pokemon-ability">—</strong>
+                <p id="ability-description">Carregando habilidade...</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ENTRADA DA POKÉDEX -->
+    <section class="pokedex-entry">
+
+        <div class="section-title">
+            <span>ENTRADA DA POKÉDEX</span>
+        </div>
+
+        <div class="entry-content">
+            <span class="entry-number" id="entry-number">#---</span>
+            <p id="pokemon-description">Carregando descrição...</p>
+        </div>
+
+    </section>
+
+    <!-- LORE -->
+    <section class="pokemon-lore">
+
+        <div class="section-title">
+            <span>REGISTRO HISTÓRICO</span>
+        </div>
+
+        <article class="lore-card">
+
+            <div class="lore-mark">?</div>
+
+            <div class="lore-content">
+                <h3 id="lore-title">Registro histórico</h3>
+                <p id="pokemon-lore">Carregando registro...</p>
+                <blockquote id="lore-quote"></blockquote>
+            </div>
+
+        </article>
+
+    </section>
+
+    <!-- ESTATÍSTICAS -->
+    <section class="pokemon-stats">
+
+        <div class="section-title">
+            <span>ESTATÍSTICAS BASE</span>
+        </div>
+
+        <div class="stats-container">
+
+            <div class="stat">
+                <div class="stat-header">
+                    <span>HP</span>
+                    <strong id="stat-hp-value">—</strong>
+                </div>
+                <div class="stat-bar">
+                    <div class="stat-fill" id="stat-hp"></div>
+                </div>
+            </div>
+
+            <div class="stat">
+                <div class="stat-header">
+                    <span>ATK</span>
+                    <strong id="stat-attack-value">—</strong>
+                </div>
+                <div class="stat-bar">
+                    <div class="stat-fill" id="stat-attack"></div>
+                </div>
+            </div>
+
+            <div class="stat">
+                <div class="stat-header">
+                    <span>DEF</span>
+                    <strong id="stat-defense-value">—</strong>
+                </div>
+                <div class="stat-bar">
+                    <div class="stat-fill" id="stat-defense"></div>
+                </div>
+            </div>
+
+            <div class="stat">
+                <div class="stat-header">
+                    <span>SP. ATK</span>
+                    <strong id="stat-spatk-value">—</strong>
+                </div>
+                <div class="stat-bar">
+                    <div class="stat-fill" id="stat-spatk"></div>
+                </div>
+            </div>
+
+            <div class="stat">
+                <div class="stat-header">
+                    <span>SP. DEF</span>
+                    <strong id="stat-spdef-value">—</strong>
+                </div>
+                <div class="stat-bar">
+                    <div class="stat-fill" id="stat-spdef"></div>
+                </div>
+            </div>
+
+            <div class="stat">
+                <div class="stat-header">
+                    <span>SPEED</span>
+                    <strong id="stat-speed-value">—</strong>
+                </div>
+                <div class="stat-bar">
+                    <div class="stat-fill" id="stat-speed"></div>
+                </div>
+            </div>
+
+            <div class="stat-total">
+                <span>BASE TOTAL</span>
+                <strong id="stat-total">—</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- LINHA EVOLUTIVA -->
+    <section class="evolution-section">
+
+        <div class="section-title">
+            <span>LINHA EVOLUTIVA</span>
+        </div>
+
+        <div class="evolution-chain"></div>
+
+    </section>
+
+    <!-- FORMAS ESPECIAIS -->
+    <section class="special-forms">
+
+        <div class="section-title">
+            <span>FORMAS ESPECIAIS</span>
+        </div>
+
+        <div class="special-form-grid"></div>
+
+    </section>
+
+    <!-- DETALHES DA FORMA -->
+    <section class="form-details">
+
+        <div class="section-title">
+            <span>REGISTRO DA FORMA</span>
+        </div>
+
+        <div class="form-details-grid">
+
+            <div class="form-detail-card">
+                <span>TIPO DA FORMA</span>
+                <strong id="form-type">—</strong>
+            </div>
+
+            <div class="form-detail-card">
+                <span>ORIGEM</span>
+                <strong id="form-origin">—</strong>
+            </div>
+
+            <div class="form-detail-card">
+                <span>CONDIÇÃO</span>
+                <strong id="form-condition">—</strong>
+            </div>
+
+            <div class="form-detail-card">
+                <span>REGISTRO</span>
+                <strong id="form-registration">—</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONFIGURAÇÃO DE BATALHA -->
+    <section class="battle-section">
+
+        <div class="section-title">
+            <span>CONFIGURAÇÃO DE BATALHA</span>
+        </div>
+
+        <div class="battle-grid">
+
+            <div class="battle-card battle-role-card">
+                <span>FUNÇÃO</span>
+                <strong id="battle-role">—</strong>
+                <p id="battle-role-description">—</p>
+            </div>
+
+            <div class="battle-card">
+                <span>NATURE</span>
+                <strong id="battle-nature">—</strong>
+                <p id="battle-nature-description">—</p>
+            </div>
+
+            <div class="battle-card">
+                <span>ABILITY</span>
+                <strong id="battle-ability">—</strong>
+                <p id="battle-ability-description">—</p>
+            </div>
+
+            <div class="battle-card">
+                <span>ITEM</span>
+                <strong id="battle-item">—</strong>
+                <p id="battle-item-description">—</p>
+            </div>
+
+            <div class="battle-card">
+                <span>EVs</span>
+                <div class="ev-distribution" id="battle-evs"></div>
+            </div>
+
+            <div class="battle-card battle-moves-card">
+                <span>MOVESET</span>
+
+                <div class="moves-list">
+
+                    <div class="move-slot">
+                        <span>01</span>
+                        <strong id="move-1">—</strong>
+                    </div>
+
+                    <div class="move-slot">
+                        <span>02</span>
+                        <strong id="move-2">—</strong>
+                    </div>
+
+                    <div class="move-slot">
+                        <span>03</span>
+                        <strong id="move-3">—</strong>
+                    </div>
+
+                    <div class="move-slot">
+                        <span>04</span>
+                        <strong id="move-4">—</strong>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="battle-card special-battle-card"
+                 id="gmax-battle-card"
+                 hidden>
+
+                <span>G-MAX MOVE</span>
+                <strong id="gmax-move">—</strong>
+                <p id="gmax-description">—</p>
+
+            </div>
+
+            <div class="battle-card special-battle-card"
+                 id="tera-battle-card"
+                 hidden>
+
+                <span>TERA TYPE</span>
+                <strong id="tera-type">—</strong>
+                <p id="tera-description">—</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- REGISTROS RELACIONADOS -->
+    <section class="pokemon-information related-section">
+
+        <div class="section-title">
+            <span>REGISTROS RELACIONADOS</span>
+        </div>
+
+        <div id="related-pokemon" class="related-pokemon-grid"></div>
+
+    </section>
+
+    <!-- ERRO DE CARREGAMENTO -->
+    <section id="detail-error" class="detail-error" hidden>
+        <div class="section-title">
+            <span>ERRO DE COMUNICAÇÃO</span>
+        </div>
+
+        <p id="detail-error-message"></p>
+
+        <a href="index.html">← VOLTAR À POKÉDEX</a>
+    </section>
+
+    
+
+    <!-- FOOTER -->
+    <footer class="pokedex-footer">
+        <div>POKÉDEX SYSTEM — <span id="footer-dex-number">---</span></div>
+    </footer>
+
+</main>
+
+<script src="js/pokemon-details.js" defer></script>
+
+</body>
+</html>
+

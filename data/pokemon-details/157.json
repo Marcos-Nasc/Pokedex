@@ -1,0 +1,116 @@
+
+{
+  "id": "ancient-warden",
+  "dexNumber": 157,
+  "name": "Ancient Warden",
+  "category": "Guardião Ancestral",
+
+  "image": "assets/ancient-warden.png",
+
+  "types": [
+    {
+      "id": "fighting",
+      "name": "Lutador"
+    },
+    {
+      "id": "flying",
+      "name": "Voador"
+    }
+  ],
+
+  "height": "Não registrado",
+  "weight": "Não registrado",
+
+  "habitat": "Floresta Primitiva",
+  "rarity": "Anomalia Paradoxo",
+
+    "classification": "Pokémon Paradoxo",
+
+    "formType": "Forma Paradox — Passado",
+    "origin": "Origem temporal desconhecida — associada ao passado distante",
+    "condition": "Espécie Paradox ancestral, sem evolução conhecida e com relação misteriosa com Sylvarion",
+    "registration": "Registro de espécie especial — Paradox do Passado",
+
+    "ability": {
+      "name": "Serene Grace",
+      "description": "Aumenta a chance de efeitos adicionais dos movimentos deste Pokémon acontecerem."
+    },
+
+  "description": "Uma criatura semelhante a Sylvarion descrita em registros impossíveis. Ancient Warden possui uma estrutura mais robusta e primitiva, parecendo pertencer a uma era em que as florestas de Kalos ainda não possuíam nome.",
+
+  "lore": {
+    "title": "O Guardião Anterior",
+
+    "text": "Um registro impossível descreve uma criatura semelhante a Sylvarion vivendo em um passado remoto. Sua aparência robusta e suas características primitivas sugerem uma ligação com as primeiras florestas da região. Entretanto, não existem provas suficientes para determinar sua verdadeira origem ou explicar como os registros chegaram até os pesquisadores atuais.",
+
+    "quote": "Antes de existir o segredo, alguém já o guardava."
+  },
+
+  "stats": {
+    "hp": 90,
+    "attack": 185,
+    "defense": 115,
+    "spAttack": 65,
+    "spDefense": 125,
+    "speed": 145,
+    "total": 725
+  },
+
+  "evolution": {
+    "group": null,
+    "previous": null,
+    "next": null
+  },
+
+  "specialForms": [],
+
+  "relatedPokemon": [
+    {
+      "id": "sylvarion",
+      "image": "assets/sylvarion.png",
+      "dexNumber": 156,
+      "name": "Sylvarion",
+      "relationship": "Relação misteriosa entre duas criaturas semelhantes, descritas em registros de épocas diferentes.",
+      "confirmedAncestor": false
+    }
+  ],
+
+  "paradox": {
+    "designation": "Paradoxo Ancestral",
+    "origin": "Passado distante",
+    "originStatus": "Desconhecida",
+    "registration": "Anomalia",
+    "description": "Uma criatura aparentemente originária de uma época anterior à história conhecida das florestas de Kalos."
+  },
+
+  "battle": {
+    "role": "Atacante Físico",
+
+    "roleDescription": "Um atacante físico com boa resistência, capaz de causar dano elevado e permanecer em campo por mais tempo.",
+
+    "nature": "Jolly",
+
+    "natureDescription": "Aumenta Speed e reduz Sp. Atk.",
+
+    "ability": "Serene Grace",
+
+    "abilityDescription": "Aumenta a chance de efeitos adicionais dos movimentos deste Pokémon acontecerem.",
+
+    "item": "Heavy-Duty Boots",
+
+    "itemDescription": "Protege o Pokémon dos efeitos de perigos de entrada no campo.",
+
+    "evs": {
+      "attack": 252,
+      "spDefense": 4,
+      "speed": 252
+    },
+
+    "moves": [
+      "Close Combat",
+      "Brave Bird",
+      "Rock Slide",
+      "Roost"
+    ]
+  }
+}

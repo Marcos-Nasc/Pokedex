@@ -1,0 +1,117 @@
+
+{
+  "id": "sylvarin",
+  "dexNumber": 155,
+  "name": "Sylvarin",
+  "category": "Guardião Lunar",
+
+  "image": "assets/sylvarin.png",
+
+  "types": [
+    {
+      "id": "fighting",
+      "name": "Lutador"
+    },
+    {
+      "id": "flying",
+      "name": "Voador"
+    }
+  ],
+
+  "height": "0.24 m",
+  "weight": "1.1 kg",
+
+  "habitat": "Floresta",
+  "rarity": "Extremamente raro",
+
+  "classification": "Lendário",
+  "formType": "Forma evoluída",
+  "origin": "Kalos",
+  "condition": "Evolui durante uma Lua Nova",
+  "registration": "Registro oficial da Pokédex",
+
+  "ability": {
+    "name": "Serene Grace",
+    "description": "Aumenta a chance de efeitos adicionais dos movimentos deste Pokémon acontecerem."
+  },
+
+  "description": "A evolução de Sylvaris, conhecida como Guardião Lunar. Seu corpo se torna mais ágil e sua presença é percebida em áreas mais profundas da floresta. Sua evolução está ligada a um fenômeno raro: a Lua Nova.",
+
+  "lore": {
+    "title": "A Evolução da Lua Nova",
+
+    "text": "Segundo antigos registros de Kalos, Sylvaris só evolui para Sylvarin quando permanece em seu território durante uma noite de Lua Nova. Durante esse período, a floresta parece ficar silenciosa, e até os Pokémon selvagens evitam as áreas protegidas pelo guardião.",
+
+    "quote": "Quando a lua desaparece, o guardião desperta."
+  },
+
+  "stats": {
+    "hp": 70,
+    "attack": 175,
+    "defense": 65,
+    "spAttack": 72,
+    "spDefense": 160,
+    "speed": 145,
+    "total": 687
+  },
+
+  "evolution": {
+      "group": "sylvaris-line",
+      "stages": [
+          {
+              "id": "sylvaris",
+              "dexNumber": 154,
+              "name": "Sylvaris",
+              "image": "assets/sylvaris.png",
+              "condition": "Forma inicial"
+          },
+          {
+              "id": "sylvarin",
+              "dexNumber": 155,
+              "name": "Sylvarin",
+              "image": "assets/sylvarin.png",
+              "condition": "Durante uma Lua Nova"
+          },
+          {
+              "id": "sylvarion",
+              "dexNumber": 156,
+              "name": "Sylvarion",
+              "image": "assets/sylvarion.png",
+              "condition": "Evolução final"
+          }
+      ]
+  },
+
+  "specialForms": [],
+
+  "battle": {
+    "role": "Sweeper Físico",
+
+    "roleDescription": "Atacante físico veloz que utiliza seu alto Attack e Speed para pressionar o adversário.",
+
+    "nature": "Jolly",
+
+    "natureDescription": "Aumenta Speed e reduz Sp. Atk.",
+
+    "ability": "Serene Grace",
+
+    "abilityDescription": "Aumenta a chance de efeitos adicionais dos movimentos deste Pokémon acontecerem.",
+
+    "item": "Life Orb",
+
+    "itemDescription": "Aumenta o dano dos movimentos ao custo de uma pequena quantidade de HP.",
+
+    "evs": {
+      "attack": 252,
+      "spDefense": 4,
+      "speed": 252
+    },
+
+    "moves": [
+      "Close Combat",
+      "Brave Bird",
+      "Iron Head",
+      "Rock Slide"
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+
+{
+  "id": "lumbrasa",
+  "dexNumber": 1,
+
+  "name": "Lumbrasa",
+  "category": "Chama Consciente",
+
+  "image": "assets/lumbrasa.png",
+
+  "types": [
+    {
+      "id": "fire",
+      "name": "Fogo"
+    }
+  ],
+
+  "height": "0.20 m",
+  "weight": "1.2 kg",
+
+  "habitat": "Vulcão",
+  "rarity": "Comum",
+
+  "classification": "Inicial",
+  "formType": "Forma base",
+  "origin": "Sinnoh",
+  "condition": "Forma original",
+  "registration": "Registro original da Pokédex",
+
+  "ability": {
+    "name": "Own Tempo",
+    "description": "Impede que este Pokémon fique confuso."
+  },
+
+  "description": "Uma pequena chama consciente que flutua sobre o chão. Seu corpo muda de forma conforme suas emoções, mas seu núcleo alaranjado nunca perde o brilho. Apesar de viver próximo a vulcões, é dócil e costuma guiar viajantes perdidos até locais seguros.",
+
+  "lore": {
+    "title": "A Chama que Aprendeu a Existir",
+
+    "text": "Muito antes de as primeiras cidades serem construídas em Sinnoh, exploradores encontraram pequenas luzes flutuando nas proximidades de um vulcão isolado. Elas não produziam fumaça, não precisavam de combustível e não desapareciam nem mesmo durante tempestades. Eram manifestações de energia sem forma física definida que haviam encontrado uma maneira de existir. Essas luzes eram Lumbrasa. Quando encontrava alguém perdido ou com frio, sua chama brilhava intensamente e guiava a pessoa até um lugar seguro. Ao longo dos anos, algumas dessas criaturas aprenderam a concentrar a própria energia, dando origem a uma linha evolutiva capaz de armazenar o calor de um vulcão.",
+
+    "quote": "Quando a montanha guardar silêncio, não tema a chama. Tema aquilo que a chama está tentando conter."
+  },
+
+  "stats": {
+    "hp": 60,
+    "attack": 35,
+    "defense": 30,
+    "spAttack": 50,
+    "spDefense": 45,
+    "speed": 60,
+    "total": 280
+  },
+
+  "evolution": {
+    "group": "vulcalume-line",
+
+    "stages": [
+      {
+        "id": "lumbrasa",
+        "dexNumber": 1,
+        "name": "Lumbrasa",
+        "image": "assets/lumbrasa.png",
+        "condition": "Forma inicial",
+        "stats": {
+          "hp": 60,
+          "attack": 35,
+          "defense": 30,
+          "spAttack": 50,
+          "spDefense": 45,
+          "speed": 60,
+          "total": 280
+        }
+      },
+      {
+        "id": "caldrasa",
+        "dexNumber": 2,
+        "name": "Caldrasa",
+        "image": "assets/caldrasa.png",
+        "condition": "Evolui no nível 16",
+        "stats": {
+          "hp": 110,
+          "attack": 75,
+          "defense": 25,
+          "spAttack": 90,
+          "spDefense": 60,
+          "speed": 60,
+          "total": 420
+        }
+      },
+      {
+        "id": "vulcalume",
+        "dexNumber": 3,
+        "name": "Vulcálume",
+        "image": "assets/vulcalume.png",
+        "condition": "Evolui no nível 32",
+        "stats": {
+          "hp": 175,
+          "attack": 157,
+          "defense": 19,
+          "spAttack": 131,
+          "spDefense": 38,
+          "speed": 56,
+          "total": 576
+        }
+      }
+    ]
+  },
+
+  "specialForms": [],
+
+  "moves": [
+    {
+      "name": "Ignição Primordial",
+      "type": "Fogo",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "effect": "Aumenta Ataque e Ataque Especial em um estágio.",
+      "learnLevel": null
+    },
+    {
+      "name": "Núcleo Vulcânico",
+      "type": "Fogo",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "effect": "Aumenta Defesa e Defesa Especial em dois estágios.",
+      "learnLevel": null
+    },
+    {
+      "name": "Erupção Vital",
+      "type": "Fogo",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "effect": "Aumenta Ataque, Ataque Especial e Velocidade em um estágio, mas consome 25% do HP máximo.",
+      "learnLevel": null
+    },
+    {
+      "name": "Lança-Chamas",
+      "type": "Fogo",
+      "category": "Especial",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "Tem 10% de chance de causar queimadura."
+    }
+  ],
+
+
+    "battle": {
+        "role": "Wallbreaker Especial",
+
+        "roleDescription": "Atacante especializado em causar grandes quantidades de dano com movimentos especiais, utilizando seu poder ofensivo para romper as defesas adversárias e abrir caminho para o restante da equipe.",
+
+        "nature": "Modest",
+
+        "natureDescription": "Aumenta o Ataque Especial e reduz o Ataque.",
+
+        "ability": "Own Tempo",
+
+        "abilityDescription": "Impede que este Pokémon fique confuso.",
+
+        "item": "Carvão (Charcoal)",
+
+        "itemDescription": "Aumenta o poder dos movimentos do tipo Fogo.",
+
+        "evs": {
+            "spAttack": 252,
+            "hp": 252,
+            "spDefense": 4
+        },
+
+        "moves": [
+            "Lança-Chamas",
+            "Ignição Primordial",
+            "Núcleo Vulcânico",
+            "Erupção Vital"
+        ]
+    }
+}

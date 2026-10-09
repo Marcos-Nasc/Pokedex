@@ -1,0 +1,332 @@
+
+{
+  "id": "vulcalume",
+  "dexNumber": 3,
+  "name": "Vulcálume",
+  "category": "Chama Vulcânica Consciente",
+
+  "image": "assets/vulcalume.png",
+
+  "types": [
+    {
+      "id": "fire",
+      "name": "Fogo"
+    }
+  ],
+
+  "height": "1.40 m",
+  "weight": "42.0 kg",
+
+  "habitat": "Vulcão",
+  "rarity": "Comum",
+
+  "classification": "Inicial",
+  "formType": "Forma evoluída final",
+  "origin": "Sinnoh",
+  "condition": "Evolução final de Caldrasa no nível 32",
+  "registration": "Registro original da Pokédex",
+
+  "ability": {
+    "name": "Own Tempo",
+    "description": "Impede que este Pokémon fique confuso."
+  },
+
+  "description": "A forma final da linha evolutiva de Lumbrasa. Vulcálume é uma manifestação consciente de energia vulcânica, com um núcleo dourado cercado por três anéis incandescentes e fragmentos de obsidiana que flutuam ao seu redor. Apesar de seu poder extraordinário, sua estrutura física é extremamente frágil. Dócil, sereno e leal, utiliza sua energia para proteger aqueles que considera dignos de sua confiança.",
+
+  "lore": {
+    "title": "O Equilíbrio da Chama",
+
+    "text": "Após aprender a concentrar e controlar sua energia, Caldrasa pode alcançar uma transformação extraordinária. Seu núcleo se estabiliza, os fragmentos de obsidiana passam a orbitar em perfeita harmonia e três anéis de energia surgem ao redor de sua chama. Assim nasce Vulcálume. Os primeiros registros históricos descreviam a criatura como uma entidade lendária, capaz de armazenar quantidades imensas de energia e liberá-las em explosões controladas. Uma antiga lenda de Sinnoh conta que um Vulcálume acumulou a pressão de um vulcão prestes a destruir comunidades próximas e a liberou de maneira controlada, impedindo uma catástrofe ainda maior. Na manhã seguinte, a criatura foi encontrada serena, como se nada tivesse acontecido. Sua existência representa o equilíbrio entre poder e consciência.",
+
+    "quote": "Quando a montanha guardar silêncio, não tema a chama. Tema aquilo que a chama está tentando conter."
+  },
+
+  "stats": {
+    "hp": 175,
+    "attack": 157,
+    "defense": 19,
+    "spAttack": 131,
+    "spDefense": 38,
+    "speed": 56,
+    "total": 576
+  },
+
+  "evolution": {
+    "group": "vulcalume-line",
+    "stages": [
+      {
+        "id": "lumbrasa",
+        "dexNumber": 1,
+        "name": "Lumbrasa",
+        "image": "assets/lumbrasa.png",
+        "condition": "Forma inicial"
+      },
+      {
+        "id": "caldrasa",
+        "dexNumber": 2,
+        "name": "Caldrasa",
+        "image": "assets/caldrasa.png",
+        "condition": "Evolui de Lumbrasa no nível 16"
+      },
+      {
+        "id": "vulcalume",
+        "dexNumber": 3,
+        "name": "Vulcálume",
+        "image": "assets/vulcalume.png",
+        "condition": "Evolui de Caldrasa no nível 32"
+      }
+    ]
+  },
+
+  "specialForms": [
+    {
+      "id": "mega-x",
+      "name": "Mega Vulcálume X",
+      "displayNumber": "#003-MX",
+      "type": "Mega Evolução",
+      "formType": "Mega Evolução X",
+      "origin": "Mega Evolução",
+      "condition": "Mega Evolução durante uma batalha utilizando a Vulcaluminite X",
+      "registration": "Registro de forma especial — Mega Evolução X",
+      "image": "assets/mega-vulcalume-x.png",
+
+      "height": "2.10 m",
+      "weight": "68.0 kg",
+
+      "types": [
+        "Fogo"
+      ],
+
+      "item": "Vulcaluminite X",
+
+      "ability": {
+        "name": "Caldeira Desperta",
+        "description": "Na primeira vez por batalha em que utiliza um movimento de Status do tipo Fogo, aumenta Ataque e Ataque Especial em um estágio adicional. O efeito só pode ser ativado uma vez por batalha."
+      },
+
+      "stats": {
+        "hp": 175,
+        "attack": 207,
+        "defense": 39,
+        "spAttack": 141,
+        "spDefense": 48,
+        "speed": 66,
+        "total": 676
+      },
+
+      "description": "Na Mega Evolução X, a energia de Vulcálume é liberada de maneira explosiva. Sua chama assume contornos mais agressivos, os fragmentos de obsidiana ficam maiores e rachaduras incandescentes revelam o calor concentrado em seu interior. Os três anéis orbitais giram em ângulos dinâmicos, representando uma energia que rompe seus próprios limites.",
+
+      "battle": {
+        "role": "Wallbreaker Misto",
+        "roleDescription": "Atacante que combina Ataque físico e Ataque Especial para pressionar diferentes tipos de adversários. Seu poder aumentado permite causar grandes danos, mas suas defesas continuam sendo um ponto vulnerável.",
+        "nature": "Lonely",
+        "natureDescription": "Aumenta Ataque e reduz Defesa.",
+        "ability": "Caldeira Desperta",
+        "abilityDescription": "Na primeira vez por batalha em que utiliza um movimento de Status do tipo Fogo, aumenta Ataque e Ataque Especial em um estágio adicional.",
+        "item": "Vulcaluminite X",
+        "itemDescription": "Mega Pedra necessária para realizar a Mega Evolução X de Vulcálume.",
+        "evs": {
+          "attack": 252,
+          "spAttack": 252,
+          "speed": 4
+        },
+        "moves": [
+          "Lança-Chamas",
+          "Ignição Primordial",
+          "Erupção Vital",
+          "Núcleo Vulcânico"
+        ]
+      }
+    },
+
+    {
+      "id": "mega-y",
+      "name": "Mega Vulcálume Y",
+      "displayNumber": "#003-MY",
+      "type": "Mega Evolução",
+      "formType": "Mega Evolução Y",
+      "origin": "Mega Evolução",
+      "condition": "Mega Evolução durante uma batalha utilizando a Vulcaluminite Y",
+      "registration": "Registro de forma especial — Mega Evolução Y",
+      "image": "assets/mega-vulcalume-y.png",
+
+      "height": "2.10 m",
+      "weight": "68.0 kg",
+
+      "types": [
+        "Fogo"
+      ],
+
+      "item": "Vulcaluminite Y",
+
+      "ability": {
+        "name": "Núcleo Radiante",
+        "description": "Na primeira vez por batalha em que utiliza um movimento de Status do tipo Fogo, aumenta Ataque Especial e Velocidade em um estágio adicional. O efeito só pode ser ativado uma vez por batalha."
+      },
+
+      "stats": {
+        "hp": 175,
+        "attack": 167,
+        "defense": 29,
+        "spAttack": 191,
+        "spDefense": 48,
+        "speed": 66,
+        "total": 676
+      },
+
+      "description": "Na Mega Evolução Y, o núcleo de Vulcálume assume a aparência de um pequeno sol dourado. Os três anéis incandescentes permanecem perfeitamente alinhados, enquanto os fragmentos de obsidiana orbitam em trajetórias precisas. Sua energia se torna mais concentrada, favorecendo ataques especiais devastadores e um controle superior sobre as chamas.",
+
+      "battle": {
+        "role": "Wallbreaker Especial",
+        "roleDescription": "Concentra seu poder na ofensiva especial para romper as defesas adversárias. O Ataque Especial elevado permite causar danos expressivos, enquanto a baixa Defesa exige cuidado contra atacantes físicos.",
+        "nature": "Modest",
+        "natureDescription": "Aumenta Ataque Especial e reduz Ataque.",
+        "ability": "Núcleo Radiante",
+        "abilityDescription": "Na primeira vez por batalha em que utiliza um movimento de Status do tipo Fogo, aumenta Ataque Especial e Velocidade em um estágio adicional.",
+        "item": "Vulcaluminite Y",
+        "itemDescription": "Mega Pedra necessária para realizar a Mega Evolução Y de Vulcálume.",
+        "evs": {
+          "spAttack": 252,
+          "speed": 252,
+          "spDefense": 4
+        },
+        "moves": [
+          "Lança-Chamas",
+          "Ignição Primordial",
+          "Núcleo Vulcânico",
+          "Erupção Vital"
+        ]
+      }
+    },
+
+    {
+      "id": "gigantamax",
+      "name": "Gigantamax Vulcálume",
+      "displayNumber": "#003-G",
+      "type": "Gigantamax",
+      "formType": "Forma Gigantamax",
+      "origin": "Fenômeno Gigantamax",
+      "condition": "Forma ativada pelo fator Gigantamax durante o fenômeno Dynamax",
+      "registration": "Registro de forma especial — Gigantamax",
+      "image": "assets/gigantamax-vulcalume.png",
+
+      "height": "Gigantesco",
+      "weight": "Não registrado",
+
+      "types": [
+        "Fogo"
+      ],
+
+      "ability": {
+        "name": "Núcleo Radiante",
+        "description": "Na primeira vez por batalha em que utiliza um movimento de Status do tipo Fogo, aumenta Ataque Especial e Velocidade em um estágio adicional. O efeito só pode ser ativado uma vez por batalha."
+     },
+
+      "description": "Ao assumir sua forma Gigantamax, Vulcálume se transforma em uma colossal manifestação vulcânica flutuante. Seu núcleo dourado se expande, os anéis incandescentes envolvem uma área muito maior e os fragmentos de obsidiana parecem pequenos continentes ao redor de sua chama. Três nuvens magenta-avermelhadas orbitam acima de sua cabeça em uma formação circular, mantendo espaços visíveis entre elas.",
+
+      "gMaxMove": {
+        "name": "G-Max Caldeira Infinita",
+        "type": "Fogo",
+        "category": "Especial",
+        "power": 130,
+        "accuracy": 100,
+        "baseMove": "Lança-Chamas",
+        "effect": "Causa dano e cria um campo vulcânico por quatro turnos. Ao final de cada turno, adversários que não sejam do tipo Fogo perdem 1/8 do HP máximo."
+      },
+
+      "gigantamaxBattle": {
+        "move": "G-Max Caldeira Infinita",
+        "description": "Vulcálume libera uma onda de energia vulcânica que transforma o campo em uma região de calor intenso durante quatro turnos. Os adversários que não sejam do tipo Fogo sofrem dano passivo equivalente a 1/8 do HP máximo ao final de cada turno."
+      }
+    }
+],
+
+  "relatedPokemon": [
+    {
+      "id": "primordial-ember",
+      "image": "assets/primordial-ember.png",
+      "dexNumber": 158,
+      "name": "Primordial Ember",
+      "relationship": "Forma Paradox do passado associada a uma possível manifestação ancestral da energia de Vulcálume."
+    },
+    {
+      "id": "terminal-core",
+      "image": "assets/terminal-core.png",
+      "dexNumber": 159,
+      "name": "Terminal Core",
+      "relationship": "Forma Paradox do futuro associada a uma possível manifestação avançada da energia de Vulcálume."
+    }
+  ],
+
+  "battle": {
+    "role": "Wallbreaker Especial",
+
+    "roleDescription": "Atacante especializado em causar grandes quantidades de dano com movimentos especiais, utilizando seu poder ofensivo para romper as defesas adversárias e abrir caminho para o restante da equipe.",
+
+    "nature": "Modest",
+
+    "natureDescription": "Aumenta o Ataque Especial e reduz o Ataque.",
+
+    "ability": "Own Tempo",
+
+    "abilityDescription": "Impede que este Pokémon fique confuso.",
+
+    "item": "Carvão (Charcoal)",
+
+    "itemDescription": "Aumenta o poder dos movimentos do tipo Fogo.",
+
+    "evs": {
+      "spAttack": 252,
+      "hp": 252,
+      "spDefense": 4
+    },
+
+    "moves": [
+      "Lança-Chamas",
+      "Ignição Primordial",
+      "Núcleo Vulcânico",
+      "Erupção Vital"
+    ],
+
+    "megaXBattle": {
+      "ability": "Caldeira Desperta",
+      "item": "Vulcaluminite X",
+      "role": "Wallbreaker Misto",
+      "nature": "Lonely",
+      "evs": {
+        "attack": 252,
+        "spAttack": 252,
+        "speed": 4
+      },
+      "moves": [
+        "Lança-Chamas",
+        "Ignição Primordial",
+        "Erupção Vital",
+        "Núcleo Vulcânico"
+      ]
+    },
+
+    "megaYBattle": {
+      "ability": "Núcleo Radiante",
+      "item": "Vulcaluminite Y",
+      "role": "Wallbreaker Especial",
+      "nature": "Modest",
+      "evs": {
+        "spAttack": 252,
+        "speed": 252,
+        "spDefense": 4
+      },
+      "moves": [
+        "Lança-Chamas",
+        "Ignição Primordial",
+        "Núcleo Vulcânico",
+        "Erupção Vital"
+      ]
+    },
+
+    "gigantamaxBattle": {
+      "move": "G-Max Caldeira Infinita",
+      "description": "O movimento causa dano e estabelece um campo vulcânico durante quatro turnos. Adversários que não sejam do tipo Fogo perdem 1/8 do HP máximo ao final de cada turno."
+    }
+  }
+}

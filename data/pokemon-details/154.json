@@ -1,0 +1,120 @@
+{
+"id": "sylvaris",
+"dexNumber": 154,
+
+
+"name": "Sylvaris",
+"category": "Guardião da Floresta",
+
+"image": "assets/sylvaris.png",
+
+"types": [
+    {
+        "id": "fighting",
+        "name": "Lutador"
+    },
+    {
+        "id": "flying",
+        "name": "Voador"
+    }
+],
+
+"height": "0.18 m",
+"weight": "0.6 kg",
+
+"habitat": "Floresta",
+"rarity": "Extremamente raro",
+
+"classification": "Lendário",
+"formType": "Forma base",
+"origin": "Kalos",
+"condition": "Forma original",
+"registration": "Registro oficial da Pokédex",
+
+"ability": {
+    "name": "Serene Grace",
+    "description": "Aumenta a chance de efeitos adicionais dos movimentos deste Pokémon acontecerem."
+},
+
+"description": "Um pequeno Pokémon Lendário que habita uma floresta antiga de Kalos. Apesar de seu tamanho diminuto, é extremamente territorial e persegue qualquer intruso que se aproxime de seu território.",
+
+"lore": {
+    "title": "O Guardião Pequeno",
+
+    "text": "Em uma região de Kalos existe uma antiga floresta que não aparece em mapas comuns. Entre árvores enormes e áreas praticamente inacessíveis, existe um Pokémon extremamente raro conhecido apenas por poucos pesquisadores.",
+
+    "quote": "Quanto menor a criatura que vigia a floresta, maior é o segredo que ela guarda."
+},
+
+"stats": {
+    "hp": 60,
+    "attack": 159,
+    "defense": 53,
+    "spAttack": 68,
+    "spDefense": 149,
+    "speed": 129,
+    "total": 618
+},
+
+"evolution": {
+    "group": "sylvaris-line",
+    "stages": [
+        {
+            "id": "sylvaris",
+            "dexNumber": 154,
+            "name": "Sylvaris",
+            "image": "assets/sylvaris.png",
+            "condition": "Forma inicial"
+        },
+        {
+            "id": "sylvarin",
+            "dexNumber": 155,
+            "name": "Sylvarin",
+            "image": "assets/sylvarin.png",
+            "condition": "Durante uma Lua Nova"
+        },
+        {
+            "id": "sylvarion",
+            "dexNumber": 156,
+            "name": "Sylvarion",
+            "image": "assets/sylvarion.png",
+            "condition": "Evolução final"
+        }
+    ]
+},
+
+"specialForms": [],
+
+"battle": {
+    "role": "Sweeper Físico",
+
+    "roleDescription": "Atacante físico veloz que utiliza seu alto Attack e Speed para pressionar o adversário.",
+
+    "nature": "Jolly",
+
+    "natureDescription": "Aumenta Speed e reduz Sp. Atk.",
+
+    "ability": "Serene Grace",
+
+    "abilityDescription": "Aumenta a chance de efeitos adicionais dos movimentos deste Pokémon acontecerem.",
+
+    "item": "Life Orb",
+
+    "itemDescription": "Aumenta o dano dos movimentos ao custo de uma pequena quantidade de HP.",
+
+    "evs": {
+        "attack": 252,
+        "spDefense": 4,
+        "speed": 252
+    },
+
+    "moves": [
+        "Close Combat",
+        "Brave Bird",
+        "Iron Head",
+        "Rock Slide"
+    ]
+}
+
+
+}
