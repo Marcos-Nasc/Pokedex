@@ -63,7 +63,7 @@
     {
       "id": "vulcalume",
       "image": "assets/vulcalume.png",
-      "dexNumber": 3,
+      "dexNumber": 6,
       "name": "Vulcálume",
       "relationship": "Possível relação entre duas manifestações de energia vulcânica. Não existem provas de que Terminal Core seja uma evolução futura de Vulcálume.",
       "confirmedAncestor": false

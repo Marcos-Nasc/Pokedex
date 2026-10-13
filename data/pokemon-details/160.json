@@ -63,7 +63,7 @@
     {
       "id": "vulcalume",
       "image": "assets/vulcalume.png",
-      "dexNumber": 3,
+      "dexNumber": 6,
       "name": "Vulcálume",
       "relationship": "Possível relação entre duas manifestações de energia vulcânica. Não existem provas de que Primordial Ember seja um ancestral de Vulcálume.",
       "confirmedAncestor": false
