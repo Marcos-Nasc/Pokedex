@@ -2,7 +2,7 @@
   "id": "verdorax",
   "dexNumber": 3,
   "name": "Verdorax",
-  "category": "Guardião da Floresta Ancestral",
+  "category": "Guardião da Floresta",
 
   "image": "assets/verdorax.png",
 
@@ -16,7 +16,7 @@
   "height": "3.8 m",
   "weight": "88.4 kg",
 
-  "habitat": "Floresta Ancestral",
+  "habitat": "Floresta",
   "rarity": "Comum",
 
   "classification": "Inicial",
@@ -255,8 +255,8 @@
       "registration": "Registro de forma especial — Gigantamax",
       "image": "assets/gigantamax-verdorax.png",
 
-      "height": "28.0 m",
-      "weight": "420.0 kg",
+      "height": "Gigantesco",
+      "weight": "Não registrado",
 
       "types": [
         "Planta"

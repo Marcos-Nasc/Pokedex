@@ -2,7 +2,7 @@
   "id": "iron-canopy",
   "dexNumber": 159,
   "name": "Iron Canopy",
-  "category": "Guardião Biomecânico do Futuro",
+  "category": "Dossel de Ferro",
 
   "image": "assets/iron-canopy.png",
 
@@ -13,10 +13,10 @@
     }
   ],
 
-  "height": "4.6 m",
-  "weight": "94.0 kg",
+  "height": "Não registrado",
+  "weight": "Não registrado",
 
-  "habitat": "Zona Tecnológica Abandonada",
+  "habitat": "Floresta",
   "rarity": "Anomalia Paradoxo",
 
   "classification": "Pokémon Paradoxo",

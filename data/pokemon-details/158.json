@@ -2,7 +2,7 @@
   "id": "rumbling-roots",
   "dexNumber": 158,
   "name": "Rumbling Roots",
-  "category": "Titã das Raízes Ancestrais",
+  "category": "Raízes Estrondosas",
 
   "image": "assets/rumbling-roots.png",
 
@@ -13,10 +13,10 @@
     }
   ],
 
-  "height": "5.2 m",
-  "weight": "126.0 kg",
+  "height": "Não registrado",
+  "weight": "Não registrado",
 
-  "habitat": "Floresta Primordial",
+  "habitat": "Floresta",
   "rarity": "Anomalia Paradoxo",
 
   "classification": "Pokémon Paradoxo",
