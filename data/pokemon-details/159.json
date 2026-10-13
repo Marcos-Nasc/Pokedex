@@ -67,13 +67,6 @@
       "name": "Verdorax",
       "relationship": "Possível relação entre duas criaturas associadas à proteção da vegetação. Não existem provas de que Iron Canopy seja uma evolução futura de Verdorax.",
       "confirmedAncestor": false
-    },
-    {
-      "id": "rumbling-roots",
-      "image": "assets/rumbling-roots.png",
-      "dexNumber": 158,
-      "name": "Rumbling Roots",
-      "relationship": "Anomalia Paradoxo associada a um passado remoto, com raízes colossais e características naturais primitivas."
     }
   ],
 
