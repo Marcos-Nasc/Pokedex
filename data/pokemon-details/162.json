@@ -1,0 +1,116 @@
+{
+  "id": "abyssal-fang",
+  "dexNumber": 162,
+  "name": "Abyssal Fang",
+  "category": "precisas Abissal",
+
+  "image": "assets/abyssal-fang.png",
+
+  "types": [
+    {
+      "id": "water",
+      "name": "Água"
+    },
+    {
+      "id": "steel",
+      "name": "Aço"
+    }
+  ],
+
+  "height": "Não registrado",
+  "weight": "Não registrado",
+
+  "habitat": "Cavernas de minérios subaquáticas",
+  "rarity": "Anomalia Paradoxo",
+
+  "classification": "Pokémon Paradoxo",
+
+  "formType": "Forma Paradox — Passado",
+  "origin": "Origem temporal desconhecida — associada ao passado distante",
+  "condition": "Espécie Paradoxo ancestral, sem evolução conhecida e com relação misteriosa com Ferragon",
+  "registration": "Registro de espécie especial — Paradoxo do Passado",
+
+  "ability": {
+    "name": "Shell Armor",
+    "description": "Impede que este Pokémon receba golpes críticos."
+  },
+
+  "description": "Uma criatura predatória das profundezas, cuja anatomia robusta combina uma carapaça metálica irregular com presas desenvolvidas para esmagar e perfurar. Abyssal Fang parece ter surgido em uma era primordial, quando os minerais das cavernas subaquáticas se incorporavam ao corpo de criaturas selvagens. Seus movimentos são surpreendentemente rápidos para uma criatura de sua estrutura, e sua presença provoca temor até mesmo entre os maiores habitantes das profundezas.",
+
+  "lore": {
+    "title": "A Presa Antes do Aço",
+
+    "text": "Relatos paradoxais descrevem uma criatura semelhante a um predador aquático revestido por placas minerais primitivas. Abyssal Fang apresenta mandíbulas poderosas e uma carapaça irregular, aparentemente formada pela incorporação natural de minerais encontrados em cavernas submersas. Diferentemente de Ferragon, cuja armadura apresenta uma estrutura metálica mais desenvolvida, as placas de Abyssal Fang parecem ter crescido de maneira desordenada ao longo de sua existência. Alguns pesquisadores acreditam que as duas criaturas possam compartilhar uma origem biológica distante, enquanto outros defendem que Abyssal Fang pertence a uma realidade temporal independente. Até o momento, nenhuma evidência confirma que seja um ancestral de Ferragon.",
+
+    "quote": "Antes de dominar o aço, as profundezas já conheciam a força da presa."
+  },
+
+  "stats": {
+    "hp": 115,
+    "attack": 155,
+    "defense": 125,
+    "spAttack": 35,
+    "spDefense": 85,
+    "speed": 115,
+    "total": 630
+  },
+
+  "evolution": {
+    "group": null,
+    "previous": null,
+    "next": null
+  },
+
+  "specialForms": [],
+
+  "relatedPokemon": [
+    {
+      "id": "ferragon",
+      "image": "assets/ferragon.png",
+      "dexNumber": 9,
+      "name": "Ferragon",
+      "relationship": "Possível relação entre dois predadores aquáticos revestidos por minerais metálicos. Não existem provas de que Abyssal Fang seja um ancestral de Ferragon.",
+      "confirmedAncestor": false
+    }
+  ],
+
+  "paradox": {
+    "designation": "Paradoxo Ancestral",
+    "origin": "Passado distante",
+    "originStatus": "Desconhecida",
+    "registration": "Anomalia",
+    "description": "Uma criatura paradoxal associada a um predador primitivo das profundezas, cuja carapaça mineral e força física sugerem uma adaptação ancestral a ambientes subaquáticos extremos."
+  },
+
+  "battle": {
+    "role": "Tanque Físico Ofensivo",
+
+    "roleDescription": "Um combatente físico resistente que combina Ataque elevado, boa Defesa e Velocidade surpreendente. Sua especialidade é pressionar o adversário com golpes físicos enquanto sua carapaça o protege de ataques críticos.",
+
+    "nature": "Adamant",
+
+    "natureDescription": "Aumenta o Ataque e reduz o Ataque Especial.",
+
+    "ability": "Shell Armor",
+
+    "abilityDescription": "Impede que este Pokémon receba golpes críticos.",
+
+    "item": "Restos (Leftovers)",
+
+    "itemDescription": "Restaura 1/16 do HP máximo ao final de cada turno.",
+
+    "evs": {
+      "hp": 252,
+      "attack": 252,
+      "spDefense": 4
+    },
+
+    "moves": [
+      "Waterfall",
+      "Iron Head",
+      "Earthquake",
+      "Swords Dance"
+    ]
+  }
+}
+

@@ -1,0 +1,184 @@
+{
+"id": "marul",
+"dexNumber": 7,
+
+"name": "Marul",
+"category": "Guardião Abissal",
+
+"image": "assets/marul.png",
+
+"types": [
+{
+"id": "water",
+"name": "Água"
+}
+],
+
+"height": "0.5 m",
+"weight": "8.5 kg",
+
+"habitat": "Cavernas de minérios subaquáticas",
+"rarity": "Comum",
+
+"classification": "Inicial",
+"formType": "Forma base",
+"origin": "Kalos",
+"condition": "Forma original",
+"registration": "Registro original da Pokédex",
+
+"ability": {
+"name": "Shell Armor",
+"description": "Impede que este Pokémon receba golpes críticos."
+},
+
+"description": "Um pequeno Pokémon aquático que habita cavernas subaquáticas. Sua carapaça azul, formada por material orgânico resistente, protege seu corpo contra predadores e impactos. Apesar de seu tamanho, Marul demonstra um comportamento territorial e instintivamente protege as passagens de seu habitat.",
+
+"lore": {
+"title": "O Pequeno Guardião das Profundezas",
+
+
+"text": "Nas cavernas subaquáticas mais profundas de Kalos, Marul vive entre rochas e depósitos minerais, protegendo seu território com uma carapaça resistente. Diferentemente de outros Pokémon aquáticos, sua proteção não é feita de metal: trata-se de uma estrutura orgânica que cresce e se fortalece ao longo de sua vida. Mesmo sendo pequeno, Marul enfrenta criaturas maiores quando seu abrigo é ameaçado. Os minerais acumulados em sua carapaça acompanham seu crescimento e, nas fases posteriores de sua evolução, contribuem para o desenvolvimento de uma armadura cada vez mais resistente.",
+
+"quote": "Nas profundezas, a força de um guardião não é medida pelo seu tamanho, mas por aquilo que ele protege."
+
+
+},
+
+"stats": {
+"hp": 45,
+"attack": 45,
+"defense": 70,
+"spAttack": 25,
+"spDefense": 55,
+"speed": 40,
+"total": 280
+},
+
+"evolution": {
+"group": "ferragon-line",
+
+
+"stages": [
+  {
+    "id": "marul",
+    "dexNumber": 7,
+    "name": "Marul",
+    "image": "assets/marul.png",
+    "condition": "Forma inicial",
+    "stats": {
+      "hp": 45,
+      "attack": 45,
+      "defense": 70,
+      "spAttack": 25,
+      "spDefense": 55,
+      "speed": 40,
+      "total": 280
+    }
+  },
+  {
+    "id": "maranith",
+    "dexNumber": 8,
+    "name": "Maranith",
+    "image": "assets/maranith.png",
+    "condition": "Evolui no nível 16"
+  },
+  {
+    "id": "ferragon",
+    "dexNumber": 9,
+    "name": "Ferragon",
+    "image": "assets/ferragon.png",
+    "condition": "Evolui no nível 32",
+    "stats": {
+      "hp": 165,
+      "attack": 146,
+      "defense": 163,
+      "spAttack": 42,
+      "spDefense": 33,
+      "speed": 149,
+      "total": 698
+    }
+  }
+]
+
+
+},
+
+"specialForms": [],
+
+"moves": [
+{
+"name": "Couraça Abissal",
+"type": "Steel",
+"category": "Status",
+"power": null,
+"accuracy": null,
+"pp": 20,
+"effect": "Aumenta a Defesa em dois estágios.",
+"learnLevel": 12
+},
+{
+"name": "Maré de Ferro",
+"type": "Water",
+"category": "Status",
+"power": null,
+"accuracy": null,
+"pp": 10,
+"effect": "Aumenta o Ataque e a Velocidade em um estágio cada.",
+"learnLevel": 24
+},
+{
+"name": "Soberania Abissal",
+"type": "Water",
+"category": "Status",
+"power": null,
+"accuracy": null,
+"pp": 5,
+"effect": "Aumenta o Ataque, a Defesa e a Defesa Especial em um estágio cada.",
+"learnLevel": 48
+},
+{
+"name": "Cascata",
+"type": "Water",
+"category": "Physical",
+"power": 80,
+"accuracy": 100,
+"pp": 15,
+"effect": "Causa dano físico do tipo Água.",
+"learnLevel": null
+}
+],
+
+"battle": {
+"role": "Tanque Físico",
+
+
+"roleDescription": "Especialista em resistir a ataques físicos e permanecer em campo enquanto fortalece seus atributos. Sua evolução final combina grande capacidade defensiva com pressão física e a habilidade de evitar golpes críticos.",
+
+"nature": "Impish",
+
+"natureDescription": "Aumenta a Defesa e reduz o Ataque Especial.",
+
+"ability": "Shell Armor",
+
+"abilityDescription": "Impede que este Pokémon receba golpes críticos.",
+
+"item": "Leftovers",
+
+"itemDescription": "Recupera 1/16 do HP máximo ao final de cada turno.",
+
+"evs": {
+  "hp": 252,
+  "defense": 252,
+  "spDefense": 4
+},
+
+"moves": [
+  "Couraça Abissal",
+  "Maré de Ferro",
+  "Soberania Abissal",
+  "Cascata"
+]
+
+
+}
+}

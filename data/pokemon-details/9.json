@@ -1,0 +1,399 @@
+{
+"id": "ferragon",
+"dexNumber": 9,
+
+"name": "Ferragon",
+"category": "Guardião Abissal de Aço",
+
+"image": "assets/ferragon.png",
+
+"types": [
+{
+"id": "water",
+"name": "Água"
+},
+{
+"id": "steel",
+"name": "Aço"
+}
+],
+
+"height": "5.2 m",
+"weight": "680 kg",
+
+"habitat": "Cavernas de minérios subaquáticas",
+"rarity": "Comum",
+
+"classification": "Inicial",
+"formType": "Forma evoluída final",
+"origin": "Kalos",
+"condition": "Evolução final de Maranith no nível 32",
+"registration": "Registro original da Pokédex",
+
+"ability": {
+"name": "Shell Armor",
+"description": "Impede que este Pokémon receba golpes críticos."
+},
+
+"description": "Ferragon é a evolução final de Marul e Maranith. Seu corpo colossal é protegido por uma armadura de aço formada naturalmente a partir dos depósitos minerais acumulados durante sua vida nas profundezas. Suas patas poderosas, garras maciças e cauda blindada permitem que se movimente por cavernas subaquáticas com impressionante estabilidade. Territorial e extremamente resistente, Ferragon protege seu habitat como uma fortaleza viva. Sua armadura representa o estágio final de um processo que começou com a carapaça orgânica de Marul.",
+
+"lore": {
+"title": "A Soberania das Profundezas",
+
+
+"text": "Durante sua evolução, Maranith acumula minerais cada vez mais resistentes sobre a carapaça. Quando finalmente alcança sua forma definitiva, esses depósitos passam a constituir uma verdadeira armadura de aço natural, integrada ao corpo. Assim nasce Ferragon, um guardião colossal das cavernas de minérios subaquáticas de Kalos. Seus membros sustentam um peso extraordinário, enquanto suas garras conseguem se firmar nas rochas e sua cauda blindada funciona como contrapeso durante os movimentos. Relatos de exploradores descrevem cavernas inteiras protegidas por Ferragon, que permanece imóvel por longos períodos até perceber uma ameaça. Quando decide agir, sua força física e sua armadura tornam extremamente difícil deslocá-lo. Dizem que as profundezas pertencem à criatura que consegue permanecer de pé quando todas as outras precisam recuar.",
+
+"quote": "Nas profundezas, o verdadeiro soberano não precisa conquistar território. Basta permanecer de pé para protegê-lo."
+
+
+},
+
+"stats": {
+"hp": 165,
+"attack": 146,
+"defense": 163,
+"spAttack": 42,
+"spDefense": 33,
+"speed": 149,
+"total": 698
+},
+
+"evolution": {
+"group": "ferragon-line",
+
+
+"stages": [
+  {
+    "id": "marul",
+    "dexNumber": 7,
+    "name": "Marul",
+    "image": "assets/marul.png",
+    "condition": "Forma inicial",
+    "stats": {
+      "hp": 45,
+      "attack": 45,
+      "defense": 70,
+      "spAttack": 25,
+      "spDefense": 55,
+      "speed": 40,
+      "total": 280
+    }
+  },
+  {
+    "id": "maranith",
+    "dexNumber": 8,
+    "name": "Maranith",
+    "image": "assets/maranith.png",
+    "condition": "Evolui de Marul no nível 16",
+    "stats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 105,
+      "spAttack": 30,
+      "spDefense": 85,
+      "speed": 45,
+      "total": 430
+    }
+  },
+  {
+    "id": "ferragon",
+    "dexNumber": 9,
+    "name": "Ferragon",
+    "image": "assets/ferragon.png",
+    "condition": "Evolui de Maranith no nível 32",
+    "stats": {
+      "hp": 165,
+      "attack": 146,
+      "defense": 163,
+      "spAttack": 42,
+      "spDefense": 33,
+      "speed": 149,
+      "total": 698
+    }
+  }
+]
+
+
+},
+
+"specialForms": [
+{
+"id": "mega-x",
+"name": "Mega Ferragon X",
+"displayNumber": "#009-MX",
+"type": "Mega Evolução",
+"formType": "Mega Evolução X",
+"origin": "Mega Evolução",
+"condition": "Mega Evolução durante uma batalha utilizando a Ferragonita X",
+"registration": "Registro de forma especial — Mega Evolução X",
+"image": "assets/mega-ferragon-x.png",
+
+
+  "height": "6.4 m",
+  "weight": "920 kg",
+
+  "types": [
+    "Água",
+    "Aço"
+  ],
+
+  "item": "Ferragonita X",
+
+  "ability": {
+    "name": "Núcleo Abissal",
+    "description": "Ao entrar em campo, cria um campo aquático especial durante cinco turnos. Movimentos do tipo Água causam 20% mais dano e o Pokémon recupera 1/16 do HP máximo ao final de cada turno. Renovar a duração do campo não acumula seus efeitos."
+  },
+
+  "stats": {
+    "hp": 165,
+    "attack": 176,
+    "defense": 203,
+    "spAttack": 22,
+    "spDefense": 53,
+    "speed": 179,
+    "total": 798
+  },
+
+  "description": "Na Mega Evolução X, Ferragon desenvolve uma armadura ainda mais espessa e monumental. As placas dos ombros e dos membros dianteiros tornam-se estruturas defensivas colossais, enquanto suas patas e garras adquirem proporções capazes de sustentar seu corpo ampliado. Sua silhueta fica mais larga e estável, com uma couraça dorsal robusta e uma cauda fortemente blindada. Essa forma representa a expressão máxima da resistência física de Ferragon.",
+
+  "battle": {
+    "role": "Tanque Físico Ofensivo",
+
+    "roleDescription": "Utiliza sua Defesa extraordinária para suportar ataques físicos e seu Ataque elevado para pressionar adversários. A habilidade Núcleo Abissal favorece os movimentos de Água e oferece recuperação gradual durante a batalha.",
+
+    "nature": "Impish",
+
+    "natureDescription": "Aumenta a Defesa e reduz o Ataque Especial.",
+
+    "ability": "Núcleo Abissal",
+
+    "abilityDescription": "Cria um campo aquático especial por cinco turnos, aumenta em 20% o dano dos movimentos de Água e recupera 1/16 do HP máximo ao final de cada turno.",
+
+    "item": "Ferragonita X",
+
+    "itemDescription": "Mega Pedra necessária para realizar a Mega Evolução X de Ferragon.",
+
+    "evs": {
+      "hp": 252,
+      "defense": 252,
+      "spDefense": 4
+    },
+
+    "moves": [
+      "Couraça Abissal",
+      "Maré de Ferro",
+      "Soberania Abissal",
+      "Cascata"
+    ]
+  }
+},
+
+{
+  "id": "mega-y",
+  "name": "Mega Ferragon Y",
+  "displayNumber": "#009-MY",
+  "type": "Mega Evolução",
+  "formType": "Mega Evolução Y",
+  "origin": "Mega Evolução",
+  "condition": "Mega Evolução durante uma batalha utilizando a Ferragonita Y",
+  "registration": "Registro de forma especial — Mega Evolução Y",
+  "image": "assets/mega-ferragon-y.png",
+
+  "height": "5.8 m",
+  "weight": "610 kg",
+
+  "types": [
+    "Água",
+    "Aço"
+  ],
+
+  "item": "Ferragonita Y",
+
+  "ability": {
+    "name": "Núcleo Abissal",
+    "description": "Ao entrar em campo, cria um campo aquático especial durante cinco turnos. Movimentos do tipo Água causam 20% mais dano e o Pokémon recupera 1/16 do HP máximo ao final de cada turno. Renovar a duração do campo não acumula seus efeitos."
+  },
+
+  "stats": {
+    "hp": 165,
+    "attack": 126,
+    "defense": 153,
+    "spAttack": 112,
+    "spDefense": 83,
+    "speed": 159,
+    "total": 798
+  },
+
+  "description": "Na Mega Evolução Y, Ferragon assume uma estrutura mais esguia e aerodinâmica. Suas placas de aço tornam-se mais integradas ao corpo, reduzindo o volume da armadura sem abandonar sua proteção natural. As patas dianteiras permanecem robustas, mas apresentam um formato mais alongado e flexível. Sua cauda blindada acompanha a silhueta com maior fluidez, enquanto as placas dorsais formam uma crista organizada e compacta. Essa forma favorece a mobilidade e mantém a força característica do guardião abissal.",
+
+  "battle": {
+    "role": "Tanque Ágil",
+
+    "roleDescription": "Combina resistência física, velocidade elevada e recuperação gradual. Embora tenha menor Ataque que Mega Ferragon X, sua estrutura mais leve permite pressionar adversários com maior mobilidade e aproveitar o fortalecimento dos movimentos de Água.",
+
+    "nature": "Impish",
+
+    "natureDescription": "Aumenta a Defesa e reduz o Ataque Especial.",
+
+    "ability": "Núcleo Abissal",
+
+    "abilityDescription": "Cria um campo aquático especial por cinco turnos, aumenta em 20% o dano dos movimentos de Água e recupera 1/16 do HP máximo ao final de cada turno.",
+
+    "item": "Ferragonita Y",
+
+    "itemDescription": "Mega Pedra necessária para realizar a Mega Evolução Y de Ferragon.",
+
+    "evs": {
+      "hp": 252,
+      "defense": 252,
+      "spDefense": 4
+    },
+
+    "moves": [
+      "Couraça Abissal",
+      "Maré de Ferro",
+      "Soberania Abissal",
+      "Cascata"
+    ]
+  }
+},
+
+{
+  "id": "gigantamax",
+  "name": "Gigantamax Ferragon",
+  "displayNumber": "#009-G",
+  "type": "Gigantamax",
+  "formType": "Forma Gigantamax",
+  "origin": "Fenômeno Gigantamax",
+  "condition": "Forma ativada pelo fator Gigantamax durante o fenômeno Dynamax",
+  "registration": "Registro de forma especial — Gigantamax",
+  "image": "assets/gigantamax-ferragon.png",
+
+  "height": "Gigantesco",
+  "weight": "Não registrado",
+
+  "types": [
+    "Água",
+    "Aço"
+  ],
+
+  "ability": {
+    "name": "Núcleo Abissal",
+    "description": "Ao entrar em campo, cria um campo aquático especial durante cinco turnos. Movimentos do tipo Água causam 20% mais dano e o Pokémon recupera 1/16 do HP máximo ao final de cada turno. Renovar a duração do campo não acumula seus efeitos."
+  },
+
+  "description": "Em sua forma Gigantamax, Ferragon transforma-se em uma fortaleza aquática colossal, sustentada por patas dianteiras monumentais e garras capazes de suportar seu enorme peso. Sua armadura de aço natural expande-se em placas imensas que cobrem os ombros, o dorso, os membros e a cauda. A crista dorsal ergue-se acima da cabeça, enquanto três nuvens vermelho-carmesim e magenta flutuam separadamente em uma formação circular sobre ela. Mesmo com seu tamanho extraordinário, Ferragon permanece uma criatura quadrúpede, sólida e anatomicamente reconhecível, cuja presença intimida sem precisar atacar.",
+
+  "gMaxMove": {
+    "name": "G-Max Soberania Abissal",
+    "type": "Water",
+    "category": "Physical",
+    "power": 130,
+    "accuracy": 100,
+    "baseMove": "Cascata",
+    "effect": "Causa dano físico do tipo Água. Após o ataque, estabelece o Campo Abissal durante cinco turnos. Enquanto o campo estiver ativo, os movimentos do tipo Água dos aliados causam 20% mais dano e o Pokémon ativo recupera 1/16 do HP máximo ao final de cada turno. A duração do campo não se acumula."
+  },
+
+  "gigantamaxBattle": {
+    "move": "G-Max Soberania Abissal",
+
+    "description": "Ferragon desfere um ataque físico colossal com a força das profundezas. Após causar dano, estabelece o Campo Abissal durante cinco turnos, fortalecendo em 20% os movimentos do tipo Água e restaurando 1/16 do HP máximo do Pokémon ativo ao final de cada turno."
+  }
+}
+
+
+],
+
+"relatedPokemon": [
+{
+"id": "abyssal-fang",
+"image": "assets/abyssal-fang.png",
+"dexNumber": 162,
+"name": "Abyssal Fang",
+"relationship": "Forma Paradox do passado associada a uma versão ancestral e selvagem de Ferragon."
+},
+{
+"id": "iron-abyss",
+"image": "assets/iron-abyss.png",
+"dexNumber": 163,
+"name": "Iron Abyss",
+"relationship": "Forma Paradox do futuro associada a uma versão avançada e otimizada de Ferragon."
+}
+],
+
+"battle": {
+"role": "Tanque Físico",
+
+
+"roleDescription": "Utiliza sua elevada resistência física para permanecer em campo, fortalecer seus atributos e pressionar adversários com ataques físicos. A habilidade Shell Armor impede golpes críticos, enquanto seus movimentos de preparação permitem aumentar sua capacidade defensiva e ofensiva.",
+
+"nature": "Impish",
+
+"natureDescription": "Aumenta a Defesa e reduz o Ataque Especial.",
+
+"ability": "Shell Armor",
+
+"abilityDescription": "Impede que este Pokémon receba golpes críticos.",
+
+"item": "Leftovers",
+
+"itemDescription": "Recupera 1/16 do HP máximo ao final de cada turno.",
+
+"evs": {
+  "hp": 252,
+  "defense": 252,
+  "spDefense": 4
+},
+
+"moves": [
+  "Couraça Abissal",
+  "Maré de Ferro",
+  "Soberania Abissal",
+  "Cascata"
+],
+
+"megaXBattle": {
+  "ability": "Núcleo Abissal",
+  "item": "Ferragonita X",
+  "role": "Tanque Físico Ofensivo",
+  "nature": "Impish",
+  "evs": {
+    "hp": 252,
+    "defense": 252,
+    "spDefense": 4
+  },
+  "moves": [
+    "Couraça Abissal",
+    "Maré de Ferro",
+    "Soberania Abissal",
+    "Cascata"
+  ]
+},
+
+"megaYBattle": {
+  "ability": "Núcleo Abissal",
+  "item": "Ferragonita Y",
+  "role": "Tanque Ágil",
+  "nature": "Impish",
+  "evs": {
+    "hp": 252,
+    "defense": 252,
+    "spDefense": 4
+  },
+  "moves": [
+    "Couraça Abissal",
+    "Maré de Ferro",
+    "Soberania Abissal",
+    "Cascata"
+  ]
+},
+
+"gigantamaxBattle": {
+  "ability": "Núcleo Abissal",
+  "move": "G-Max Soberania Abissal",
+  "description": "Causa dano físico do tipo Água e estabelece o Campo Abissal durante cinco turnos, aumentando em 20% o dano dos movimentos de Água e recuperando 1/16 do HP máximo do Pokémon ativo ao final de cada turno."
+}
+
+
+}
+}

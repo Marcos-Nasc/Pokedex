@@ -1,0 +1,193 @@
+{
+"id": "maranith",
+"dexNumber": 8,
+
+"name": "Maranith",
+"category": "Guardião Mineral",
+
+"image": "assets/maranith.png",
+
+"types": [
+{
+"id": "water",
+"name": "Água"
+}
+],
+
+"height": "1.7 m",
+"weight": "96 kg",
+
+"habitat": "Cavernas de minérios subaquáticas",
+"rarity": "Comum",
+
+"classification": "Inicial",
+"formType": "Forma evoluída",
+"origin": "Kalos",
+"condition": "Evolui de Marul no nível 16",
+"registration": "Registro original da Pokédex",
+
+"ability": {
+"name": "Shell Armor",
+"description": "Impede que este Pokémon receba golpes críticos."
+},
+
+"description": "Maranith é a forma evoluída de Marul. Seu corpo tornou-se maior e mais robusto, e sua carapaça orgânica desenvolveu placas espessas que protegem suas regiões mais vulneráveis. Ao habitar cavernas de minérios subaquáticas, acumula depósitos minerais sobre a superfície da carapaça, tornando-a mais resistente sem perder sua natureza predominantemente orgânica. Territorial e determinado, utiliza suas patas poderosas e suas garras para se firmar entre as rochas e defender seu abrigo.",
+
+"lore": {
+"title": "A Carapaça que Absorveu as Profundezas",
+
+
+"text": "Quando Marul evolui, seu corpo passa por uma transformação significativa. A pequena carapaça que antes oferecia proteção básica torna-se uma estrutura espessa, capaz de suportar a pressão e os impactos encontrados nas cavernas subaquáticas mais profundas de Kalos. Maranith costuma viver próximo a veios minerais, onde sua carapaça entra em contato com partículas e depósitos presentes nas rochas. Com o tempo, esses minerais se incorporam à superfície de sua proteção natural. Embora sua armadura ainda seja principalmente orgânica, os primeiros sinais de uma estrutura mineralizada anunciam o caminho de sua evolução. Relatos de exploradores descrevem Maranith como um guardião persistente, que raramente abandona seu território e consegue bloquear a passagem de criaturas muito maiores que ele.",
+
+"quote": "Nas profundezas, cada camada que se forma sobre a carapaça é uma lembrança das batalhas que o guardião sobreviveu."
+
+
+},
+
+"stats": {
+"hp": 80,
+"attack": 85,
+"defense": 105,
+"spAttack": 30,
+"spDefense": 85,
+"speed": 45,
+"total": 430
+},
+
+"evolution": {
+"group": "ferragon-line",
+
+
+"stages": [
+  {
+    "id": "marul",
+    "dexNumber": 7,
+    "name": "Marul",
+    "image": "assets/marul.png",
+    "condition": "Forma inicial",
+    "stats": {
+      "hp": 45,
+      "attack": 45,
+      "defense": 70,
+      "spAttack": 25,
+      "spDefense": 55,
+      "speed": 40,
+      "total": 280
+    }
+  },
+  {
+    "id": "maranith",
+    "dexNumber": 8,
+    "name": "Maranith",
+    "image": "assets/maranith.png",
+    "condition": "Evolui de Marul no nível 16",
+    "stats": {
+      "hp": 80,
+      "attack": 85,
+      "defense": 105,
+      "spAttack": 30,
+      "spDefense": 85,
+      "speed": 45,
+      "total": 430
+    }
+  },
+  {
+    "id": "ferragon",
+    "dexNumber": 9,
+    "name": "Ferragon",
+    "image": "assets/ferragon.png",
+    "condition": "Evolui de Maranith no nível 32",
+    "stats": {
+      "hp": 165,
+      "attack": 146,
+      "defense": 163,
+      "spAttack": 42,
+      "spDefense": 33,
+      "speed": 149,
+      "total": 698
+    }
+  }
+]
+
+
+},
+
+"specialForms": [],
+
+"moves": [
+{
+"name": "Couraça Abissal",
+"type": "Steel",
+"category": "Status",
+"power": null,
+"accuracy": null,
+"pp": 20,
+"effect": "Aumenta a Defesa em dois estágios.",
+"learnLevel": 12
+},
+{
+"name": "Maré de Ferro",
+"type": "Water",
+"category": "Status",
+"power": null,
+"accuracy": null,
+"pp": 10,
+"effect": "Aumenta o Ataque e a Velocidade em um estágio cada.",
+"learnLevel": 24
+},
+{
+"name": "Soberania Abissal",
+"type": "Water",
+"category": "Status",
+"power": null,
+"accuracy": null,
+"pp": 5,
+"effect": "Aumenta o Ataque, a Defesa e a Defesa Especial em um estágio cada.",
+"learnLevel": 48
+},
+{
+"name": "Cascata",
+"type": "Water",
+"category": "Physical",
+"power": 80,
+"accuracy": 100,
+"pp": 15,
+"effect": "Causa dano físico do tipo Água.",
+"learnLevel": null
+}
+],
+
+"battle": {
+"role": "Tanque Físico",
+
+
+"roleDescription": "Pokémon defensivo que utiliza sua elevada resistência física para permanecer em campo, fortalecer seus atributos e pressionar os adversários com ataques físicos. Sua evolução final transforma essa resistência em uma combinação de grande poder ofensivo e capacidade de sustentação.",
+
+"nature": "Impish",
+
+"natureDescription": "Aumenta a Defesa e reduz o Ataque Especial.",
+
+"ability": "Shell Armor",
+
+"abilityDescription": "Impede que este Pokémon receba golpes críticos.",
+
+"item": "Leftovers",
+
+"itemDescription": "Recupera 1/16 do HP máximo ao final de cada turno.",
+
+"evs": {
+  "hp": 252,
+  "defense": 252,
+  "spDefense": 4
+},
+
+"moves": [
+  "Couraça Abissal",
+  "Maré de Ferro",
+  "Soberania Abissal",
+  "Cascata"
+]
+
+
+}
+}

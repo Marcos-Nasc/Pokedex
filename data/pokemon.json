@@ -1,268 +1,363 @@
 [
-  {
-    "id": "musgrol",
-    "dexNumber": 1,
-    "name": "Musgrol",
-    "category": "Musgo Vivo",
-    "types": ["grass"],
-    "typesDisplay": ["Planta"],
-    "image": "assets/musgrol.png",
-    "rarity": "common",
-    "specialForms": {
-      "mega": false,
-      "gigantamax": false,
-      "tera": false,
-      "paradox": false,
-      "regional": false
-    },
-    "evolutionGroup": "musgrol-line",
-    "registered": true
-  },
-  {
-    "id": "torvagro",
-    "dexNumber": 2,
-    "name": "Torvagro",
-    "category": "Guardião do Musgo",
-    "types": ["grass"],
-    "typesDisplay": ["Planta"],
-    "image": "assets/torvagro.png",
-    "rarity": "common",
-    "specialForms": {
-      "mega": false,
-      "gigantamax": false,
-      "tera": false,
-      "paradox": false,
-      "regional": false
-    },
-    "evolutionGroup": "musgrol-line",
-    "registered": true
-  },
-  {
-    "id": "verdorax",
-    "dexNumber": 3,
-    "name": "Verdorax",
-    "category": "Guardião da Floresta",
-    "types": ["grass"],
-    "typesDisplay": ["Planta"],
-    "image": "assets/verdorax.png",
-    "rarity": "common",
-    "specialForms": {
-      "mega": true,
-      "gigantamax": true,
-      "tera": false,
-      "paradox": false,
-      "regional": false
-    },
-    "evolutionGroup": "musgrol-line",
-    "registered": true
-  },
-  {
-    "id": "lumbrasa",
-    "dexNumber": 4,
-    "name": "Lumbrasa",
-    "category": "Chama Viva",
-    "types": ["fire"],
-    "typesDisplay": ["Fogo"],
-    "image": "assets/lumbrasa.png",
-    "rarity": "common",
-    "specialForms": {
-      "mega": false,
-      "gigantamax": false,
-      "tera": false,
-      "paradox": false,
-      "regional": false
-    },
-    "evolutionGroup": "vulcalume-line",
-    "registered": true
-  },
-  {
-    "id": "caldrasa",
-    "dexNumber": 5,
-    "name": "Caldrasa",
-    "category": "Caldeira Viva",
-    "types": ["fire"],
-    "typesDisplay": ["Fogo"],
-    "image": "assets/caldrasa.png",
-    "rarity": "common",
-    "specialForms": {
-      "mega": false,
-      "gigantamax": false,
-      "tera": false,
-      "paradox": false,
-      "regional": false
-    },
-    "evolutionGroup": "vulcalume-line",
-    "registered": true
-  },
-  {
-    "id": "vulcalume",
-    "dexNumber": 6,
-    "name": "Vulcálume",
-    "category": "Fenômeno Vulcânico",
-    "types": ["fire"],
-    "typesDisplay": ["Fogo"],
-    "image": "assets/vulcalume.png",
-    "rarity": "common",
-    "specialForms": {
-      "mega": true,
-      "gigantamax": true,
-      "tera": false,
-      "paradox": false,
-      "regional": false
-    },
-    "evolutionGroup": "vulcalume-line",
-    "registered": true
-  },
-  {
-    "id": "sylvaris",
-    "dexNumber": 154,
-    "name": "Sylvaris",
-    "category": "Guardião da Floresta",
-    "types": ["fighting", "flying"],
-    "typesDisplay": ["Lutador", "Voador"],
-    "image": "assets/sylvaris.png",
-    "rarity": "legendary",
-    "specialForms": {
-      "mega": false,
-      "gigantamax": false,
-      "tera": false,
-      "paradox": false,
-      "regional": false
-    },
-    "evolutionGroup": "sylvaris-line",
-    "registered": true
-  },
-  {
-    "id": "sylvarin",
-    "dexNumber": 155,
-    "name": "Sylvarin",
-    "category": "Guardião da Lua Nova",
-    "types": ["fighting", "flying"],
-    "typesDisplay": ["Lutador", "Voador"],
-    "image": "assets/sylvarin.png",
-    "rarity": "legendary",
-    "specialForms": {
-      "mega": false,
-      "gigantamax": false,
-      "tera": false,
-      "paradox": false,
-      "regional": false
-    },
-    "evolutionGroup": "sylvaris-line",
-    "registered": true
-  },
-  {
-    "id": "sylvarion",
-    "dexNumber": 156,
-    "name": "Sylvarion",
-    "category": "Guardião do Segredo",
-    "types": ["fighting", "flying"],
-    "typesDisplay": ["Lutador", "Voador"],
-    "image": "assets/sylvarion.png",
-    "rarity": "legendary",
-    "specialForms": {
-      "mega": false,
-      "gigantamax": true,
-      "tera": true,
-      "paradox": false,
-      "regional": false
-    },
-    "evolutionGroup": "sylvaris-line",
-    "registered": true
-  },
-  {
-    "id": "ancient-warden",
-    "dexNumber": 157,
-    "name": "Ancient Warden",
-    "category": "Guardião Ancestral",
-    "types": ["fighting", "flying"],
-    "typesDisplay": ["Lutador", "Voador"],
-    "image": "assets/ancient-warden.png",
-    "rarity": "paradox",
-    "specialForms": {
-      "mega": false,
-      "gigantamax": false,
-      "tera": false,
-      "paradox": true,
-      "regional": false
-    },
-    "evolutionGroup": null,
-    "registered": true
-  },
-  {
-    "id": "rumbling-roots",
-    "dexNumber": 158,
-    "name": "Rumbling Roots",
-    "category": "Raízes Estrondosas",
-    "types": ["grass"],
-    "typesDisplay": ["Planta"],
-    "image": "assets/rumbling-roots.png",
-    "rarity": "paradox",
-    "specialForms": {
-      "mega": false,
-      "gigantamax": false,
-      "tera": false,
-      "paradox": true,
-      "regional": false
-    },
-    "evolutionGroup": null,
-    "registered": true
-  },
-  {
-    "id": "iron-canopy",
-    "dexNumber": 159,
-    "name": "Iron Canopy",
-    "category": "Dossel de Ferro",
-    "types": ["grass"],
-    "typesDisplay": ["Planta"],
-    "image": "assets/iron-canopy.png",
-    "rarity": "paradox",
-    "specialForms": {
-      "mega": false,
-      "gigantamax": false,
-      "tera": false,
-      "paradox": true,
-      "regional": false
-    },
-    "evolutionGroup": null,
-    "registered": true
-  },
-  {
-    "id": "primordial-ember",
-    "dexNumber": 160,
-    "name": "Primordial Ember",
-    "category": "Chama Primordial",
-    "types": ["fire"],
-    "typesDisplay": ["Fogo"],
-    "image": "assets/primordial-ember.png",
-    "rarity": "paradox",
-    "specialForms": {
-      "mega": false,
-      "gigantamax": false,
-      "tera": false,
-      "paradox": true,
-      "regional": false
-    },
-    "evolutionGroup": null,
-    "registered": true
-  },
-    {
-    "id": "terminal-core",
-    "dexNumber": 161,
-    "name": "Terminal Core",
-    "category": "Núcleo Terminal",
-    "types": ["fire"],
-    "typesDisplay": ["Fogo"],
-    "image": "assets/terminal-core.png",
-    "rarity": "paradox",
-    "specialForms": {
-      "mega": false,
-      "gigantamax": false,
-      "tera": false,
-      "paradox": true,
-      "regional": false
-    },
-    "evolutionGroup": null,
-    "registered": true
-  }
+{
+"id": "musgrol",
+"dexNumber": 1,
+"name": "Musgrol",
+"category": "Musgo Vivo",
+"types": ["grass"],
+"typesDisplay": ["Planta"],
+"image": "assets/musgrol.png",
+"rarity": "common",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": false,
+"regional": false
+},
+"evolutionGroup": "musgrol-line",
+"registered": true
+},
+{
+"id": "torvagro",
+"dexNumber": 2,
+"name": "Torvagro",
+"category": "Guardião do Musgo",
+"types": ["grass"],
+"typesDisplay": ["Planta"],
+"image": "assets/torvagro.png",
+"rarity": "common",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": false,
+"regional": false
+},
+"evolutionGroup": "musgrol-line",
+"registered": true
+},
+{
+"id": "verdorax",
+"dexNumber": 3,
+"name": "Verdorax",
+"category": "Guardião da Floresta",
+"types": ["grass"],
+"typesDisplay": ["Planta"],
+"image": "assets/verdorax.png",
+"rarity": "common",
+"specialForms": {
+"mega": true,
+"gigantamax": true,
+"tera": false,
+"paradox": false,
+"regional": false
+},
+"evolutionGroup": "musgrol-line",
+"registered": true
+},
+{
+"id": "lumbrasa",
+"dexNumber": 4,
+"name": "Lumbrasa",
+"category": "Chama Viva",
+"types": ["fire"],
+"typesDisplay": ["Fogo"],
+"image": "assets/lumbrasa.png",
+"rarity": "common",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": false,
+"regional": false
+},
+"evolutionGroup": "vulcalume-line",
+"registered": true
+},
+{
+"id": "caldrasa",
+"dexNumber": 5,
+"name": "Caldrasa",
+"category": "Caldeira Viva",
+"types": ["fire"],
+"typesDisplay": ["Fogo"],
+"image": "assets/caldrasa.png",
+"rarity": "common",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": false,
+"regional": false
+},
+"evolutionGroup": "vulcalume-line",
+"registered": true
+},
+{
+"id": "vulcalume",
+"dexNumber": 6,
+"name": "Vulcálume",
+"category": "Fenômeno Vulcânico",
+"types": ["fire"],
+"typesDisplay": ["Fogo"],
+"image": "assets/vulcalume.png",
+"rarity": "common",
+"specialForms": {
+"mega": true,
+"gigantamax": true,
+"tera": false,
+"paradox": false,
+"regional": false
+},
+"evolutionGroup": "vulcalume-line",
+"registered": true
+},
+{
+"id": "marul",
+"dexNumber": 7,
+"name": "Marul",
+"category": "Guardião Abissal",
+"types": ["water"],
+"typesDisplay": ["Água"],
+"image": "assets/marul.png",
+"rarity": "common",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": false,
+"regional": false
+},
+"evolutionGroup": "marul-line",
+"registered": true
+},
+{
+"id": "maranith",
+"dexNumber": 8,
+"name": "Maranith",
+"category": "Guardião Mineral",
+"types": ["water"],
+"typesDisplay": ["Água"],
+"image": "assets/maranith.png",
+"rarity": "common",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": false,
+"regional": false
+},
+"evolutionGroup": "marul-line",
+"registered": true
+},
+{
+"id": "ferragon",
+"dexNumber": 9,
+"name": "Ferragon",
+"category": "Guardião Abissal de Aço",
+"types": ["water", "steel"],
+"typesDisplay": ["Água", "Aço"],
+"image": "assets/ferragon.png",
+"rarity": "common",
+"specialForms": {
+"mega": true,
+"gigantamax": true,
+"tera": false,
+"paradox": false,
+"regional": false
+},
+"evolutionGroup": "marul-line",
+"registered": true
+},
+{
+"id": "sylvaris",
+"dexNumber": 154,
+"name": "Sylvaris",
+"category": "Guardião da Floresta",
+"types": ["fighting", "flying"],
+"typesDisplay": ["Lutador", "Voador"],
+"image": "assets/sylvaris.png",
+"rarity": "legendary",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": false,
+"regional": false
+},
+"evolutionGroup": "sylvaris-line",
+"registered": true
+},
+{
+"id": "sylvarin",
+"dexNumber": 155,
+"name": "Sylvarin",
+"category": "Guardião da Lua Nova",
+"types": ["fighting", "flying"],
+"typesDisplay": ["Lutador", "Voador"],
+"image": "assets/sylvarin.png",
+"rarity": "legendary",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": false,
+"regional": false
+},
+"evolutionGroup": "sylvaris-line",
+"registered": true
+},
+{
+"id": "sylvarion",
+"dexNumber": 156,
+"name": "Sylvarion",
+"category": "Guardião do Segredo",
+"types": ["fighting", "flying"],
+"typesDisplay": ["Lutador", "Voador"],
+"image": "assets/sylvarion.png",
+"rarity": "legendary",
+"specialForms": {
+"mega": false,
+"gigantamax": true,
+"tera": true,
+"paradox": false,
+"regional": false
+},
+"evolutionGroup": "sylvaris-line",
+"registered": true
+},
+{
+"id": "ancient-warden",
+"dexNumber": 157,
+"name": "Ancient Warden",
+"category": "Guardião Ancestral",
+"types": ["fighting", "flying"],
+"typesDisplay": ["Lutador", "Voador"],
+"image": "assets/ancient-warden.png",
+"rarity": "paradox",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": true,
+"regional": false
+},
+"evolutionGroup": null,
+"registered": true
+},
+{
+"id": "rumbling-roots",
+"dexNumber": 158,
+"name": "Rumbling Roots",
+"category": "Raízes Estrondosas",
+"types": ["grass"],
+"typesDisplay": ["Planta"],
+"image": "assets/rumbling-roots.png",
+"rarity": "paradox",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": true,
+"regional": false
+},
+"evolutionGroup": null,
+"registered": true
+},
+{
+"id": "iron-canopy",
+"dexNumber": 159,
+"name": "Iron Canopy",
+"category": "Dossel de Ferro",
+"types": ["grass"],
+"typesDisplay": ["Planta"],
+"image": "assets/iron-canopy.png",
+"rarity": "paradox",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": true,
+"regional": false
+},
+"evolutionGroup": null,
+"registered": true
+},
+{
+"id": "primordial-ember",
+"dexNumber": 160,
+"name": "Primordial Ember",
+"category": "Chama Primordial",
+"types": ["fire"],
+"typesDisplay": ["Fogo"],
+"image": "assets/primordial-ember.png",
+"rarity": "paradox",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": true,
+"regional": false
+},
+"evolutionGroup": null,
+"registered": true
+},
+{
+"id": "terminal-core",
+"dexNumber": 161,
+"name": "Terminal Core",
+"category": "Núcleo Terminal",
+"types": ["fire"],
+"typesDisplay": ["Fogo"],
+"image": "assets/terminal-core.png",
+"rarity": "paradox",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": true,
+"regional": false
+},
+"evolutionGroup": null,
+"registered": true
+},
+{
+"id": "abyssal-fang",
+"dexNumber": 162,
+"name": "Abyssal Fang",
+"category": "Presa Abissal",
+"types": ["water", "steel"],
+"typesDisplay": ["Água", "Aço"],
+"image": "assets/abyssal-fang.png",
+"rarity": "paradox",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": true,
+"regional": false
+},
+"evolutionGroup": null,
+"registered": true
+},
+{
+"id": "iron-abyss",
+"dexNumber": 163,
+"name": "Iron Abyss",
+"category": "Abismo de Ferro",
+"types": ["water", "steel"],
+"typesDisplay": ["Água", "Aço"],
+"image": "assets/iron-abyss.png",
+"rarity": "paradox",
+"specialForms": {
+"mega": false,
+"gigantamax": false,
+"tera": false,
+"paradox": true,
+"regional": false
+},
+"evolutionGroup": null,
+"registered": true
+}
 ]
