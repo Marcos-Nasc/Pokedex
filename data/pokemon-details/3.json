@@ -1,79 +1,106 @@
-
 {
-  "id": "vulcalume",
+  "id": "verdorax",
   "dexNumber": 3,
-  "name": "Vulcálume",
-  "category": "Chama Vulcânica Consciente",
+  "name": "Verdorax",
+  "category": "Guardião da Floresta Ancestral",
 
-  "image": "assets/vulcalume.png",
+  "image": "assets/verdorax.png",
 
   "types": [
     {
-      "id": "fire",
-      "name": "Fogo"
+      "id": "grass",
+      "name": "Planta"
     }
   ],
 
-  "height": "1.40 m",
-  "weight": "42.0 kg",
+  "height": "3.8 m",
+  "weight": "88.4 kg",
 
-  "habitat": "Vulcão",
+  "habitat": "Floresta Ancestral",
   "rarity": "Comum",
 
   "classification": "Inicial",
   "formType": "Forma evoluída final",
-  "origin": "Sinnoh",
-  "condition": "Evolução final de Caldrasa no nível 32",
+  "origin": "Unova",
+  "condition": "Evolução final de Torvagro no nível 32",
   "registration": "Registro original da Pokédex",
 
   "ability": {
-    "name": "Own Tempo",
-    "description": "Impede que este Pokémon fique confuso."
+    "name": "Effect Spore",
+    "description": "Quando atingido por um golpe de contato, tem 30% de chance de causar sono, paralisia ou envenenamento no adversário."
   },
 
-  "description": "A forma final da linha evolutiva de Lumbrasa. Vulcálume é uma manifestação consciente de energia vulcânica, com um núcleo dourado cercado por três anéis incandescentes e fragmentos de obsidiana que flutuam ao seu redor. Apesar de seu poder extraordinário, sua estrutura física é extremamente frágil. Dócil, sereno e leal, utiliza sua energia para proteger aqueles que considera dignos de sua confiança.",
+  "description": "Verdorax é a forma final da linha evolutiva de Musgrol. Seu corpo colossal é protegido por placas de casca espessa, enquanto o musgo cobre seus ombros e costas como um manto vivo. Suas raízes são tão resistentes que consegue permanecer imóvel diante de impactos que derrubariam criaturas muito maiores. Apesar de sua força extraordinária, é paciente e pacífico, dedicando sua existência à proteção das florestas e das criaturas que nelas habitam.",
 
   "lore": {
-    "title": "O Equilíbrio da Chama",
+    "title": "O Guardião que Faz a Floresta Renascer",
 
-    "text": "Após aprender a concentrar e controlar sua energia, Caldrasa pode alcançar uma transformação extraordinária. Seu núcleo se estabiliza, os fragmentos de obsidiana passam a orbitar em perfeita harmonia e três anéis de energia surgem ao redor de sua chama. Assim nasce Vulcálume. Os primeiros registros históricos descreviam a criatura como uma entidade lendária, capaz de armazenar quantidades imensas de energia e liberá-las em explosões controladas. Uma antiga lenda de Sinnoh conta que um Vulcálume acumulou a pressão de um vulcão prestes a destruir comunidades próximas e a liberou de maneira controlada, impedindo uma catástrofe ainda maior. Na manhã seguinte, a criatura foi encontrada serena, como se nada tivesse acontecido. Sua existência representa o equilíbrio entre poder e consciência.",
+    "text": "Quando Torvagro alcança uma conexão profunda com a floresta que protege, suas raízes começam a absorver nutrientes de camadas cada vez mais profundas do solo. Seu corpo cresce até adquirir proporções colossais, e sua casca se torna uma verdadeira fortaleza natural. Assim nasce Verdorax, considerado por antigas comunidades um guardião dos ecossistemas mais antigos. Dizem que, quando uma floresta é destruída, Verdorax permanece imóvel durante dias. Sob seus pés, pequenas raízes começam a brotar, preparando o terreno para que a vida retorne. Mesmo diante de incêndios, tempestades e grandes catástrofes, raramente abandona seu território. Sua presença representa a resistência da natureza e a capacidade da vida de recomeçar após a destruição.",
 
-    "quote": "Quando a montanha guardar silêncio, não tema a chama. Tema aquilo que a chama está tentando conter."
+    "quote": "Quando uma floresta cai, Verdorax permanece. Onde suas raízes tocam a terra, a vida encontra um novo começo."
   },
 
   "stats": {
-    "hp": 175,
-    "attack": 157,
-    "defense": 19,
-    "spAttack": 131,
-    "spDefense": 38,
-    "speed": 56,
-    "total": 576
+    "hp": 85,
+    "attack": 100,
+    "defense": 165,
+    "spAttack": 45,
+    "spDefense": 150,
+    "speed": 25,
+    "total": 570
   },
 
   "evolution": {
-    "group": "vulcalume-line",
+    "group": "musgrol-line",
+
     "stages": [
       {
-        "id": "lumbrasa",
+        "id": "musgrol",
         "dexNumber": 1,
-        "name": "Lumbrasa",
-        "image": "assets/lumbrasa.png",
-        "condition": "Forma inicial"
+        "name": "Musgrol",
+        "image": "assets/musgrol.png",
+        "condition": "Forma inicial",
+        "stats": {
+          "hp": 42,
+          "attack": 55,
+          "defense": 134,
+          "spAttack": 28,
+          "spDefense": 117,
+          "speed": 74,
+          "total": 450
+        }
       },
       {
-        "id": "caldrasa",
+        "id": "torvagro",
         "dexNumber": 2,
-        "name": "Caldrasa",
-        "image": "assets/caldrasa.png",
-        "condition": "Evolui de Lumbrasa no nível 16"
+        "name": "Torvagro",
+        "image": "assets/torvagro.png",
+        "condition": "Evolui de Musgrol no nível 16",
+        "stats": {
+          "hp": 60,
+          "attack": 70,
+          "defense": 155,
+          "spAttack": 35,
+          "spDefense": 135,
+          "speed": 55,
+          "total": 510
+        }
       },
       {
-        "id": "vulcalume",
+        "id": "verdorax",
         "dexNumber": 3,
-        "name": "Vulcálume",
-        "image": "assets/vulcalume.png",
-        "condition": "Evolui de Caldrasa no nível 32"
+        "name": "Verdorax",
+        "image": "assets/verdorax.png",
+        "condition": "Evolui de Torvagro no nível 32",
+        "stats": {
+          "hp": 85,
+          "attack": 100,
+          "defense": 165,
+          "spAttack": 45,
+          "spDefense": 150,
+          "speed": 25,
+          "total": 570
+        }
       }
     ]
   },
@@ -81,252 +108,345 @@
   "specialForms": [
     {
       "id": "mega-x",
-      "name": "Mega Vulcálume X",
+      "name": "Mega Verdorax X",
       "displayNumber": "#003-MX",
       "type": "Mega Evolução",
       "formType": "Mega Evolução X",
       "origin": "Mega Evolução",
-      "condition": "Mega Evolução durante uma batalha utilizando a Vulcaluminite X",
+      "condition": "Mega Evolução durante uma batalha utilizando a Verdoraxita X",
       "registration": "Registro de forma especial — Mega Evolução X",
-      "image": "assets/mega-vulcalume-x.png",
+      "image": "assets/mega-verdorax-x.png",
 
-      "height": "2.10 m",
-      "weight": "68.0 kg",
+      "height": "4.5 m",
+      "weight": "118.0 kg",
 
       "types": [
-        "Fogo"
+        "Planta"
       ],
 
-      "item": "Vulcaluminite X",
+      "item": "Verdoraxita X",
 
       "ability": {
-        "name": "Caldeira Desperta",
-        "description": "Na primeira vez por batalha em que utiliza um movimento de Status do tipo Fogo, aumenta Ataque e Ataque Especial em um estágio adicional. O efeito só pode ser ativado uma vez por batalha."
+        "name": "Coração de Gaia",
+        "description": "Ao entrar em campo, cria Grassy Terrain por cinco turnos. Enquanto o terreno estiver ativo, os movimentos do tipo Planta do usuário causam 20% mais dano, e o usuário recupera 1/16 do HP máximo ao final de cada turno."
       },
 
       "stats": {
-        "hp": 175,
-        "attack": 207,
-        "defense": 39,
-        "spAttack": 141,
-        "spDefense": 48,
-        "speed": 66,
-        "total": 676
+        "hp": 85,
+        "attack": 125,
+        "defense": 200,
+        "spAttack": 45,
+        "spDefense": 175,
+        "speed": 40,
+        "total": 670
       },
 
-      "description": "Na Mega Evolução X, a energia de Vulcálume é liberada de maneira explosiva. Sua chama assume contornos mais agressivos, os fragmentos de obsidiana ficam maiores e rachaduras incandescentes revelam o calor concentrado em seu interior. Os três anéis orbitais giram em ângulos dinâmicos, representando uma energia que rompe seus próprios limites.",
+      "description": "Na Mega Evolução X, Verdorax desenvolve uma estrutura extremamente robusta, revestida por placas de casca escura e mineralizada. Seus ombros se tornam largos, os antebraços ganham volume e enormes raízes reforçam suas pernas. A coroa de folhas permanece presente, mas sua silhueta passa a transmitir a imponência de uma fortaleza viva. O Coração de Gaia desperta uma conexão profunda com o solo, permitindo que absorva energia natural e resista a ataques devastadores. Esta forma representa a resistência absoluta e a determinação de proteger a floresta a qualquer custo.",
 
       "battle": {
-        "role": "Wallbreaker Misto",
-        "roleDescription": "Atacante que combina Ataque físico e Ataque Especial para pressionar diferentes tipos de adversários. Seu poder aumentado permite causar grandes danos, mas suas defesas continuam sendo um ponto vulnerável.",
-        "nature": "Lonely",
-        "natureDescription": "Aumenta Ataque e reduz Defesa.",
-        "ability": "Caldeira Desperta",
-        "abilityDescription": "Na primeira vez por batalha em que utiliza um movimento de Status do tipo Fogo, aumenta Ataque e Ataque Especial em um estágio adicional.",
-        "item": "Vulcaluminite X",
-        "itemDescription": "Mega Pedra necessária para realizar a Mega Evolução X de Vulcálume.",
+        "role": "Wall (Muralha Defensiva)",
+
+        "roleDescription": "Especialista em suportar ataques físicos e permanecer em campo durante longos períodos. Sua Defesa extraordinária, combinada com a Defesa Especial elevada e a recuperação passiva de Coração de Gaia, permite desgastar adversários enquanto mantém o controle do campo. Sua principal função é bloquear atacantes físicos e proteger a equipe.",
+
+        "nature": "Impish",
+
+        "natureDescription": "Aumenta a Defesa e reduz o Ataque Especial, um atributo pouco relevante para esta estratégia.",
+
+        "ability": "Coração de Gaia",
+
+        "abilityDescription": "Cria Grassy Terrain por cinco turnos ao entrar em campo. Enquanto estiver ativo, aumenta em 20% o dano dos movimentos do tipo Planta do usuário e recupera 1/16 do HP máximo por turno.",
+
+        "item": "Verdoraxita X",
+
+        "itemDescription": "Mega Pedra necessária para realizar a Mega Evolução X de Verdorax.",
+
         "evs": {
-          "attack": 252,
-          "spAttack": 252,
-          "speed": 4
+          "hp": 252,
+          "defense": 252,
+          "spDefense": 4
         },
+
         "moves": [
-          "Lança-Chamas",
-          "Ignição Primordial",
-          "Erupção Vital",
-          "Núcleo Vulcânico"
+          "Semente Sanguessuga",
+          "Proteção",
+          "Síntese",
+          "Raízes Ancestrais"
         ]
       }
     },
 
     {
       "id": "mega-y",
-      "name": "Mega Vulcálume Y",
+      "name": "Mega Verdorax Y",
       "displayNumber": "#003-MY",
       "type": "Mega Evolução",
       "formType": "Mega Evolução Y",
       "origin": "Mega Evolução",
-      "condition": "Mega Evolução durante uma batalha utilizando a Vulcaluminite Y",
+      "condition": "Mega Evolução durante uma batalha utilizando a Verdoraxita Y",
       "registration": "Registro de forma especial — Mega Evolução Y",
-      "image": "assets/mega-vulcalume-y.png",
+      "image": "assets/mega-verdorax-y.png",
 
-      "height": "2.10 m",
-      "weight": "68.0 kg",
+      "height": "4.1 m",
+      "weight": "72.5 kg",
 
       "types": [
-        "Fogo"
+        "Planta"
       ],
 
-      "item": "Vulcaluminite Y",
+      "item": "Verdoraxita Y",
 
       "ability": {
-        "name": "Núcleo Radiante",
-        "description": "Na primeira vez por batalha em que utiliza um movimento de Status do tipo Fogo, aumenta Ataque Especial e Velocidade em um estágio adicional. O efeito só pode ser ativado uma vez por batalha."
+        "name": "Coração de Gaia",
+        "description": "Ao entrar em campo, cria Grassy Terrain por cinco turnos. Enquanto o terreno estiver ativo, os movimentos do tipo Planta do usuário causam 20% mais dano, e o usuário recupera 1/16 do HP máximo ao final de cada turno."
       },
 
       "stats": {
-        "hp": 175,
-        "attack": 167,
-        "defense": 29,
-        "spAttack": 191,
-        "spDefense": 48,
-        "speed": 66,
-        "total": 676
+        "hp": 100,
+        "attack": 90,
+        "defense": 145,
+        "spAttack": 100,
+        "spDefense": 150,
+        "speed": 85,
+        "total": 670
       },
 
-      "description": "Na Mega Evolução Y, o núcleo de Vulcálume assume a aparência de um pequeno sol dourado. Os três anéis incandescentes permanecem perfeitamente alinhados, enquanto os fragmentos de obsidiana orbitam em trajetórias precisas. Sua energia se torna mais concentrada, favorecendo ataques especiais devastadores e um controle superior sobre as chamas.",
+      "description": "Na Mega Evolução Y, Verdorax desenvolve uma coroa de folhas mais ampla e aberta, enquanto um núcleo esmeralda luminoso surge no centro de seu peito. Sua casca se torna menos espessa e suas raízes mais flexíveis, permitindo movimentos mais rápidos e um controle preciso da energia natural. O Coração de Gaia flui por seu corpo e fortalece a conexão com a vegetação ao redor. Embora seja mais leve e ágil que Mega Verdorax X, continua sendo um guardião resistente, capaz de sustentar seus aliados e controlar o ritmo da batalha.",
 
       "battle": {
-        "role": "Wallbreaker Especial",
-        "roleDescription": "Concentra seu poder na ofensiva especial para romper as defesas adversárias. O Ataque Especial elevado permite causar danos expressivos, enquanto a baixa Defesa exige cuidado contra atacantes físicos.",
-        "nature": "Modest",
-        "natureDescription": "Aumenta Ataque Especial e reduz Ataque.",
-        "ability": "Núcleo Radiante",
-        "abilityDescription": "Na primeira vez por batalha em que utiliza um movimento de Status do tipo Fogo, aumenta Ataque Especial e Velocidade em um estágio adicional.",
-        "item": "Vulcaluminite Y",
-        "itemDescription": "Mega Pedra necessária para realizar a Mega Evolução Y de Vulcálume.",
+        "role": "Wall (Muralha Defensiva)",
+
+        "roleDescription": "Muralha defensiva equilibrada, capaz de suportar ataques físicos e especiais com eficiência. Em comparação com a forma X, apresenta maior mobilidade e Ataque Especial, mas conserva a função de prolongar sua permanência em campo. Coração de Gaia oferece recuperação passiva e fortalece seus movimentos do tipo Planta, permitindo combinar resistência, desgaste e pressão ofensiva moderada.",
+
+        "nature": "Calm",
+
+        "natureDescription": "Aumenta a Defesa Especial e reduz o Ataque, priorizando a resistência especial sem comprometer o papel defensivo.",
+
+        "ability": "Coração de Gaia",
+
+        "abilityDescription": "Cria Grassy Terrain por cinco turnos ao entrar em campo. Enquanto estiver ativo, aumenta em 20% o dano dos movimentos do tipo Planta do usuário e recupera 1/16 do HP máximo por turno.",
+
+        "item": "Verdoraxita Y",
+
+        "itemDescription": "Mega Pedra necessária para realizar a Mega Evolução Y de Verdorax.",
+
         "evs": {
-          "spAttack": 252,
-          "speed": 252,
-          "spDefense": 4
+          "hp": 252,
+          "defense": 128,
+          "spDefense": 128
         },
+
         "moves": [
-          "Lança-Chamas",
-          "Ignição Primordial",
-          "Núcleo Vulcânico",
-          "Erupção Vital"
+          "Semente Sanguessuga",
+          "Proteção",
+          "Síntese",
+          "Coroa de Gaia"
         ]
       }
     },
 
     {
       "id": "gigantamax",
-      "name": "Gigantamax Vulcálume",
+      "name": "Gigantamax Verdorax",
       "displayNumber": "#003-G",
       "type": "Gigantamax",
       "formType": "Forma Gigantamax",
       "origin": "Fenômeno Gigantamax",
       "condition": "Forma ativada pelo fator Gigantamax durante o fenômeno Dynamax",
       "registration": "Registro de forma especial — Gigantamax",
-      "image": "assets/gigantamax-vulcalume.png",
+      "image": "assets/gigantamax-verdorax.png",
 
-      "height": "Gigantesco",
-      "weight": "Não registrado",
+      "height": "28.0 m",
+      "weight": "420.0 kg",
 
       "types": [
-        "Fogo"
+        "Planta"
       ],
 
       "ability": {
-        "name": "Núcleo Radiante",
-        "description": "Na primeira vez por batalha em que utiliza um movimento de Status do tipo Fogo, aumenta Ataque Especial e Velocidade em um estágio adicional. O efeito só pode ser ativado uma vez por batalha."
-     },
+        "name": "Coração de Gaia",
+        "description": "Ao entrar em campo, cria Grassy Terrain por cinco turnos. Enquanto o terreno estiver ativo, os movimentos do tipo Planta do usuário causam 20% mais dano, e o usuário recupera 1/16 do HP máximo ao final de cada turno."
+      },
 
-      "description": "Ao assumir sua forma Gigantamax, Vulcálume se transforma em uma colossal manifestação vulcânica flutuante. Seu núcleo dourado se expande, os anéis incandescentes envolvem uma área muito maior e os fragmentos de obsidiana parecem pequenos continentes ao redor de sua chama. Três nuvens magenta-avermelhadas orbitam acima de sua cabeça em uma formação circular, mantendo espaços visíveis entre elas.",
+      "stats": {
+        "hp": 85,
+        "attack": 100,
+        "defense": 165,
+        "spAttack": 45,
+        "spDefense": 150,
+        "speed": 25,
+        "total": 570
+      },
+
+      "description": "Na forma Gigantamax, Verdorax transforma-se em um colosso que se assemelha a uma floresta inteira trazida à vida. Seu corpo atinge proporções monumentais, enquanto sua coroa de folhas se expande em uma copa gigantesca. Os ombros e as pernas lembram troncos antigos, e raízes enormes se estendem por seu corpo. Três nuvens de energia vermelha e magenta flutuam em formação circular acima da copa, separadas entre si. Sua presença parece alterar o ambiente, estimulando o crescimento da vegetação e restaurando a vitalidade do solo.",
 
       "gMaxMove": {
-        "name": "G-Max Caldeira Infinita",
-        "type": "Fogo",
-        "category": "Especial",
+        "name": "G-Max Bosque Eterno",
+        "type": "Planta",
+        "category": "Físico",
         "power": 130,
-        "accuracy": 100,
-        "baseMove": "Lança-Chamas",
-        "effect": "Causa dano e cria um campo vulcânico por quatro turnos. Ao final de cada turno, adversários que não sejam do tipo Fogo perdem 1/8 do HP máximo."
+        "accuracy": null,
+        "baseMove": "Chicote de Cipó",
+        "effect": "Causa dano ao alvo e estabelece o Bosque Eterno por cinco turnos. Durante esse período, Verdorax recupera 1/16 do HP máximo ao final de cada turno, e os movimentos do tipo Planta de Verdorax causam 20% mais dano. O efeito de terreno não se acumula com Grassy Terrain; sua duração é renovada."
       },
 
       "gigantamaxBattle": {
-        "move": "G-Max Caldeira Infinita",
-        "description": "Vulcálume libera uma onda de energia vulcânica que transforma o campo em uma região de calor intenso durante quatro turnos. Os adversários que não sejam do tipo Fogo sofrem dano passivo equivalente a 1/8 do HP máximo ao final de cada turno."
+        "move": "G-Max Bosque Eterno",
+        "description": "Verdorax golpeia o adversário com raízes colossais e transforma o campo em um bosque ancestral. Durante cinco turnos, recupera 1/16 do HP máximo ao final de cada turno e fortalece em 20% seus movimentos do tipo Planta. O efeito de terreno renova a duração de Grassy Terrain, sem acumular seus efeitos."
       }
     }
-],
+  ],
+
+  "moves": [
+    {
+      "name": "Semente Sanguessuga",
+      "type": "Planta",
+      "category": "Status",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "effect": "Planta sementes no adversário, drenando parte de seu HP ao final de cada turno e recuperando o HP do usuário.",
+      "learnLevel": null
+    },
+    {
+      "name": "Proteção",
+      "type": "Normal",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "effect": "Protege o usuário contra a maioria dos golpes durante o turno. Usos consecutivos reduzem a chance de sucesso.",
+      "learnLevel": null
+    },
+    {
+      "name": "Síntese",
+      "type": "Planta",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "effect": "Recupera parte do HP máximo do usuário. A quantidade recuperada varia conforme as condições climáticas.",
+      "learnLevel": null
+    },
+    {
+      "name": "Raízes Ancestrais",
+      "type": "Planta",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "effect": "Golpe exclusivo de Verdorax que aumenta a Defesa do usuário em dois estágios.",
+      "learnLevel": 36
+    },
+    {
+      "name": "Pulso da Floresta",
+      "type": "Planta",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "effect": "Golpe exclusivo de Torvagro que aumenta o Ataque e a Defesa Especial do usuário em um estágio cada.",
+      "learnLevel": 24
+    },
+    {
+      "name": "Coroa de Gaia",
+      "type": "Planta",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "effect": "Golpe exclusivo de Verdorax que aumenta a Defesa, a Defesa Especial e a Precisão do usuário em um estágio cada.",
+      "learnLevel": 48
+    }
+  ],
 
   "relatedPokemon": [
     {
-      "id": "primordial-ember",
-      "image": "assets/primordial-ember.png",
+      "id": "rumbling-roots",
+      "image": "assets/rumbling-roots.png",
       "dexNumber": 158,
-      "name": "Primordial Ember",
-      "relationship": "Forma Paradox do passado associada a uma possível manifestação ancestral da energia de Vulcálume."
+      "name": "Rumbling Roots",
+      "relationship": "Forma Paradoxo do passado associada a uma versão ancestral, colossal e primitiva de Verdorax."
     },
     {
-      "id": "terminal-core",
-      "image": "assets/terminal-core.png",
+      "id": "iron-canopy",
+      "image": "assets/iron-canopy.png",
       "dexNumber": 159,
-      "name": "Terminal Core",
-      "relationship": "Forma Paradox do futuro associada a uma possível manifestação avançada da energia de Vulcálume."
+      "name": "Iron Canopy",
+      "relationship": "Forma Paradoxo do futuro associada a uma versão biomecânica e tecnologicamente avançada de Verdorax."
     }
   ],
 
   "battle": {
-    "role": "Wallbreaker Especial",
+    "role": "Wall (Muralha Defensiva)",
 
-    "roleDescription": "Atacante especializado em causar grandes quantidades de dano com movimentos especiais, utilizando seu poder ofensivo para romper as defesas adversárias e abrir caminho para o restante da equipe.",
+    "roleDescription": "Muralha defensiva especializada em suportar ataques físicos e especiais. Utiliza Semente Sanguessuga para desgastar adversários, Síntese para recuperar HP e movimentos de aumento de atributos para reforçar sua resistência. Sua baixa Velocidade é compensada por uma Defesa e uma Defesa Especial extraordinárias.",
 
-    "nature": "Modest",
+    "nature": "Impish",
 
-    "natureDescription": "Aumenta o Ataque Especial e reduz o Ataque.",
+    "natureDescription": "Aumenta a Defesa e reduz o Ataque Especial.",
 
-    "ability": "Own Tempo",
+    "ability": "Effect Spore",
 
-    "abilityDescription": "Impede que este Pokémon fique confuso.",
+    "abilityDescription": "Golpes de contato recebidos podem causar sono, paralisia ou envenenamento no adversário, com 30% de chance de ativação.",
 
-    "item": "Carvão (Charcoal)",
+    "item": "Leftovers",
 
-    "itemDescription": "Aumenta o poder dos movimentos do tipo Fogo.",
+    "itemDescription": "Recupera 1/16 do HP máximo ao final de cada turno, aumentando a longevidade de Verdorax em campo.",
 
     "evs": {
-      "spAttack": 252,
       "hp": 252,
+      "defense": 252,
       "spDefense": 4
     },
 
     "moves": [
-      "Lança-Chamas",
-      "Ignição Primordial",
-      "Núcleo Vulcânico",
-      "Erupção Vital"
+      "Semente Sanguessuga",
+      "Proteção",
+      "Síntese",
+      "Raízes Ancestrais"
     ],
 
     "megaXBattle": {
-      "ability": "Caldeira Desperta",
-      "item": "Vulcaluminite X",
-      "role": "Wallbreaker Misto",
-      "nature": "Lonely",
+      "ability": "Coração de Gaia",
+      "item": "Verdoraxita X",
+      "role": "Wall (Muralha Defensiva)",
+      "nature": "Impish",
       "evs": {
-        "attack": 252,
-        "spAttack": 252,
-        "speed": 4
+        "hp": 252,
+        "defense": 252,
+        "spDefense": 4
       },
       "moves": [
-        "Lança-Chamas",
-        "Ignição Primordial",
-        "Erupção Vital",
-        "Núcleo Vulcânico"
+        "Semente Sanguessuga",
+        "Proteção",
+        "Síntese",
+        "Raízes Ancestrais"
       ]
     },
 
     "megaYBattle": {
-      "ability": "Núcleo Radiante",
-      "item": "Vulcaluminite Y",
-      "role": "Wallbreaker Especial",
-      "nature": "Modest",
+      "ability": "Coração de Gaia",
+      "item": "Verdoraxita Y",
+      "role": "Wall (Muralha Defensiva)",
+      "nature": "Calm",
       "evs": {
-        "spAttack": 252,
-        "speed": 252,
-        "spDefense": 4
+        "hp": 252,
+        "defense": 128,
+        "spDefense": 128
       },
       "moves": [
-        "Lança-Chamas",
-        "Ignição Primordial",
-        "Núcleo Vulcânico",
-        "Erupção Vital"
+        "Semente Sanguessuga",
+        "Proteção",
+        "Síntese",
+        "Coroa de Gaia"
       ]
     },
 
     "gigantamaxBattle": {
-      "move": "G-Max Caldeira Infinita",
-      "description": "O movimento causa dano e estabelece um campo vulcânico durante quatro turnos. Adversários que não sejam do tipo Fogo perdem 1/8 do HP máximo ao final de cada turno."
+      "ability": "Coração de Gaia",
+      "role": "Wall (Muralha Defensiva)",
+      "move": "G-Max Bosque Eterno",
+      "description": "Movimento Gigantamax exclusivo que causa dano e estabelece um campo de floresta ancestral por cinco turnos, renovando Grassy Terrain e fortalecendo a estratégia defensiva de Verdorax."
     }
   }
 }

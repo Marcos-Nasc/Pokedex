@@ -1,0 +1,111 @@
+{
+  "id": "terminal-core",
+  "dexNumber": 159,
+  "name": "Terminal Core",
+  "category": "Núcleo Terminal",
+
+  "image": "assets/terminal-core.png",
+
+  "types": [
+    {
+      "id": "fire",
+      "name": "Fogo"
+    }
+  ],
+
+  "height": "Não registrado",
+  "weight": "Não registrado",
+
+  "habitat": "Vulcão",
+  "rarity": "Anomalia Paradoxo",
+
+  "classification": "Pokémon Paradoxo",
+
+  "formType": "Forma Paradox — Futuro",
+  "origin": "Origem temporal desconhecida — associada a um futuro distante",
+  "condition": "Espécie Paradoxo futurista, sem evolução conhecida e com relação misteriosa com Vulcálume",
+  "registration": "Registro de espécie especial — Paradoxo do Futuro",
+
+  "ability": {
+    "name": "Own Tempo",
+    "description": "Impede que este Pokémon fique confuso."
+  },
+
+  "description": "Uma criatura de estrutura geométrica precisa, cujo núcleo energético parece operar de maneira autossustentável. Terminal Core mantém suas manifestações de energia vulcânica sob controle, utilizando estruturas regulares e movimentos calculados. Sua aparência sugere uma forma de existência muito diferente daquela observada em organismos conhecidos.",
+
+  "lore": {
+    "title": "A Chama Depois do Fim",
+
+    "text": "Relatos paradoxais descrevem uma criatura que parece ter surgido de um futuro distante. Terminal Core possui um núcleo energético estável, cercado por estruturas geométricas que permanecem alinhadas mesmo durante grandes liberações de energia. Diferentemente de manifestações vulcânicas primitivas, sua força parece obedecer a um padrão preciso e calculado. Alguns pesquisadores acreditam que seja resultado de uma tecnologia futura; outros defendem que sua existência não pode ser explicada pelas leis temporais conhecidas. Sua origem permanece desconhecida.",
+
+    "quote": "Quando todo o poder estiver sob controle, restará descobrir quem controla o núcleo."
+  },
+
+  "stats": {
+    "hp": 90,
+    "attack": 80,
+    "defense": 110,
+    "spAttack": 145,
+    "spDefense": 115,
+    "speed": 90,
+    "total": 630
+  },
+
+  "evolution": {
+    "group": null,
+    "previous": null,
+    "next": null
+  },
+
+  "specialForms": [],
+
+  "relatedPokemon": [
+    {
+      "id": "vulcalume",
+      "image": "assets/vulcalume.png",
+      "dexNumber": 3,
+      "name": "Vulcálume",
+      "relationship": "Possível relação entre duas manifestações de energia vulcânica. Não existem provas de que Terminal Core seja uma evolução futura de Vulcálume.",
+      "confirmedAncestor": false
+    }
+  ],
+
+  "paradox": {
+    "designation": "Paradoxo Futurista",
+    "origin": "Futuro distante",
+    "originStatus": "Desconhecida",
+    "registration": "Anomalia",
+    "description": "Uma criatura paradoxal associada a uma manifestação avançada, geométrica e controlada de energia vulcânica."
+  },
+
+  "battle": {
+    "role": "Atacante Especial",
+
+    "roleDescription": "Um atacante especial com alto Ataque Especial e boas defesas, capaz de causar dano elevado enquanto suporta ataques de diferentes adversários.",
+
+    "nature": "Modest",
+
+    "natureDescription": "Aumenta o Ataque Especial e reduz o Ataque.",
+
+    "ability": "Own Tempo",
+
+    "abilityDescription": "Impede que este Pokémon fique confuso.",
+
+    "item": "Carvão (Charcoal)",
+
+    "itemDescription": "Aumenta o poder dos movimentos do tipo Fogo.",
+
+    "evs": {
+      "hp": 252,
+      "spAttack": 252,
+      "spDefense": 4
+    },
+
+    "moves": [
+      "Flamethrower",
+      "Fire Blast",
+      "Earth Power",
+      "Calm Mind"
+    ]
+  }
+}

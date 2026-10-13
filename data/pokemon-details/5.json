@@ -1,0 +1,158 @@
+
+{
+  "id": "caldrasa",
+  "dexNumber": 5,
+
+  "name": "Caldrasa",
+  "category": "Chama Caldeira",
+
+  "image": "assets/caldrasa.png",
+
+  "types": [
+    {
+      "id": "fire",
+      "name": "Fogo"
+    }
+  ],
+
+  "height": "0.65 m",
+  "weight": "18.5 kg",
+
+  "habitat": "Vulcão",
+  "rarity": "Comum",
+
+  "classification": "Inicial",
+  "formType": "Forma evoluída",
+  "origin": "Sinnoh",
+  "condition": "Evolui de Lumbrasa no nível 16",
+  "registration": "Registro original da Pokédex",
+
+  "ability": {
+    "name": "Own Tempo",
+    "description": "Impede que este Pokémon fique confuso."
+  },
+
+  "description": "Caldrasa é a forma evoluída de Lumbrasa. Seu núcleo de fogo tornou-se mais denso e passou a apresentar uma estrutura semelhante a uma pequena caldeira. Fragmentos de obsidiana orbitam seu corpo sem tocá-lo, mantidos suspensos pela energia que emana de sua chama. É mais reservado que sua forma anterior e absorve calor das rochas vulcânicas para comprimir e estabilizar sua energia.",
+
+  "lore": {
+    "title": "A Chama que Aprendeu a se Conter",
+
+    "text": "Após muitos anos vivendo próximo às fontes de calor subterrâneas de Sinnoh, Lumbrasa começa a concentrar a energia que antes se manifestava livremente. Essa transformação dá origem a Caldrasa, cuja estrutura lembra uma pequena caldeira suspensa. Os fragmentos de obsidiana que orbitam seu núcleo são sinais de que sua energia passou a exercer influência sobre a matéria ao redor. Comunidades antigas consideravam Caldrasa um guardião dos vulcões. Em relatos históricos, algumas dessas criaturas foram vistas conduzindo animais para longe de áreas perigosas antes de uma erupção. Apesar de sua aparência mais imponente, Caldrasa não procura conflitos: sua evolução representa o aprendizado do controle, não o abandono de sua natureza dócil.",
+
+    "quote": "A chama que aprende a se conter pode guardar uma força maior do que aquela que arde sem limites."
+  },
+
+  "stats": {
+    "hp": 110,
+    "attack": 75,
+    "defense": 25,
+    "spAttack": 90,
+    "spDefense": 60,
+    "speed": 60,
+    "total": 420
+  },
+
+  "evolution": {
+    "group": "vulcalume-line",
+
+    "stages": [
+      {
+        "id": "lumbrasa",
+        "dexNumber": 4,
+        "name": "Lumbrasa",
+        "image": "assets/lumbrasa.png",
+        "condition": "Forma inicial"
+      },
+      {
+        "id": "caldrasa",
+        "dexNumber": 5,
+        "name": "Caldrasa",
+        "image": "assets/caldrasa.png",
+        "condition": "Evolui de Lumbrasa no nível 16"
+      },
+      {
+        "id": "vulcalume",
+        "dexNumber": 6,
+        "name": "Vulcálume",
+        "image": "assets/vulcalume.png",
+        "condition": "Evolui no nível 32"
+      }
+    ]
+  },
+
+  "specialForms": [],
+
+  "moves": [
+    {
+      "name": "Ignição Primordial",
+      "type": "Fogo",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "effect": "Aumenta Ataque e Ataque Especial em um estágio.",
+      "learnLevel": null
+    },
+    {
+      "name": "Núcleo Vulcânico",
+      "type": "Fogo",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 10,
+      "effect": "Aumenta Defesa e Defesa Especial em dois estágios.",
+      "learnLevel": null
+    },
+    {
+      "name": "Erupção Vital",
+      "type": "Fogo",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 5,
+      "effect": "Aumenta Ataque, Ataque Especial e Velocidade em um estágio, mas consome 25% do HP máximo.",
+      "learnLevel": null
+    },
+    {
+      "name": "Lança-Chamas",
+      "type": "Fogo",
+      "category": "Especial",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "Tem 10% de chance de causar queimadura."
+    }
+  ],
+
+  
+    "battle": {
+        "role": "Wallbreaker Especial",
+
+        "roleDescription": "Atacante especializado em causar grandes quantidades de dano com movimentos especiais, utilizando seu poder ofensivo para romper as defesas adversárias e abrir caminho para o restante da equipe.",
+
+        "nature": "Modest",
+
+        "natureDescription": "Aumenta o Ataque Especial e reduz o Ataque.",
+
+        "ability": "Own Tempo",
+
+        "abilityDescription": "Impede que este Pokémon fique confuso.",
+
+        "item": "Carvão (Charcoal)",
+
+        "itemDescription": "Aumenta o poder dos movimentos do tipo Fogo.",
+
+        "evs": {
+            "spAttack": 252,
+            "hp": 252,
+            "spDefense": 4
+        },
+
+        "moves": [
+            "Lança-Chamas",
+            "Ignição Primordial",
+            "Núcleo Vulcânico",
+            "Erupção Vital"
+        ]
+    }
+}

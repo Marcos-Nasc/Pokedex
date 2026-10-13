@@ -1,107 +1,106 @@
-
 {
-  "id": "lumbrasa",
+  "id": "musgrol",
   "dexNumber": 1,
 
-  "name": "Lumbrasa",
-  "category": "Chama Consciente",
+  "name": "Musgrol",
+  "category": "Musgo Vivo",
 
-  "image": "assets/lumbrasa.png",
+  "image": "assets/musgrol.png",
 
   "types": [
     {
-      "id": "fire",
-      "name": "Fogo"
+      "id": "grass",
+      "name": "Planta"
     }
   ],
 
-  "height": "0.20 m",
-  "weight": "1.2 kg",
+  "height": "0.4 m",
+  "weight": "3.2 kg",
 
-  "habitat": "Vulcão",
+  "habitat": "Floresta",
   "rarity": "Comum",
 
   "classification": "Inicial",
   "formType": "Forma base",
-  "origin": "Sinnoh",
+  "origin": "Unova",
   "condition": "Forma original",
   "registration": "Registro original da Pokédex",
 
   "ability": {
-    "name": "Own Tempo",
-    "description": "Impede que este Pokémon fique confuso."
+    "name": "Effect Spore",
+    "description": "Quando atingido por um golpe de contato, tem 30% de chance de causar sono, paralisia ou envenenamento no adversário."
   },
 
-  "description": "Uma pequena chama consciente que flutua sobre o chão. Seu corpo muda de forma conforme suas emoções, mas seu núcleo alaranjado nunca perde o brilho. Apesar de viver próximo a vulcões, é dócil e costuma guiar viajantes perdidos até locais seguros.",
+  "description": "Um pequeno Pokémon coberto de musgo que habita florestas antigas. Apesar de seu tamanho reduzido, possui uma resistência surpreendente e raízes capazes de mantê-lo firmemente preso ao solo. Sua coroa de folhas reage às mudanças do ambiente, enquanto os esporos que libera servem como defesa contra criaturas que tentam atacá-lo.",
 
   "lore": {
-    "title": "A Chama que Aprendeu a Existir",
+    "title": "O Pequeno Guardião da Floresta",
 
-    "text": "Muito antes de as primeiras cidades serem construídas em Sinnoh, exploradores encontraram pequenas luzes flutuando nas proximidades de um vulcão isolado. Elas não produziam fumaça, não precisavam de combustível e não desapareciam nem mesmo durante tempestades. Eram manifestações de energia sem forma física definida que haviam encontrado uma maneira de existir. Essas luzes eram Lumbrasa. Quando encontrava alguém perdido ou com frio, sua chama brilhava intensamente e guiava a pessoa até um lugar seguro. Ao longo dos anos, algumas dessas criaturas aprenderam a concentrar a própria energia, dando origem a uma linha evolutiva capaz de armazenar o calor de um vulcão.",
+    "text": "Dizem que Musgrol nasce em locais onde o musgo cobre pedras que permaneceram intocadas por muitas gerações. Pequeno e tranquilo, passa grande parte do tempo absorvendo a umidade do solo e observando os movimentos da floresta. Seu corpo compacto esconde uma resistência incomum: mesmo diante de criaturas muito maiores, raramente abandona o lugar que considera seu lar. Quando ameaçado, libera esporos que podem deixar seus perseguidores adormecidos, paralisados ou envenenados. À medida que cresce, seu corpo se fortalece e o musgo dá lugar a estruturas de madeira cada vez mais resistentes, preparando-o para se tornar um guardião da floresta.",
 
-    "quote": "Quando a montanha guardar silêncio, não tema a chama. Tema aquilo que a chama está tentando conter."
+    "quote": "Mesmo a menor raiz pode sustentar uma floresta inteira."
   },
 
   "stats": {
-    "hp": 60,
-    "attack": 35,
-    "defense": 30,
-    "spAttack": 50,
-    "spDefense": 45,
-    "speed": 60,
-    "total": 280
+    "hp": 42,
+    "attack": 55,
+    "defense": 134,
+    "spAttack": 28,
+    "spDefense": 117,
+    "speed": 74,
+    "total": 450
   },
 
   "evolution": {
-    "group": "vulcalume-line",
+    "group": "musgrol-line",
 
     "stages": [
       {
-        "id": "lumbrasa",
+        "id": "musgrol",
         "dexNumber": 1,
-        "name": "Lumbrasa",
-        "image": "assets/lumbrasa.png",
+        "name": "Musgrol",
+        "image": "assets/musgrol.png",
         "condition": "Forma inicial",
         "stats": {
-          "hp": 60,
-          "attack": 35,
-          "defense": 30,
-          "spAttack": 50,
-          "spDefense": 45,
-          "speed": 60,
-          "total": 280
+          "hp": 42,
+          "attack": 55,
+          "defense": 134,
+          "spAttack": 28,
+          "spDefense": 117,
+          "speed": 74,
+          "total": 450
         }
       },
       {
-        "id": "caldrasa",
+        "id": "torvagro",
         "dexNumber": 2,
-        "name": "Caldrasa",
-        "image": "assets/caldrasa.png",
+        "name": "Torvagro",
+        "image": "assets/torvagro.png",
         "condition": "Evolui no nível 16",
         "stats": {
-          "hp": 110,
-          "attack": 75,
-          "defense": 25,
-          "spAttack": 90,
-          "spDefense": 60,
-          "speed": 60,
-          "total": 420
+          "hp": 60,
+          "attack": 70,
+          "defense": 155,
+          "spAttack": 35,
+          "spDefense": 135,
+          "speed": 55,
+          "total": 510
         }
       },
       {
-        "id": "vulcalume",
+        "id": "verdorax",
         "dexNumber": 3,
-        "name": "Vulcálume",
-        "image": "assets/vulcalume.png",
+        "name": "Verdorax",
+        "image": "assets/verdorax.png",
         "condition": "Evolui no nível 32",
         "stats": {
-          "hp": 175,
-          "attack": 157,
-          "defense": 19,
-          "spAttack": 131,
-          "spDefense": 38,
-          "speed": 56,
-          "total": 576
+          "hp": 85,
+          "attack": 100,
+          "defense": 165,
+          "spAttack": 45,
+          "spDefense": 150,
+          "speed": 25,
+          "total": 570
         }
       }
     ]
@@ -111,75 +110,75 @@
 
   "moves": [
     {
-      "name": "Ignição Primordial",
-      "type": "Fogo",
+      "name": "Semente Sanguessuga",
+      "type": "Planta",
+      "category": "Status",
+      "power": null,
+      "accuracy": 90,
+      "pp": 10,
+      "effect": "Planta sementes no adversário, drenando parte de seu HP ao final de cada turno e recuperando o HP do usuário.",
+      "learnLevel": null
+    },
+    {
+      "name": "Proteção",
+      "type": "Normal",
       "category": "Status",
       "power": null,
       "accuracy": null,
       "pp": 10,
-      "effect": "Aumenta Ataque e Ataque Especial em um estágio.",
+      "effect": "Protege o usuário contra a maioria dos golpes durante o turno. Usos consecutivos reduzem a chance de sucesso.",
       "learnLevel": null
     },
     {
-      "name": "Núcleo Vulcânico",
-      "type": "Fogo",
-      "category": "Status",
-      "power": null,
-      "accuracy": null,
-      "pp": 10,
-      "effect": "Aumenta Defesa e Defesa Especial em dois estágios.",
-      "learnLevel": null
-    },
-    {
-      "name": "Erupção Vital",
-      "type": "Fogo",
+      "name": "Síntese",
+      "type": "Planta",
       "category": "Status",
       "power": null,
       "accuracy": null,
       "pp": 5,
-      "effect": "Aumenta Ataque, Ataque Especial e Velocidade em um estágio, mas consome 25% do HP máximo.",
+      "effect": "Recupera parte do HP máximo do usuário. A quantidade recuperada varia conforme as condições climáticas.",
       "learnLevel": null
     },
     {
-      "name": "Lança-Chamas",
-      "type": "Fogo",
-      "category": "Especial",
-      "power": 90,
-      "accuracy": 100,
+      "name": "Pó do Sono",
+      "type": "Planta",
+      "category": "Status",
+      "power": null,
+      "accuracy": 75,
       "pp": 15,
-      "effect": "Tem 10% de chance de causar queimadura."
+      "effect": "Pode colocar o adversário para dormir.",
+      "learnLevel": null
     }
   ],
 
+  "battle": {
+    "role": "Wall (Muralha Defensiva)",
 
-    "battle": {
-        "role": "Wallbreaker Especial",
+    "roleDescription": "Pokémon especializado em resistir a ataques físicos e especiais, desgastar adversários com Semente Sanguessuga e recuperar HP durante a batalha. Sua habilidade Effect Spore pune o contato físico, enquanto seus movimentos de recuperação e proteção prolongam sua permanência em campo. Essa função defensiva será mantida em toda a linha evolutiva.",
 
-        "roleDescription": "Atacante especializado em causar grandes quantidades de dano com movimentos especiais, utilizando seu poder ofensivo para romper as defesas adversárias e abrir caminho para o restante da equipe.",
+    "nature": "Impish",
 
-        "nature": "Modest",
+    "natureDescription": "Aumenta a Defesa e reduz o Ataque Especial, atributo pouco relevante para o estilo defensivo de Musgrol.",
 
-        "natureDescription": "Aumenta o Ataque Especial e reduz o Ataque.",
+    "ability": "Effect Spore",
 
-        "ability": "Own Tempo",
+    "abilityDescription": "Golpes de contato recebidos podem causar sono, paralisia ou envenenamento no adversário, com 30% de chance de ativação.",
 
-        "abilityDescription": "Impede que este Pokémon fique confuso.",
+    "item": "Eviolite",
 
-        "item": "Carvão (Charcoal)",
+    "itemDescription": "Aumenta em 50% a Defesa e a Defesa Especial de um Pokémon que ainda pode evoluir, tornando Musgrol mais resistente.",
 
-        "itemDescription": "Aumenta o poder dos movimentos do tipo Fogo.",
+    "evs": {
+      "hp": 252,
+      "defense": 252,
+      "spDefense": 4
+    },
 
-        "evs": {
-            "spAttack": 252,
-            "hp": 252,
-            "spDefense": 4
-        },
-
-        "moves": [
-            "Lança-Chamas",
-            "Ignição Primordial",
-            "Núcleo Vulcânico",
-            "Erupção Vital"
-        ]
-    }
+    "moves": [
+      "Semente Sanguessuga",
+      "Proteção",
+      "Síntese",
+      "Pó do Sono"
+    ]
+  }
 }

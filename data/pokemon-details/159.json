@@ -1,54 +1,54 @@
 {
-  "id": "terminal-core",
+  "id": "iron-canopy",
   "dexNumber": 159,
-  "name": "Terminal Core",
-  "category": "Núcleo Terminal",
+  "name": "Iron Canopy",
+  "category": "Guardião Biomecânico do Futuro",
 
-  "image": "assets/terminal-core.png",
+  "image": "assets/iron-canopy.png",
 
   "types": [
     {
-      "id": "fire",
-      "name": "Fogo"
+      "id": "grass",
+      "name": "Planta"
     }
   ],
 
-  "height": "Não registrado",
-  "weight": "Não registrado",
+  "height": "4.6 m",
+  "weight": "94.0 kg",
 
-  "habitat": "Vulcão",
+  "habitat": "Zona Tecnológica Abandonada",
   "rarity": "Anomalia Paradoxo",
 
   "classification": "Pokémon Paradoxo",
 
   "formType": "Forma Paradox — Futuro",
   "origin": "Origem temporal desconhecida — associada a um futuro distante",
-  "condition": "Espécie Paradoxo futurista, sem evolução conhecida e com relação misteriosa com Vulcálume",
+  "condition": "Espécie Paradoxo futurista, sem evolução conhecida e com relação misteriosa com Verdorax",
   "registration": "Registro de espécie especial — Paradoxo do Futuro",
 
   "ability": {
-    "name": "Own Tempo",
-    "description": "Impede que este Pokémon fique confuso."
+    "name": "Effect Spore",
+    "description": "Quando atingido por um golpe de contato, tem 30% de chance de causar sono, paralisia ou envenenamento no adversário."
   },
 
-  "description": "Uma criatura de estrutura geométrica precisa, cujo núcleo energético parece operar de maneira autossustentável. Terminal Core mantém suas manifestações de energia vulcânica sob controle, utilizando estruturas regulares e movimentos calculados. Sua aparência sugere uma forma de existência muito diferente daquela observada em organismos conhecidos.",
+  "description": "Uma criatura biomecânica de estrutura precisa, cujo núcleo esmeralda parece operar de maneira autossustentável. Iron Canopy possui placas metálicas verdes que lembram cascas de árvores, raízes articuladas e uma coroa formada por estruturas semelhantes a folhas geométricas. Sua energia parece fluir por circuitos internos, permitindo movimentos calculados e uma adaptação incomum ao ambiente. Apesar de sua aparência artificial, apresenta comportamentos associados à proteção da vegetação. Sua existência levanta uma questão inquietante: seria uma máquina criada para preservar a natureza ou uma forma de vida destinada a substituí-la?",
 
   "lore": {
-    "title": "A Chama Depois do Fim",
+    "title": "A Floresta Depois do Fim",
 
-    "text": "Relatos paradoxais descrevem uma criatura que parece ter surgido de um futuro distante. Terminal Core possui um núcleo energético estável, cercado por estruturas geométricas que permanecem alinhadas mesmo durante grandes liberações de energia. Diferentemente de manifestações vulcânicas primitivas, sua força parece obedecer a um padrão preciso e calculado. Alguns pesquisadores acreditam que seja resultado de uma tecnologia futura; outros defendem que sua existência não pode ser explicada pelas leis temporais conhecidas. Sua origem permanece desconhecida.",
+    "text": "Relatos paradoxais descrevem uma criatura que parece ter surgido de um futuro distante, onde os limites entre tecnologia e natureza já não são claros. Iron Canopy possui um núcleo esmeralda que emite pulsos regulares de energia, enquanto suas raízes mecânicas se ajustam ao terreno com precisão extraordinária. Suas placas metálicas lembram a casca de árvores antigas, mas não apresentam sinais de desgaste natural. Alguns pesquisadores acreditam que tenha sido desenvolvido para reconstruir ecossistemas após uma catástrofe ambiental. Outros defendem que sua estrutura represente uma natureza artificial, criada para funcionar sem depender de organismos vivos. Quando se aproxima de vegetação natural, seu núcleo aumenta a emissão de energia, embora ninguém saiba se isso representa um mecanismo de preservação ou de assimilação. Sua origem permanece desconhecida, assim como sua verdadeira finalidade.",
 
-    "quote": "Quando todo o poder estiver sob controle, restará descobrir quem controla o núcleo."
+    "quote": "Quando a última floresta desaparecer, quem decidirá o que deverá crescer em seu lugar?"
   },
 
   "stats": {
-    "hp": 90,
+    "hp": 80,
     "attack": 80,
-    "defense": 110,
-    "spAttack": 145,
-    "spDefense": 115,
-    "speed": 90,
-    "total": 630
+    "defense": 145,
+    "spAttack": 115,
+    "spDefense": 130,
+    "speed": 95,
+    "total": 645
   },
 
   "evolution": {
@@ -61,12 +61,19 @@
 
   "relatedPokemon": [
     {
-      "id": "vulcalume",
-      "image": "assets/vulcalume.png",
+      "id": "verdorax",
+      "image": "assets/verdorax.png",
       "dexNumber": 3,
-      "name": "Vulcálume",
-      "relationship": "Possível relação entre duas manifestações de energia vulcânica. Não existem provas de que Terminal Core seja uma evolução futura de Vulcálume.",
+      "name": "Verdorax",
+      "relationship": "Possível relação entre duas criaturas associadas à proteção da vegetação. Não existem provas de que Iron Canopy seja uma evolução futura de Verdorax.",
       "confirmedAncestor": false
+    },
+    {
+      "id": "rumbling-roots",
+      "image": "assets/rumbling-roots.png",
+      "dexNumber": 158,
+      "name": "Rumbling Roots",
+      "relationship": "Anomalia Paradoxo associada a um passado remoto, com raízes colossais e características naturais primitivas."
     }
   ],
 
@@ -75,37 +82,37 @@
     "origin": "Futuro distante",
     "originStatus": "Desconhecida",
     "registration": "Anomalia",
-    "description": "Uma criatura paradoxal associada a uma manifestação avançada, geométrica e controlada de energia vulcânica."
+    "description": "Uma criatura biomecânica associada a uma possível manifestação futura da natureza. Seu núcleo energético, suas raízes articuladas e sua estrutura metálica sugerem uma forma de vida cuja relação entre tecnologia e vegetação ainda não foi compreendida."
   },
 
   "battle": {
-    "role": "Atacante Especial",
+    "role": "Atacante Especial Resistente",
 
-    "roleDescription": "Um atacante especial com alto Ataque Especial e boas defesas, capaz de causar dano elevado enquanto suporta ataques de diferentes adversários.",
+    "roleDescription": "Um atacante especial que combina Ataque Especial elevado, boa Velocidade e defesas sólidas. Pode pressionar os adversários com golpes especiais e utilizar sua resistência para encontrar oportunidades de ataque. Sua distribuição de atributos permite que funcione tanto como atacante equilibrado quanto como uma opção resistente para equipes que precisam de cobertura ofensiva.",
 
     "nature": "Modest",
 
-    "natureDescription": "Aumenta o Ataque Especial e reduz o Ataque.",
+    "natureDescription": "Aumenta o Ataque Especial e reduz o Ataque físico.",
 
-    "ability": "Own Tempo",
+    "ability": "Effect Spore",
 
-    "abilityDescription": "Impede que este Pokémon fique confuso.",
+    "abilityDescription": "Golpes de contato recebidos podem causar sono, paralisia ou envenenamento no adversário, com 30% de chance de ativação.",
 
-    "item": "Carvão (Charcoal)",
+    "item": "Assault Vest",
 
-    "itemDescription": "Aumenta o poder dos movimentos do tipo Fogo.",
+    "itemDescription": "Aumenta a Defesa Especial em 50%, mas permite utilizar apenas movimentos que causam dano. Favorece sua resistência contra atacantes especiais.",
 
     "evs": {
       "hp": 252,
       "spAttack": 252,
-      "spDefense": 4
+      "speed": 4
     },
 
     "moves": [
-      "Flamethrower",
-      "Fire Blast",
+      "Energy Ball",
+      "Flash Cannon",
       "Earth Power",
-      "Calm Mind"
+      "Giga Drain"
     ]
   }
 }

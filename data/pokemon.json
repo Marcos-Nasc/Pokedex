@@ -1,7 +1,64 @@
 [
   {
-    "id": "lumbrasa",
+    "id": "musgrol",
     "dexNumber": 1,
+    "name": "Musgrol",
+    "category": "Musgo Vivo",
+    "types": ["grass"],
+    "typesDisplay": ["Planta"],
+    "image": "assets/musgrol.png",
+    "rarity": "uncommon",
+    "specialForms": {
+      "mega": false,
+      "gigantamax": false,
+      "tera": false,
+      "paradox": false,
+      "regional": false
+    },
+    "evolutionGroup": "musgrol-line",
+    "registered": true
+  },
+  {
+    "id": "torvagro",
+    "dexNumber": 2,
+    "name": "Torvagro",
+    "category": "Guardião do Musgo",
+    "types": ["grass"],
+    "typesDisplay": ["Planta"],
+    "image": "assets/torvagro.png",
+    "rarity": "uncommon",
+    "specialForms": {
+      "mega": false,
+      "gigantamax": false,
+      "tera": false,
+      "paradox": false,
+      "regional": false
+    },
+    "evolutionGroup": "musgrol-line",
+    "registered": true
+  },
+  {
+    "id": "verdorax",
+    "dexNumber": 3,
+    "name": "Verdorax",
+    "category": "Guardião da Floresta Ancestral",
+    "types": ["grass"],
+    "typesDisplay": ["Planta"],
+    "image": "assets/verdorax.png",
+    "rarity": "rare",
+    "specialForms": {
+      "mega": true,
+      "gigantamax": true,
+      "tera": false,
+      "paradox": false,
+      "regional": false
+    },
+    "evolutionGroup": "musgrol-line",
+    "registered": true
+  },
+  {
+    "id": "lumbrasa",
+    "dexNumber": 4,
     "name": "Lumbrasa",
     "category": "Chama Viva",
     "types": ["fire"],
@@ -20,7 +77,7 @@
   },
   {
     "id": "caldrasa",
-    "dexNumber": 2,
+    "dexNumber": 5,
     "name": "Caldrasa",
     "category": "Caldeira Viva",
     "types": ["fire"],
@@ -39,7 +96,7 @@
   },
   {
     "id": "vulcalume",
-    "dexNumber": 3,
+    "dexNumber": 6,
     "name": "Vulcálume",
     "category": "Fenômeno Vulcânico",
     "types": ["fire"],
@@ -133,8 +190,46 @@
     "registered": true
   },
   {
-    "id": "primordial-ember",
+    "id": "rumbling-roots",
     "dexNumber": 158,
+    "name": "Rumbling Roots",
+    "category": "Titã das Raízes Ancestrais",
+    "types": ["grass"],
+    "typesDisplay": ["Planta"],
+    "image": "assets/rumbling-roots.png",
+    "rarity": "paradox",
+    "specialForms": {
+      "mega": false,
+      "gigantamax": false,
+      "tera": false,
+      "paradox": true,
+      "regional": false
+    },
+    "evolutionGroup": null,
+    "registered": true
+  },
+  {
+    "id": "iron-canopy",
+    "dexNumber": 159,
+    "name": "Iron Canopy",
+    "category": "Guardião Biomecânico do Futuro",
+    "types": ["grass"],
+    "typesDisplay": ["Planta"],
+    "image": "assets/iron-canopy.png",
+    "rarity": "paradox",
+    "specialForms": {
+      "mega": false,
+      "gigantamax": false,
+      "tera": false,
+      "paradox": true,
+      "regional": false
+    },
+    "evolutionGroup": null,
+    "registered": true
+  },
+  {
+    "id": "primordial-ember",
+    "dexNumber": 160,
     "name": "Primordial Ember",
     "category": "Chama Primordial",
     "types": ["fire"],
@@ -151,9 +246,9 @@
     "evolutionGroup": null,
     "registered": true
   },
-  {
+    {
     "id": "terminal-core",
-    "dexNumber": 159,
+    "dexNumber": 161,
     "name": "Terminal Core",
     "category": "Núcleo Terminal",
     "types": ["fire"],

@@ -1,54 +1,54 @@
 {
-  "id": "primordial-ember",
+  "id": "rumbling-roots",
   "dexNumber": 158,
-  "name": "Primordial Ember",
-  "category": "Chama Primordial",
+  "name": "Rumbling Roots",
+  "category": "Titã das Raízes Ancestrais",
 
-  "image": "assets/primordial-ember.png",
+  "image": "assets/rumbling-roots.png",
 
   "types": [
     {
-      "id": "fire",
-      "name": "Fogo"
+      "id": "grass",
+      "name": "Planta"
     }
   ],
 
-  "height": "Não registrado",
-  "weight": "Não registrado",
+  "height": "5.2 m",
+  "weight": "126.0 kg",
 
-  "habitat": "Vulcão",
+  "habitat": "Floresta Primordial",
   "rarity": "Anomalia Paradoxo",
 
   "classification": "Pokémon Paradoxo",
 
   "formType": "Forma Paradox — Passado",
   "origin": "Origem temporal desconhecida — associada ao passado distante",
-  "condition": "Espécie Paradoxo ancestral, sem evolução conhecida e com relação misteriosa com Vulcálume",
+  "condition": "Espécie Paradoxo ancestral, sem evolução conhecida e com relação misteriosa com Verdorax",
   "registration": "Registro de espécie especial — Paradoxo do Passado",
 
   "ability": {
-    "name": "Own Tempo",
-    "description": "Impede que este Pokémon fique confuso."
+    "name": "Effect Spore",
+    "description": "Quando atingido por um golpe de contato, tem 30% de chance de causar sono, paralisia ou envenenamento no adversário."
   },
 
-  "description": "Uma criatura de energia vulcânica primitiva, cuja estrutura irregular parece formada por chamas ancestrais e fragmentos de obsidiana. Primordial Ember manifesta um poder intenso e instável, como se pertencesse a uma época em que a energia vulcânica ainda não possuía controle ou equilíbrio.",
+  "description": "Rumbling Roots é uma criatura colossal que aparenta pertencer a uma era anterior ao surgimento das florestas modernas. Seu corpo é formado por camadas de casca irregular, musgo espesso e estruturas semelhantes a rochas antigas. Suas raízes retorcidas projetam-se dos braços, das costas e das pernas, formando extensões que utiliza tanto para atacar quanto para se firmar no terreno. Apesar de sua aparência primitiva, sua estrutura demonstra uma resistência extraordinária. Cada movimento provoca vibrações no solo, como se a própria terra respondesse à presença da criatura.",
 
   "lore": {
-    "title": "A Chama Antes do Controle",
+    "title": "O Titã que Faz a Terra Tremer",
 
-    "text": "Registros paradoxais descrevem uma criatura semelhante a uma chama vulcânica viva em um passado remoto. Primordial Ember apresenta uma estrutura irregular, com fragmentos de obsidiana que parecem ter sido moldados por forças naturais extremas. Sua energia é tão intensa que os pesquisadores ainda não conseguiram determinar se a criatura representa um ancestral de Vulcálume ou uma manifestação independente de uma realidade temporal desconhecida. Nenhuma evidência confirma sua verdadeira origem.",
+    "text": "Relatos paradoxais descrevem uma criatura gigantesca encontrada em regiões de floresta intocada, onde marcas profundas no solo pareciam indicar a passagem de algo muito mais antigo do que qualquer espécie conhecida. Rumbling Roots possui raízes tão espessas que podem atravessar rochas e alterar o curso de pequenos riachos. Sua casca apresenta formas irregulares, semelhantes às de árvores que sobreviveram por milênios, enquanto seu corpo parece reunir características de vegetação e minerais. Alguns pesquisadores acreditam que a criatura represente uma possível manifestação ancestral de Verdorax. Outros defendem que ambos compartilham apenas características semelhantes, desenvolvidas em realidades distintas. Quando ameaçado, Rumbling Roots golpeia o solo e libera vibrações capazes de desequilibrar criaturas próximas. Sua verdadeira origem permanece desconhecida.",
 
-    "quote": "Antes de aprender a controlar o fogo, o mundo aprendeu a temê-lo."
+    "quote": "Antes de existirem caminhos na floresta, suas raízes já conheciam o mundo."
   },
 
   "stats": {
-    "hp": 100,
-    "attack": 145,
-    "defense": 90,
-    "spAttack": 105,
-    "spDefense": 80,
-    "speed": 110,
-    "total": 630
+    "hp": 105,
+    "attack": 130,
+    "defense": 150,
+    "spAttack": 25,
+    "spDefense": 145,
+    "speed": 45,
+    "total": 600
   },
 
   "evolution": {
@@ -61,12 +61,19 @@
 
   "relatedPokemon": [
     {
-      "id": "vulcalume",
-      "image": "assets/vulcalume.png",
+      "id": "verdorax",
+      "image": "assets/verdorax.png",
       "dexNumber": 3,
-      "name": "Vulcálume",
-      "relationship": "Possível relação entre duas manifestações de energia vulcânica. Não existem provas de que Primordial Ember seja um ancestral de Vulcálume.",
+      "name": "Verdorax",
+      "relationship": "Possível relação entre duas criaturas associadas a raízes colossais e à proteção das florestas. Não existem provas de que Rumbling Roots seja um ancestral de Verdorax.",
       "confirmedAncestor": false
+    },
+    {
+      "id": "iron-canopy",
+      "image": "assets/iron-canopy.png",
+      "dexNumber": 159,
+      "name": "Iron Canopy",
+      "relationship": "Outra anomalia Paradoxo com características semelhantes às de Verdorax, associada a uma possível realidade temporal futura."
     }
   ],
 
@@ -75,36 +82,36 @@
     "origin": "Passado distante",
     "originStatus": "Desconhecida",
     "registration": "Anomalia",
-    "description": "Uma criatura paradoxal associada a uma manifestação primitiva e descontrolada de energia vulcânica."
+    "description": "Uma criatura colossal associada a uma manifestação primitiva da natureza. Suas raízes gigantescas, sua casca mineralizada e sua força física sugerem uma forma de vida adaptada a um mundo antigo e hostil."
   },
 
   "battle": {
-    "role": "Atacante Físico",
+    "role": "Atacante Físico Resistente",
 
-    "roleDescription": "Um atacante físico agressivo que utiliza seu alto Ataque e sua boa Velocidade para pressionar os adversários e causar grandes quantidades de dano.",
+    "roleDescription": "Um atacante físico que combina Ataque elevado com grande resistência. Sua Defesa e Defesa Especial permitem suportar golpes enquanto procura oportunidades para fortalecer seus atributos e desferir ataques poderosos. Sua baixa Velocidade exige planejamento, mas sua robustez permite enfrentar adversários antes de cair.",
 
-    "nature": "Jolly",
+    "nature": "Adamant",
 
-    "natureDescription": "Aumenta a Velocidade e reduz o Ataque Especial.",
+    "natureDescription": "Aumenta o Ataque e reduz o Ataque Especial, atributo pouco útil para seu conjunto de movimentos.",
 
-    "ability": "Own Tempo",
+    "ability": "Effect Spore",
 
-    "abilityDescription": "Impede que este Pokémon fique confuso.",
+    "abilityDescription": "Golpes de contato recebidos podem causar sono, paralisia ou envenenamento no adversário, com 30% de chance de ativação.",
 
-    "item": "Carvão (Charcoal)",
+    "item": "Leftovers",
 
-    "itemDescription": "Aumenta o poder dos movimentos do tipo Fogo.",
+    "itemDescription": "Recupera 1/16 do HP máximo ao final de cada turno, aumentando sua resistência durante batalhas prolongadas.",
 
     "evs": {
+      "hp": 252,
       "attack": 252,
-      "spDefense": 4,
-      "speed": 252
+      "spDefense": 4
     },
 
     "moves": [
-      "Flare Blitz",
+      "Wood Hammer",
       "Earthquake",
-      "Stone Edge",
+      "Leech Seed",
       "Swords Dance"
     ]
   }
