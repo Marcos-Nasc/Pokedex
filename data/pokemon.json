@@ -41,7 +41,7 @@
     "id": "verdorax",
     "dexNumber": 3,
     "name": "Verdorax",
-    "category": "Guardião da Floresta Ancestral",
+    "category": "Guardião da Floresta",
     "types": ["grass"],
     "typesDisplay": ["Planta"],
     "image": "assets/verdorax.png",
