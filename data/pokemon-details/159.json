@@ -4,7 +4,7 @@
   "name": "Iron Canopy",
   "category": "Dossel de Ferro",
 
-  "image": "assets/iron-canopy.png",
+  "image": "assets/pokemons/iron-canopy.png",
 
   "types": [
     {
@@ -62,7 +62,7 @@
   "relatedPokemon": [
     {
       "id": "verdorax",
-      "image": "assets/verdorax.png",
+      "image": "assets/pokemons/verdorax.png",
       "dexNumber": 3,
       "name": "Verdorax",
       "relationship": "Possível relação entre duas criaturas associadas à proteção da vegetação. Não existem provas de que Iron Canopy seja uma evolução futura de Verdorax.",

@@ -6,7 +6,7 @@
 "category": "Musgo Vivo",
 "types": ["grass"],
 "typesDisplay": ["Planta"],
-"image": "assets/musgrol.png",
+"image": "assets/pokemons/musgrol.png",
 "rarity": "common",
 "specialForms": {
 "mega": false,
@@ -25,7 +25,7 @@
 "category": "Guardião do Musgo",
 "types": ["grass"],
 "typesDisplay": ["Planta"],
-"image": "assets/torvagro.png",
+"image": "assets/pokemons/torvagro.png",
 "rarity": "common",
 "specialForms": {
 "mega": false,
@@ -44,7 +44,7 @@
 "category": "Guardião da Floresta",
 "types": ["grass"],
 "typesDisplay": ["Planta"],
-"image": "assets/verdorax.png",
+"image": "assets/pokemons/verdorax.png",
 "rarity": "common",
 "specialForms": {
 "mega": true,
@@ -63,7 +63,7 @@
 "category": "Chama Viva",
 "types": ["fire"],
 "typesDisplay": ["Fogo"],
-"image": "assets/lumbrasa.png",
+"image": "assets/pokemons/lumbrasa.png",
 "rarity": "common",
 "specialForms": {
 "mega": false,
@@ -82,7 +82,7 @@
 "category": "Caldeira Viva",
 "types": ["fire"],
 "typesDisplay": ["Fogo"],
-"image": "assets/caldrasa.png",
+"image": "assets/pokemons/caldrasa.png",
 "rarity": "common",
 "specialForms": {
 "mega": false,
@@ -101,7 +101,7 @@
 "category": "Fenômeno Vulcânico",
 "types": ["fire"],
 "typesDisplay": ["Fogo"],
-"image": "assets/vulcalume.png",
+"image": "assets/pokemons/vulcalume.png",
 "rarity": "common",
 "specialForms": {
 "mega": true,
@@ -117,10 +117,10 @@
 "id": "marul",
 "dexNumber": 7,
 "name": "Marul",
-"category": "Guardião Abissal",
+"category": "Habitante das Profundezas",
 "types": ["water"],
 "typesDisplay": ["Água"],
-"image": "assets/marul.png",
+"image": "assets/pokemons/marul.png",
 "rarity": "common",
 "specialForms": {
 "mega": false,
@@ -136,10 +136,10 @@
 "id": "maranith",
 "dexNumber": 8,
 "name": "Maranith",
-"category": "Guardião Mineral",
+"category": "Carapaça Mineral",
 "types": ["water"],
 "typesDisplay": ["Água"],
-"image": "assets/maranith.png",
+"image": "assets/pokemons/maranith.png",
 "rarity": "common",
 "specialForms": {
 "mega": false,
@@ -155,10 +155,10 @@
 "id": "ferragon",
 "dexNumber": 9,
 "name": "Ferragon",
-"category": "Guardião Abissal de Aço",
+"category": "Colosso Abissal de Aço",
 "types": ["water", "steel"],
 "typesDisplay": ["Água", "Aço"],
-"image": "assets/ferragon.png",
+"image": "assets/pokemons/ferragon.png",
 "rarity": "common",
 "specialForms": {
 "mega": true,
@@ -177,7 +177,7 @@
 "category": "Guardião da Floresta",
 "types": ["fighting", "flying"],
 "typesDisplay": ["Lutador", "Voador"],
-"image": "assets/sylvaris.png",
+"image": "assets/pokemons/sylvaris.png",
 "rarity": "legendary",
 "specialForms": {
 "mega": false,
@@ -196,7 +196,7 @@
 "category": "Guardião da Lua Nova",
 "types": ["fighting", "flying"],
 "typesDisplay": ["Lutador", "Voador"],
-"image": "assets/sylvarin.png",
+"image": "assets/pokemons/sylvarin.png",
 "rarity": "legendary",
 "specialForms": {
 "mega": false,
@@ -215,7 +215,7 @@
 "category": "Guardião do Segredo",
 "types": ["fighting", "flying"],
 "typesDisplay": ["Lutador", "Voador"],
-"image": "assets/sylvarion.png",
+"image": "assets/pokemons/sylvarion.png",
 "rarity": "legendary",
 "specialForms": {
 "mega": false,
@@ -234,7 +234,7 @@
 "category": "Guardião Ancestral",
 "types": ["fighting", "flying"],
 "typesDisplay": ["Lutador", "Voador"],
-"image": "assets/ancient-warden.png",
+"image": "assets/pokemons/ancient-warden.png",
 "rarity": "paradox",
 "specialForms": {
 "mega": false,
@@ -253,7 +253,7 @@
 "category": "Raízes Estrondosas",
 "types": ["grass"],
 "typesDisplay": ["Planta"],
-"image": "assets/rumbling-roots.png",
+"image": "assets/pokemons/rumbling-roots.png",
 "rarity": "paradox",
 "specialForms": {
 "mega": false,
@@ -272,7 +272,7 @@
 "category": "Dossel de Ferro",
 "types": ["grass"],
 "typesDisplay": ["Planta"],
-"image": "assets/iron-canopy.png",
+"image": "assets/pokemons/iron-canopy.png",
 "rarity": "paradox",
 "specialForms": {
 "mega": false,
@@ -291,7 +291,7 @@
 "category": "Chama Primordial",
 "types": ["fire"],
 "typesDisplay": ["Fogo"],
-"image": "assets/primordial-ember.png",
+"image": "assets/pokemons/primordial-ember.png",
 "rarity": "paradox",
 "specialForms": {
 "mega": false,
@@ -310,7 +310,7 @@
 "category": "Núcleo Terminal",
 "types": ["fire"],
 "typesDisplay": ["Fogo"],
-"image": "assets/terminal-core.png",
+"image": "assets/pokemons/terminal-core.png",
 "rarity": "paradox",
 "specialForms": {
 "mega": false,
@@ -329,7 +329,7 @@
 "category": "Presa Abissal",
 "types": ["water", "steel"],
 "typesDisplay": ["Água", "Aço"],
-"image": "assets/abyssal-fang.png",
+"image": "assets/pokemons/abyssal-fang.png",
 "rarity": "paradox",
 "specialForms": {
 "mega": false,
@@ -348,7 +348,7 @@
 "category": "Abismo de Ferro",
 "types": ["water", "steel"],
 "typesDisplay": ["Água", "Aço"],
-"image": "assets/iron-abyss.png",
+"image": "assets/pokemons/iron-abyss.png",
 "rarity": "paradox",
 "specialForms": {
 "mega": false,

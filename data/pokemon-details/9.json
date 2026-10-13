@@ -3,9 +3,9 @@
 "dexNumber": 9,
 
 "name": "Ferragon",
-"category": "Guardião Abissal de Aço",
+"category": "Colosso Abissal",
 
-"image": "assets/ferragon.png",
+"image": "assets/pokemons/ferragon.png",
 
 "types": [
 {
@@ -67,7 +67,7 @@
     "id": "marul",
     "dexNumber": 7,
     "name": "Marul",
-    "image": "assets/marul.png",
+    "image": "assets/pokemons/marul.png",
     "condition": "Forma inicial",
     "stats": {
       "hp": 45,
@@ -83,7 +83,7 @@
     "id": "maranith",
     "dexNumber": 8,
     "name": "Maranith",
-    "image": "assets/maranith.png",
+    "image": "assets/pokemons/maranith.png",
     "condition": "Evolui de Marul no nível 16",
     "stats": {
       "hp": 80,
@@ -99,7 +99,7 @@
     "id": "ferragon",
     "dexNumber": 9,
     "name": "Ferragon",
-    "image": "assets/ferragon.png",
+    "image": "assets/pokemons/ferragon.png",
     "condition": "Evolui de Maranith no nível 32",
     "stats": {
       "hp": 165,
@@ -126,7 +126,7 @@
 "origin": "Mega Evolução",
 "condition": "Mega Evolução durante uma batalha utilizando a Ferragonita X",
 "registration": "Registro de forma especial — Mega Evolução X",
-"image": "assets/mega-ferragon-x.png",
+"image": "assets/pokemons/mega-ferragon-x.png",
 
 
   "height": "6.4 m",
@@ -197,7 +197,7 @@
   "origin": "Mega Evolução",
   "condition": "Mega Evolução durante uma batalha utilizando a Ferragonita Y",
   "registration": "Registro de forma especial — Mega Evolução Y",
-  "image": "assets/mega-ferragon-y.png",
+  "image": "assets/pokemons/mega-ferragon-y.png",
 
   "height": "5.8 m",
   "weight": "610 kg",
@@ -267,7 +267,7 @@
   "origin": "Fenômeno Gigantamax",
   "condition": "Forma ativada pelo fator Gigantamax durante o fenômeno Dynamax",
   "registration": "Registro de forma especial — Gigantamax",
-  "image": "assets/gigantamax-ferragon.png",
+  "image": "assets/pokemons/gigantamax-ferragon.png",
 
   "height": "Gigantesco",
   "weight": "Não registrado",
@@ -307,14 +307,14 @@
 "relatedPokemon": [
 {
 "id": "abyssal-fang",
-"image": "assets/abyssal-fang.png",
+"image": "assets/pokemons/abyssal-fang.png",
 "dexNumber": 162,
 "name": "Abyssal Fang",
 "relationship": "Forma Paradox do passado associada a uma versão ancestral e selvagem de Ferragon."
 },
 {
 "id": "iron-abyss",
-"image": "assets/iron-abyss.png",
+"image": "assets/pokemons/iron-abyss.png",
 "dexNumber": 163,
 "name": "Iron Abyss",
 "relationship": "Forma Paradox do futuro associada a uma versão avançada e otimizada de Ferragon."

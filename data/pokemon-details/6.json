@@ -5,7 +5,7 @@
   "name": "Vulcálume",
   "category": "Chama Vulcânica Consciente",
 
-  "image": "assets/vulcalume.png",
+  "image": "assets/pokemons/vulcalume.png",
 
   "types": [
     {
@@ -58,21 +58,21 @@
         "id": "lumbrasa",
         "dexNumber": 4,
         "name": "Lumbrasa",
-        "image": "assets/lumbrasa.png",
+        "image": "assets/pokemons/lumbrasa.png",
         "condition": "Forma inicial"
       },
       {
         "id": "caldrasa",
         "dexNumber": 5,
         "name": "Caldrasa",
-        "image": "assets/caldrasa.png",
+        "image": "assets/pokemons/caldrasa.png",
         "condition": "Evolui de Lumbrasa no nível 16"
       },
       {
         "id": "vulcalume",
         "dexNumber": 6,
         "name": "Vulcálume",
-        "image": "assets/vulcalume.png",
+        "image": "assets/pokemons/vulcalume.png",
         "condition": "Evolui de Caldrasa no nível 32"
       }
     ]
@@ -88,7 +88,7 @@
       "origin": "Mega Evolução",
       "condition": "Mega Evolução durante uma batalha utilizando a Vulcaluminite X",
       "registration": "Registro de forma especial — Mega Evolução X",
-      "image": "assets/mega-vulcalume-x.png",
+      "image": "assets/pokemons/mega-vulcalume-x.png",
 
       "height": "2.10 m",
       "weight": "68.0 kg",
@@ -98,6 +98,7 @@
       ],
 
       "item": "Vulcaluminite X",
+      "itemId": "vulcaluminite-x",
 
       "ability": {
         "name": "Caldeira Desperta",
@@ -148,7 +149,7 @@
       "origin": "Mega Evolução",
       "condition": "Mega Evolução durante uma batalha utilizando a Vulcaluminite Y",
       "registration": "Registro de forma especial — Mega Evolução Y",
-      "image": "assets/mega-vulcalume-y.png",
+      "image": "assets/pokemons/mega-vulcalume-y.png",
 
       "height": "2.10 m",
       "weight": "68.0 kg",
@@ -158,6 +159,7 @@
       ],
 
       "item": "Vulcaluminite Y",
+      "itemId": "vulcaluminite-y",
 
       "ability": {
         "name": "Núcleo Radiante",
@@ -208,7 +210,7 @@
       "origin": "Fenômeno Gigantamax",
       "condition": "Forma ativada pelo fator Gigantamax durante o fenômeno Dynamax",
       "registration": "Registro de forma especial — Gigantamax",
-      "image": "assets/gigantamax-vulcalume.png",
+      "image": "assets/pokemons/gigantamax-vulcalume.png",
 
       "height": "Gigantesco",
       "weight": "Não registrado",
@@ -244,14 +246,14 @@
   "relatedPokemon": [
     {
       "id": "primordial-ember",
-      "image": "assets/primordial-ember.png",
+      "image": "assets/pokemons/primordial-ember.png",
       "dexNumber": 160,
       "name": "Primordial Ember",
       "relationship": "Forma Paradox do passado associada a uma possível manifestação ancestral da energia de Vulcálume."
     },
     {
       "id": "terminal-core",
-      "image": "assets/terminal-core.png",
+      "image": "assets/pokemons/terminal-core.png",
       "dexNumber": 161,
       "name": "Terminal Core",
       "relationship": "Forma Paradox do futuro associada a uma possível manifestação avançada da energia de Vulcálume."

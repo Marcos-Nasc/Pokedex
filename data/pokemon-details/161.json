@@ -4,7 +4,7 @@
   "name": "Terminal Core",
   "category": "Núcleo Terminal",
 
-  "image": "assets/terminal-core.png",
+  "image": "assets/pokemons/terminal-core.png",
 
   "types": [
     {
@@ -62,7 +62,7 @@
   "relatedPokemon": [
     {
       "id": "vulcalume",
-      "image": "assets/vulcalume.png",
+      "image": "assets/pokemons/vulcalume.png",
       "dexNumber": 6,
       "name": "Vulcálume",
       "relationship": "Possível relação entre duas manifestações de energia vulcânica. Não existem provas de que Terminal Core seja uma evolução futura de Vulcálume.",

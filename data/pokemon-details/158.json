@@ -4,7 +4,7 @@
   "name": "Rumbling Roots",
   "category": "Raízes Estrondosas",
 
-  "image": "assets/rumbling-roots.png",
+  "image": "assets/pokemons/rumbling-roots.png",
 
   "types": [
     {
@@ -62,7 +62,7 @@
   "relatedPokemon": [
     {
       "id": "verdorax",
-      "image": "assets/verdorax.png",
+      "image": "assets/pokemons/verdorax.png",
       "dexNumber": 3,
       "name": "Verdorax",
       "relationship": "Possível relação entre duas criaturas associadas a raízes colossais e à proteção das florestas. Não existem provas de que Rumbling Roots seja um ancestral de Verdorax.",

@@ -706,6 +706,139 @@ const PokemonDetails = (() => {
         });
     }
 
+    
+    // =========================================================
+    // ITENS DE EVOLUÇÃO E FORMAS ESPECIAIS
+    // =========================================================
+    
+    
+async function renderEvolutionItems(forms = [], selectedFormId = null) {
+    const section = $("#evolution-items-section");
+    const container = $("#evolution-items-grid");
+
+    if (!section || !container) return;
+
+    container.replaceChildren();
+    section.hidden = true;
+
+    const isValidArray = Array.isArray(forms);
+
+    // Caso 1: item associado a uma forma especial selecionada.
+    let selectedFormData = null;
+    let itemId = null;
+    let itemName = null;
+
+    if (selectedFormId && isValidArray) {
+        selectedFormData = forms.find(
+            form => form.id === selectedFormId
+        );
+
+        if (selectedFormData?.item) {
+            const item = selectedFormData.item;
+
+            itemName =
+                typeof item === "object"
+                    ? item.name
+                    : item;
+
+            itemId =
+                selectedFormData.itemId ||
+                (typeof item === "object" ? item.id : null) ||
+                normalizeString(itemName)
+                    .replace(/[^a-z0-9]+/g, "-")
+                    .replace(/^-|-$/g, "");
+        }
+    }
+
+    // Caso 2: item associado ao Pokémon principal.
+    // Exemplo: Sylvarion e a Relíquia do Primeiro Segredo.
+    if (!itemId && pokemonData?.itemId) {
+        itemId = pokemonData.itemId;
+        itemName = pokemonData.itemName || itemId;
+        selectedFormData = pokemonData;
+    }
+
+    // Não existe item associado.
+    if (!itemId) return;
+
+    let itemData = {};
+
+    try {
+        itemData = await fetchJSON(
+            `data/items/${encodeURIComponent(itemId)}.json`
+        );
+    } catch (error) {
+        console.warn(`Não foi possível carregar o item: ${itemId}`, error);
+    }
+
+    // Evita exibir uma Mega Pedra na forma errada.
+    if (
+        itemData.targetForm &&
+        itemData.targetForm !== "evolution" &&
+        selectedFormData?.id !== itemData.targetForm
+    ) {
+        return;
+    }
+
+    // Evita exibir um item pertencente a outro Pokémon.
+    if (
+        itemData.pokemonId &&
+        itemData.pokemonId !== pokemonData?.id
+    ) {
+        return;
+    }
+
+    const card = document.createElement("article");
+    card.className = "evolution-item-card";
+
+    const imageContainer = document.createElement("div");
+    imageContainer.className = "evolution-item-image";
+
+    const imagePath = itemData.image;
+
+    if (imagePath) {
+        const image = document.createElement("img");
+        image.src = imagePath;
+        image.alt = itemData.name || itemName;
+        image.loading = "lazy";
+
+        image.onerror = () => {
+            image.hidden = true;
+            imageContainer.classList.add("no-image");
+        };
+
+        imageContainer.appendChild(image);
+    } else {
+        imageContainer.classList.add("no-image");
+    }
+
+    const content = document.createElement("div");
+    content.className = "evolution-item-info";
+
+    const category = document.createElement("span");
+    category.className = "evolution-item-category";
+    category.textContent =
+        itemData.category || "ITEM DE EVOLUÇÃO";
+
+    const name = document.createElement("h3");
+    name.textContent = itemData.name || itemName;
+
+    const description = document.createElement("p");
+    description.textContent =
+        itemData.description ||
+        selectedFormData?.condition ||
+        "Item associado à evolução deste Pokémon.";
+
+    content.append(category, name, description);
+    card.append(imageContainer, content);
+    container.appendChild(card);
+
+    section.hidden = false;
+}
+
+
+
+
     // =========================================================
     // FORMAS ESPECIAIS
     // =========================================================
@@ -1209,6 +1342,8 @@ const PokemonDetails = (() => {
             renderEvolution(pokemonData.evolution);
             renderSpecialForms(pokemonData.specialForms);
             renderRelatedPokemon(pokemonData.relatedPokemon);
+
+            await renderEvolutionItems(pokemonData.specialForms, selectedForm);
 
             applySelectedForm();
             setupControls();

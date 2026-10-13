@@ -3,9 +3,9 @@
 "dexNumber": 7,
 
 "name": "Marul",
-"category": "Guardião Abissal",
+"category": "Habitante das Profundezas",
 
-"image": "assets/marul.png",
+"image": "assets/pokemons/marul.png",
 
 "types": [
 {
@@ -63,7 +63,7 @@
     "id": "marul",
     "dexNumber": 7,
     "name": "Marul",
-    "image": "assets/marul.png",
+    "image": "assets/pokemons/marul.png",
     "condition": "Forma inicial",
     "stats": {
       "hp": 45,
@@ -79,14 +79,14 @@
     "id": "maranith",
     "dexNumber": 8,
     "name": "Maranith",
-    "image": "assets/maranith.png",
+    "image": "assets/pokemons/maranith.png",
     "condition": "Evolui no nível 16"
   },
   {
     "id": "ferragon",
     "dexNumber": 9,
     "name": "Ferragon",
-    "image": "assets/ferragon.png",
+    "image": "assets/pokemons/ferragon.png",
     "condition": "Evolui no nível 32",
     "stats": {
       "hp": 165,

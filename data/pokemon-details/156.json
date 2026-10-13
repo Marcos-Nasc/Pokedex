@@ -5,7 +5,7 @@
   "name": "Sylvarion",
   "category": "Guardião do Segredo",
 
-  "image": "assets/sylvarion.png",
+  "image": "assets/pokemons/sylvarion.png",
 
   "types": [
     {
@@ -28,6 +28,8 @@
   "formType": "Forma evoluída final",
   "origin": "Kalos",
   "condition": "Evolução final da linha Sylvaris",
+  "itemId": "relic-of-the-first-secret",
+  "itemName": "Relíquia do Primeiro Segredo",
   "registration": "Registro oficial da Pokédex",
 
   "ability": {
@@ -62,21 +64,21 @@
               "id": "sylvaris",
               "dexNumber": 154,
               "name": "Sylvaris",
-              "image": "assets/sylvaris.png",
+              "image": "assets/pokemons/sylvaris.png",
               "condition": "Forma inicial"
           },
           {
               "id": "sylvarin",
               "dexNumber": 155,
               "name": "Sylvarin",
-              "image": "assets/sylvarin.png",
+              "image": "assets/pokemons/sylvarin.png",
               "condition": "Durante uma Lua Nova"
           },
           {
               "id": "sylvarion",
               "dexNumber": 156,
               "name": "Sylvarion",
-              "image": "assets/sylvarion.png",
+              "image": "assets/pokemons/sylvarion.png",
               "condition": "Evolução final"
           }
       ]
@@ -93,7 +95,7 @@
       "origin": "Região de Galar",
       "condition": "Forma especial ativada pelo fator Gigantamax durante o fenômeno Dynamax",
       "registration": "Registro de forma especial — Gigantamax",
-      "image": "assets/sylvarion-gigantamax.png",
+      "image": "assets/pokemons/sylvarion-gigantamax.png",
 
 
       "height": "Gigantesco",
@@ -107,25 +109,6 @@
       "description": "Ao assumir sua forma Gigantamax, Sylvarion manifesta uma presença ancestral. Suas asas se expandem como a copa de uma floresta antiga, enquanto suas marcas e penas assumem formas que lembram galhos e raízes."
 
 
-      },
-
-      {
-      "id": "tera",
-      "name": "Sylvarion — Tera Dragão",
-      "displayNumber": "#156-T",
-      "type": "Terastalização",
-      "formType": "Forma Terastal",
-      "origin": "Região de Paldea",
-      "condition": "Terastalização com Tipo Tera Dragão durante uma batalha",
-      "registration": "Registro de forma especial — Terastalização",
-      "image": "assets/sylvarion-tera-dragon.png",
-
-
-      "teraType": "Dragão",
-
-      "description": "Ao Terastalizar, Sylvarion assume o Tipo Tera Dragão. Uma joia cristalina inspirada em folhas, penas e símbolos ancestrais coroa sua cabeça, enquanto o brilho cristalino realça suas marcas naturais."
-
-
       }
       ],
 
@@ -133,7 +116,7 @@
   "relatedPokemon": [
     {
       "id": "ancient-warden",
-      "image": "assets/ancient-warden.png",
+      "image": "assets/pokemons/ancient-warden.png",
       "dexNumber": 157,
       "name": "Ancient Warden",
       "relationship": "Relação misteriosa com uma criatura descrita em registros de um passado distante."
@@ -174,29 +157,6 @@
       "move": "G-Max Guardião Ancestral",
 
       "description": "O ataque transforma o campo em um antigo território protegido por Sylvarion durante 5 turnos. Enquanto o território estiver ativo, os movimentos utilizados pelos Pokémon adversários têm seu poder reduzido em 25%, e Pokémon adversários que entram em campo perdem seus aumentos positivos de atributos."
-    },
-
-    "teraBattle": {
-      "type": "Dragão",
-
-      "description": "Ao Terastalizar, Sylvarion assume o Tipo Tera Dragão e ganha uma nova opção ofensiva.",
-
-      "nature": "Jolly",
-
-      "item": "Life Orb",
-
-      "evs": {
-        "attack": 252,
-        "spDefense": 4,
-        "speed": 252
-      },
-
-      "moves": [
-        "Close Combat",
-        "Brave Bird",
-        "Dragon Claw",
-        "Iron Head"
-      ]
     }
   }
 }

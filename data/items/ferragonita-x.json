@@ -1,0 +1,9 @@
+{
+"id": "ferragonita-x",
+"name": "Ferragonita X",
+"pokemonId": "ferragon",
+"targetForm": "mega-x",
+"category": "Mega Pedra",
+"image": "assets/items/ferragonita-x.png",
+"description": "Uma Mega Pedra rara que abriga uma energia mineral semelhante à encontrada nas regiões mais profundas do oceano. Quando entra em ressonância com Ferragon, desencadeia a Mega Evolução X, expandindo sua carapaça metálica e reforçando suas placas de proteção. A transformação concentra seu poder na força física e na resistência, convertendo o guardião abissal em uma fortaleza viva capaz de enfrentar os adversários mais poderosos."
+}

@@ -5,7 +5,7 @@
   "name": "Ancient Warden",
   "category": "Guardião Ancestral",
 
-  "image": "assets/ancient-warden.png",
+  "image": "assets/pokemons/ancient-warden.png",
 
   "types": [
     {
@@ -67,7 +67,7 @@
   "relatedPokemon": [
     {
       "id": "sylvarion",
-      "image": "assets/sylvarion.png",
+      "image": "assets/pokemons/sylvarion.png",
       "dexNumber": 156,
       "name": "Sylvarion",
       "relationship": "Relação misteriosa entre duas criaturas semelhantes, descritas em registros de épocas diferentes.",

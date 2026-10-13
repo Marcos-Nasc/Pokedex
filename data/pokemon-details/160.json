@@ -4,7 +4,7 @@
   "name": "Primordial Ember",
   "category": "Chama Primordial",
 
-  "image": "assets/primordial-ember.png",
+  "image": "assets/pokemons/primordial-ember.png",
 
   "types": [
     {
@@ -62,7 +62,7 @@
   "relatedPokemon": [
     {
       "id": "vulcalume",
-      "image": "assets/vulcalume.png",
+      "image": "assets/pokemons/vulcalume.png",
       "dexNumber": 6,
       "name": "Vulcálume",
       "relationship": "Possível relação entre duas manifestações de energia vulcânica. Não existem provas de que Primordial Ember seja um ancestral de Vulcálume.",

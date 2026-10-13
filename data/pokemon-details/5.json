@@ -6,7 +6,7 @@
   "name": "Caldrasa",
   "category": "Chama Caldeira",
 
-  "image": "assets/caldrasa.png",
+  "image": "assets/pokemons/caldrasa.png",
 
   "types": [
     {
@@ -60,21 +60,21 @@
         "id": "lumbrasa",
         "dexNumber": 4,
         "name": "Lumbrasa",
-        "image": "assets/lumbrasa.png",
+        "image": "assets/pokemons/lumbrasa.png",
         "condition": "Forma inicial"
       },
       {
         "id": "caldrasa",
         "dexNumber": 5,
         "name": "Caldrasa",
-        "image": "assets/caldrasa.png",
+        "image": "assets/pokemons/caldrasa.png",
         "condition": "Evolui de Lumbrasa no nível 16"
       },
       {
         "id": "vulcalume",
         "dexNumber": 6,
         "name": "Vulcálume",
-        "image": "assets/vulcalume.png",
+        "image": "assets/pokemons/vulcalume.png",
         "condition": "Evolui no nível 32"
       }
     ]

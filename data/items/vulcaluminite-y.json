@@ -1,0 +1,10 @@
+
+{
+  "id": "vulcaluminite-y",
+  "name": "Vulcaluminite Y",
+  "pokemonId": "vulcalume",
+  "targetForm": "mega-y",
+  "category": "Mega Pedra",
+  "image": "assets/items/vulcaluminite-y.png",
+  "description": "Uma Mega Pedra rara que concentra uma energia vulcânica altamente refinada, capaz de reagir à força interior de Vulcálume. Quando ativada em ressonância com ele, permite a Mega Evolução Y, direcionando sua energia para uma manifestação mais intensa e controlada do poder vulcânico. Nessa forma, Vulcálume amplia sua capacidade de liberar energia a grandes distâncias e transforma o calor acumulado em ataques devastadores, como se carregasse no próprio corpo a pressão de uma erupção prestes a acontecer."
+}

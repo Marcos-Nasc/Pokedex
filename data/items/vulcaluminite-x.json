@@ -1,0 +1,10 @@
+
+{
+  "id": "vulcaluminite-x",
+  "name": "Vulcaluminite X",
+  "pokemonId": "vulcalume",
+  "targetForm": "mega-x",
+  "category": "Mega Pedra",
+  "image": "assets/items/vulcaluminite-x.png",
+  "description": "Uma Mega Pedra formada por uma concentração excepcional de energia vulcânica, marcada por propriedades semelhantes às do magma sob pressão. Quando entra em ressonância com Vulcálume, desencadeia a Mega Evolução X, intensificando sua força física e reforçando sua estrutura para suportar temperaturas extremas. A transformação libera uma manifestação mais agressiva e poderosa de sua natureza vulcânica, fazendo de Vulcálume uma verdadeira força eruptiva em combate."
+}

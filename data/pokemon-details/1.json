@@ -5,7 +5,7 @@
   "name": "Musgrol",
   "category": "Musgo Vivo",
 
-  "image": "assets/musgrol.png",
+  "image": "assets/pokemons/musgrol.png",
 
   "types": [
     {
@@ -59,7 +59,7 @@
         "id": "musgrol",
         "dexNumber": 1,
         "name": "Musgrol",
-        "image": "assets/musgrol.png",
+        "image": "assets/pokemons/musgrol.png",
         "condition": "Forma inicial",
         "stats": {
           "hp": 42,
@@ -75,7 +75,7 @@
         "id": "torvagro",
         "dexNumber": 2,
         "name": "Torvagro",
-        "image": "assets/torvagro.png",
+        "image": "assets/pokemons/torvagro.png",
         "condition": "Evolui no nível 16",
         "stats": {
           "hp": 60,
@@ -91,7 +91,7 @@
         "id": "verdorax",
         "dexNumber": 3,
         "name": "Verdorax",
-        "image": "assets/verdorax.png",
+        "image": "assets/pokemons/verdorax.png",
         "condition": "Evolui no nível 32",
         "stats": {
           "hp": 85,

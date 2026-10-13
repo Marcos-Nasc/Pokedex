@@ -4,7 +4,7 @@
   "name": "Verdorax",
   "category": "Guardião da Floresta",
 
-  "image": "assets/verdorax.png",
+  "image": "assets/pokemons/verdorax.png",
 
   "types": [
     {
@@ -58,7 +58,7 @@
         "id": "musgrol",
         "dexNumber": 1,
         "name": "Musgrol",
-        "image": "assets/musgrol.png",
+        "image": "assets/pokemons/musgrol.png",
         "condition": "Forma inicial",
         "stats": {
           "hp": 42,
@@ -74,7 +74,7 @@
         "id": "torvagro",
         "dexNumber": 2,
         "name": "Torvagro",
-        "image": "assets/torvagro.png",
+        "image": "assets/pokemons/torvagro.png",
         "condition": "Evolui de Musgrol no nível 16",
         "stats": {
           "hp": 60,
@@ -90,7 +90,7 @@
         "id": "verdorax",
         "dexNumber": 3,
         "name": "Verdorax",
-        "image": "assets/verdorax.png",
+        "image": "assets/pokemons/verdorax.png",
         "condition": "Evolui de Torvagro no nível 32",
         "stats": {
           "hp": 85,
@@ -110,12 +110,13 @@
       "id": "mega-x",
       "name": "Mega Verdorax X",
       "displayNumber": "#003-MX",
+      
       "type": "Mega Evolução",
       "formType": "Mega Evolução X",
       "origin": "Mega Evolução",
       "condition": "Mega Evolução durante uma batalha utilizando a Verdoraxita X",
       "registration": "Registro de forma especial — Mega Evolução X",
-      "image": "assets/mega-verdorax-x.png",
+      "image": "assets/pokemons/mega-verdorax-x.png",
 
       "height": "4.5 m",
       "weight": "118.0 kg",
@@ -125,6 +126,7 @@
       ],
 
       "item": "Verdoraxita X",
+      "itemId": "verdoraxita-x",
 
       "ability": {
         "name": "Coração de Gaia",
@@ -184,7 +186,7 @@
       "origin": "Mega Evolução",
       "condition": "Mega Evolução durante uma batalha utilizando a Verdoraxita Y",
       "registration": "Registro de forma especial — Mega Evolução Y",
-      "image": "assets/mega-verdorax-y.png",
+      "image": "assets/pokemons/mega-verdorax-y.png",
 
       "height": "4.1 m",
       "weight": "72.5 kg",
@@ -194,6 +196,7 @@
       ],
 
       "item": "Verdoraxita Y",
+      "itemId": "verdoraxita-y",
 
       "ability": {
         "name": "Coração de Gaia",
@@ -253,7 +256,7 @@
       "origin": "Fenômeno Gigantamax",
       "condition": "Forma ativada pelo fator Gigantamax durante o fenômeno Dynamax",
       "registration": "Registro de forma especial — Gigantamax",
-      "image": "assets/gigantamax-verdorax.png",
+      "image": "assets/pokemons/gigantamax-verdorax.png",
 
       "height": "Gigantesco",
       "weight": "Não registrado",
@@ -362,14 +365,14 @@
   "relatedPokemon": [
     {
       "id": "rumbling-roots",
-      "image": "assets/rumbling-roots.png",
+      "image": "assets/pokemons/rumbling-roots.png",
       "dexNumber": 158,
       "name": "Rumbling Roots",
       "relationship": "Forma Paradoxo do passado associada a uma versão ancestral, colossal e primitiva de Verdorax."
     },
     {
       "id": "iron-canopy",
-      "image": "assets/iron-canopy.png",
+      "image": "assets/pokemons/iron-canopy.png",
       "dexNumber": 159,
       "name": "Iron Canopy",
       "relationship": "Forma Paradoxo do futuro associada a uma versão biomecânica e tecnologicamente avançada de Verdorax."

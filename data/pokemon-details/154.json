@@ -6,7 +6,7 @@
 "name": "Sylvaris",
 "category": "Guardião da Floresta",
 
-"image": "assets/sylvaris.png",
+"image": "assets/pokemons/sylvaris.png",
 
 "types": [
     {
@@ -63,21 +63,21 @@
             "id": "sylvaris",
             "dexNumber": 154,
             "name": "Sylvaris",
-            "image": "assets/sylvaris.png",
+            "image": "assets/pokemons/sylvaris.png",
             "condition": "Forma inicial"
         },
         {
             "id": "sylvarin",
             "dexNumber": 155,
             "name": "Sylvarin",
-            "image": "assets/sylvarin.png",
+            "image": "assets/pokemons/sylvarin.png",
             "condition": "Durante uma Lua Nova"
         },
         {
             "id": "sylvarion",
             "dexNumber": 156,
             "name": "Sylvarion",
-            "image": "assets/sylvarion.png",
+            "image": "assets/pokemons/sylvarion.png",
             "condition": "Evolução final"
         }
     ]
