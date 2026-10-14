@@ -76,7 +76,7 @@
         "dexNumber": 2,
         "name": "Torvagro",
         "image": "assets/pokemons/torvagro.png",
-        "condition": "Evolui de Musgrol no nível 16",
+        "condition": "Evolui no nível 16",
         "stats": {
           "hp": 60,
           "attack": 70,

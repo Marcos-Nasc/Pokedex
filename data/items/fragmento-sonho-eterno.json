@@ -1,0 +1,9 @@
+{
+  "id": "fragmento-sonho-eterno",
+  "name": "Fragmento do Sonho Eterno",
+  "pokemonId": "lunareth",
+  "targetForm": "lunareth",
+  "category": "Fragmento Evolutivo",
+  "image": "assets/items/fragmento-sonho-eterno.png",
+  "description": "Um fragmento ancestral que Lumeri carrega desde o nascimento, contendo uma energia misteriosa ligada aos sonhos e às memórias das criaturas adormecidas. Sua superfície emite um brilho suave que se intensifica à medida que absorve e preserva os sonhos daqueles que dormem ao redor de Lumeri. Cada sonho protegido contribui para o acúmulo de energia onírica em seu interior. Quando o fragmento atinge sua carga máxima, Lumeri reúne a energia necessária para evoluir para Lunareth."
+}

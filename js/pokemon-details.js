@@ -733,21 +733,27 @@ async function renderEvolutionItems(forms = [], selectedFormId = null) {
             form => form.id === selectedFormId
         );
 
-        if (selectedFormData?.item) {
+        if (selectedFormData?.item || selectedFormData?.itemId) {
             const item = selectedFormData.item;
 
-            itemName =
-                typeof item === "object"
-                    ? item.name
-                    : item;
+        itemName =
+            selectedFormData.itemName ||
+            (typeof item === "object" ? item?.name : item) ||
+            selectedFormData.itemId;
 
-            itemId =
-                selectedFormData.itemId ||
-                (typeof item === "object" ? item.id : null) ||
-                normalizeString(itemName)
-                    .replace(/[^a-z0-9]+/g, "-")
-                    .replace(/^-|-$/g, "");
-        }
+        itemId =
+            selectedFormData.itemId ||
+            (typeof item === "object" ? item?.id : null) ||
+            normalizeString(itemName)
+                .replace(/[^a-z0-9]+/g, "-")
+                .replace(/^-|-$/g, "");
+                }
+    }
+
+    if (selectedFormId === "gigantamax") {
+        container.replaceChildren();
+        section.hidden = true;
+        return;
     }
 
     // Caso 2: item associado ao Pokémon principal.
@@ -767,6 +773,9 @@ async function renderEvolutionItems(forms = [], selectedFormId = null) {
         itemData = await fetchJSON(
             `data/items/${encodeURIComponent(itemId)}.json`
         );
+        console.log("ID do item:", itemId);
+        console.log("Dados carregados:", itemData);
+        console.log("Descrição carregada:", itemData?.description);
     } catch (error) {
         console.warn(`Não foi possível carregar o item: ${itemId}`, error);
     }
@@ -826,8 +835,7 @@ async function renderEvolutionItems(forms = [], selectedFormId = null) {
     const description = document.createElement("p");
     description.textContent =
         itemData.description ||
-        selectedFormData?.condition ||
-        "Item associado à evolução deste Pokémon.";
+        "Descrição do item não cadastrada.";
 
     content.append(category, name, description);
     card.append(imageContainer, content);

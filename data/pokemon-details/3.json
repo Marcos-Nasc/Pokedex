@@ -75,7 +75,7 @@
         "dexNumber": 2,
         "name": "Torvagro",
         "image": "assets/pokemons/torvagro.png",
-        "condition": "Evolui de Musgrol no nível 16",
+        "condition": "Evolui no nível 16",
         "stats": {
           "hp": 60,
           "attack": 70,
@@ -91,7 +91,7 @@
         "dexNumber": 3,
         "name": "Verdorax",
         "image": "assets/pokemons/verdorax.png",
-        "condition": "Evolui de Torvagro no nível 32",
+        "condition": "Evolui no nível 32",
         "stats": {
           "hp": 85,
           "attack": 100,

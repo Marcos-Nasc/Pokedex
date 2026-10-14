@@ -1,0 +1,232 @@
+{
+  "id": "lunareth",
+  "dexNumber": 11,
+  "name": "Lunareth",
+  "category": "Guardião dos Sonhos",
+
+  "image": "assets/pokemons/lunareth.png",
+
+  "types": [
+    {
+      "id": "psychic",
+      "name": "Psíquico"
+    },
+    {
+      "id": "fairy",
+      "name": "Fada"
+    }
+  ],
+
+  "height": "1.8 m",
+  "weight": "72.0 kg",
+
+  "habitat": "Florestas",
+  "rarity": "Extremamente raro",
+
+"classification": "Lendário",
+"formType": "Forma evoluída final",
+"origin": "Kanto",
+"condition": "Evolução final da linha Lumeri",
+"itemId": "fragmento-sonho-eterno",
+"itemName": "Fragmento do Sonho Eterno",
+"registration": "Registro oficial da Pokédex",
+
+  "ability": {
+    "name": "Véu Onírico",
+    "description": "Habilidade exclusiva de Lunareth. Quando Lunareth coloca um adversário para dormir, recupera 12,5% do seu HP máximo. Enquanto pelo menos um adversário estiver dormindo, Lunareth recebe 25% menos dano de movimentos especiais. A proteção desaparece quando nenhum adversário permanece dormindo."
+  },
+
+  "description": "A forma evoluída final de Lumeri. Lunareth é um Pokémon Lendário extremamente raro que protege os sonhos preservados nas florestas antigas de Kanto. Capaz de compreender os sonhos, as emoções e os desejos das criaturas adormecidas, atua como guardião dos sonhos eternos. Sua evolução acontece quando o Fragmento do Sonho Eterno absorve e preserva energia onírica suficiente, permitindo que Lumeri escolha despertar em sua Forma Lunar.",
+
+  "lore": {
+    "title": "O Guardião dos Sonhos Eternos",
+
+    "text": "As lendas mais antigas de Kanto afirmam que Lunareth surgiu para proteger os sonhos que jamais deveriam ser esquecidos. Enquanto ainda é Lumeri, o Pokémon carrega o Fragmento do Sonho Eterno, que absorve e preserva gradualmente os sonhos das criaturas que adormecem próximas a ele. Quando o fragmento alcança sua carga máxima, Lumeri evolui e se tornar Lunareth. Nessa forma, Lunareth protege lembranças, esperanças e desejos que poderiam desaparecer com o tempo, mantendo o equilíbrio entre o mundo desperto e o mundo dos sonhos.",
+
+    "quote": "Todo sonho merece ser preservado, mesmo quando o mundo desperta."
+  },
+
+  "stats": {
+    "hp": 112,
+    "attack": 177,
+    "defense": 123,
+    "spAttack": 111,
+    "spDefense": 105,
+    "speed": 51,
+    "total": 679
+  },
+
+  "evolution": {
+    "group": "lumeri-line",
+
+    "stages": [
+      {
+        "id": "lumeri",
+        "dexNumber": 10,
+        "name": "Lumeri",
+        "image": "assets/pokemons/lumeri.png",
+        "condition": "Forma inicial."
+      },
+      {
+        "id": "lunareth",
+        "dexNumber": 11,
+        "name": "Lunareth",
+        "image": "assets/pokemons/lunareth.png",
+        "condition": "Evolui quando o Fragmento do Sonho Eterno atinge sua carga máxima."
+      }
+    ]
+  },
+
+  "specialForms": [
+    {
+      "id": "alternativo",
+      "name": "Lunareth - Forma Despertar",
+      "displayNumber": "#11-D",
+      "pokemonId": "lunareth",
+      "type": "Forma Despertar",
+      "formType": "Forma evoluída alternativa",
+      "origin": "Kanto",
+      "condition": "Obtida quando Lumeri aceita o Fragmento do Despertar.",
+      "itemImage": "assets/items/fragmento-despertar.png",
+      "registration": "Registro de forma especial — Despertar",
+
+      "image": "assets/pokemons/lunareth-despertar.png",
+
+      "height": "1.8 m",
+      "weight": "72.0 kg",
+
+      "types": [
+        "Psíquico",
+        "Fada"
+      ],
+
+      "item": "Fragmento do Despertar",
+      "itemId": "fragmento-despertar",
+      "itemName": "Fragmento do Despertar",
+
+      "description": "A Forma Despertar representa a consciência dos sonhos. Lunareth passa a compreender as emoções, as lembranças e os desejos escondidos nas experiências oníricas que preserva. Sua anatomia, suas proporções e seu porte permanecem semelhantes aos da Forma Lunar, apresentando apenas diferenças sutis nas cores, nas marcas luminosas e nos fragmentos que flutuam ao redor de seu corpo. Essa forma não é uma evolução superior, mas uma expressão alternativa de sua natureza lendária.",
+
+      "lore": {
+        "title": "O Sonho que Despertou",
+
+        "text": "Dizem que o Fragmento do Despertar não concede poder a quem o aceita, mas revela aquilo que já existia dentro de Lumeri. Quando evolui, Lunareth deixa de apenas guardar os sonhos e passa a compreender o que eles significam para cada criatura. Alguns registros descrevem essa forma como mais próxima dos pensamentos conscientes, embora ela continue protegendo os mesmos sonhos que a Forma Lunar preserva.",
+
+        "quote": "Despertar não é abandonar o sonho, mas finalmente compreendê-lo."
+      },
+
+      "stats": {
+        "hp": 95,
+        "attack": 140,
+        "defense": 105,
+        "spAttack": 95,
+        "spDefense": 90,
+        "speed": 45,
+        "total": 570
+      }
+    },
+    {
+      "id": "gigantamax",
+      "name": "Gigantamax Lunareth",
+      "displayNumber": "#11-G",
+      "pokemonId": "lunareth",
+      "type": "Gigantamax",
+      "formType": "Forma Gigantamax",
+      "origin": "Fenômeno Gigantamax",
+      "condition": "Forma ativada pelo fator Gigantamax durante o fenômeno Dynamax",
+      "registration": "Registro de forma especial — Gigantamax",
+
+      "image": "assets/pokemons/lunareth-gigantamax.png",
+
+      "height": "Gigantesco",
+      "weight": "Não registrado",
+
+      "types": [
+        "Psíquico",
+        "Fada"
+      ],
+
+      "description": "Ao assumir sua forma Gigantamax, Lunareth manifesta uma presença celestial que representa a imensidão do mundo dos sonhos. Três nuvens vermelho-magenta flutuam acima de sua cabeça, enquanto dois arcos celestiais orbitam seu corpo: um em tons de prata, azul e violeta, associado aos sonhos adormecidos; e outro em marfim, rosa e dourado, associado aos sonhos que ganham consciência. Sua aparência preserva a identidade original de Lunareth, ampliando sua presença e seu poder sem alterar permanentemente sua forma."
+    }
+  ],
+
+  "moves": [
+    {
+      "name": "Sono Primordial",
+      "type": "Psíquico",
+      "category": "Status",
+      "power": null,
+      "accuracy": 85,
+      "pp": 10,
+      "effect": "Coloca o alvo para dormir. Se o alvo já estiver dormindo, Lunareth recupera 25% do seu HP máximo.",
+      "learnLevel": null,
+      "exclusive": true
+    },
+    {
+      "name": "Calm Mind",
+      "type": "Psíquico",
+      "category": "Status",
+      "power": null,
+      "accuracy": null,
+      "pp": 20,
+      "effect": "Aumenta o Ataque Especial e a Defesa Especial do usuário em um estágio.",
+      "learnLevel": null
+    },
+    {
+      "name": "Moonblast",
+      "type": "Fada",
+      "category": "Especial",
+      "power": 95,
+      "accuracy": 100,
+      "pp": 15,
+      "effect": "Tem 30% de chance de reduzir o Ataque Especial do alvo em um estágio.",
+      "learnLevel": null
+    },
+    {
+      "name": "Psychic",
+      "type": "Psíquico",
+      "category": "Especial",
+      "power": 90,
+      "accuracy": 100,
+      "pp": 10,
+      "effect": "Tem 10% de chance de reduzir a Defesa Especial do alvo em um estágio.",
+      "learnLevel": null
+    }
+  ],
+
+  "battle": {
+    "role": "Special Setup Sweeper",
+
+    "roleDescription": "Lunareth utiliza Calm Mind para fortalecer seus ataques especiais e sua resistência especial. Sono Primordial oferece controle de status, enquanto Moonblast e Psychic garantem pressão ofensiva. Seu conjunto de golpes combina preparação, recuperação situacional e dano especial.",
+
+    "nature": "Modest",
+
+    "natureDescription": "Aumenta o Ataque Especial em 10% e reduz o Ataque em 10%.",
+
+    "ability": "Véu Onírico",
+
+    "abilityDescription": "Habilidade exclusiva de Lunareth. Quando Lunareth coloca um adversário para dormir, recupera 12,5% do seu HP máximo. Enquanto pelo menos um adversário estiver dormindo, Lunareth recebe 25% menos dano de movimentos especiais. A proteção desaparece quando nenhum adversário permanece dormindo.",
+
+    "item": "Leftovers",
+
+    "itemDescription": "Recupera 1/16 do HP máximo do Pokémon ao final de cada turno.",
+
+    "evs": {
+      "hp": 252,
+      "spAttack": 252,
+      "spDefense": 4
+    },
+
+    "moves": [
+      "Sono Primordial",
+      "Calm Mind",
+      "Moonblast",
+      "Psychic"
+    ],
+
+    "gigantamaxBattle": {
+      "move": "G-Max Sono Eterno",
+
+      "description": "Um movimento especial personalizado do tipo Psíquico que manifesta a energia dos sonhos de Lunareth. Ao atingir o alvo, causa dano e estabelece um campo onírico por cinco turnos. Enquanto o campo estiver ativo, Lunareth recupera 1/16 do seu HP máximo ao final de cada turno. Este efeito é uma mecânica personalizada para esta Pokédex e não representa um movimento oficial da franquia Pokémon."
+    }
+  }
+}

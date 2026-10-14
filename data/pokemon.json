@@ -171,6 +171,44 @@
 "registered": true
 },
 {
+  "id": "lumeri",
+  "dexNumber": 10,
+  "name": "Lumeri",
+  "category": "Pokémon Devaneio",
+  "types": ["psychic", "fairy"],
+  "typesDisplay": ["Psíquico", "Fada"],
+  "image": "assets/pokemons/lumeri.png",
+  "rarity": "legendary",
+  "specialForms": {
+    "mega": false,
+    "gigantamax": false,
+    "tera": false,
+    "paradox": false,
+    "regional": false
+  },
+  "evolutionGroup": "lumeri-line",
+  "registered": true
+},
+{
+  "id": "lunareth",
+  "dexNumber": 11,
+  "name": "Lunareth",
+  "category": "Guardião dos Sonhos",
+  "types": ["psychic", "fairy"],
+  "typesDisplay": ["Psíquico", "Fada"],
+  "image": "assets/pokemons/lunareth.png",
+  "rarity": "legendary",
+  "specialForms": {
+    "mega": false,
+    "gigantamax": true,
+    "tera": false,
+    "paradox": false,
+    "regional": false
+  },
+  "evolutionGroup": "lumeri-line",
+  "registered": true
+},
+{
 "id": "sylvaris",
 "dexNumber": 154,
 "name": "Sylvaris",
